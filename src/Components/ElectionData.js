@@ -20,14 +20,33 @@ const ViewCandidate = ({ candidate, setCurrentCandidate }) => {
   )
 }
 
+const InfoCard = ({ votes, candidates }) => {
+  return (
+    <Card className="statBox">
+      <span>
+      🗳️:<Badge color="default">{votes}</Badge> 
+        {candidates ? <span>👤:<Badge color="default">{candidates}</Badge></span> : ''}
+      </span>
+    </Card>
+  )
+}
+
 const ViewGroup = ({ group, setCurrentCandidate, filter }) => {
   const [isOpen, setIsOpen] = useState(true)
   const toggle = () => setIsOpen(!isOpen)
 
   const divStyle = {
-    marginTop: '20px',
+    marginTop: '5px',
     // padding: '5px'
   }
+
+  const cardStyle = {
+    display: 'inline-block',
+    padding: '5px',
+    marginLeft: '20px',
+  }
+
+  const candidateCount = group.children.length
 
   return (
     <div style={divStyle}>
@@ -36,11 +55,10 @@ const ViewGroup = ({ group, setCurrentCandidate, filter }) => {
           <h5>
             {group.name} <Badge color="danger">{group.seats}</Badge>
           </h5>
+          <InfoCard votes={group.value} candidates={candidateCount}/>
         </CardHeader>
         <Collapse isOpen={isOpen}>
           <CardBody>
-            Total votes: <Badge color="success">{group.value}</Badge>
-            <br /> <br />
             {group.children.map(candidate =>
               candidate.name.toLowerCase().includes(filter) ? (
                 <ViewCandidate
@@ -68,6 +86,15 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
     marginTop: '10px',
   }
 
+  const cardStyle = {
+    display: 'inline-block',
+    padding: '5px',
+    marginLeft: '20px',
+  }
+
+  //   console.log(coalition.children.reduce((a,b) => a+b))
+  //   console.log(coalition.children.map(child => (console.log(child.children.length))))
+
   return (
     <div style={divStyle}>
       <Card>
@@ -75,10 +102,10 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
           <h4>
             {coalition.name} <Badge color="warning">{coalition.seats}</Badge>
           </h4>
+          <InfoCard votes={coalition.value}/>
         </CardHeader>
         <Collapse isOpen={isOpen}>
           <CardBody>
-            Total votes: <Badge color="success">{coalition.value}</Badge>
             {coalition.children.map(group =>
               JSON.stringify(group)
                 .toLowerCase()
