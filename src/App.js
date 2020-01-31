@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import ElectionData from './Components/ElectionData'
-import MenuButtons from './Components/YearButtons'
+import MenuButtons from './Components/MenuButtons'
 import ViewSingleCandidate from './Components/ViewSingleCandidate'
 import TopCandidates from './Components/TopCandidates'
 import FilterForm from './Components/FilterForm'
@@ -71,12 +71,12 @@ function App() {
           current={currentPage}
           options={menuOptions}
         />
-        <FilterForm filter={filter} setFilter={setFilter} />
 
         <TopCandidates
           candidateData={candidateData}
           setCurrentCandidate={setCurrentCandidate}
           filter={filter}
+          setFilter={setFilter}
         />
       </div>
     )

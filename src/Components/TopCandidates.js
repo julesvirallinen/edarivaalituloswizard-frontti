@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
+import MenuButtons from './MenuButtons'
+import FilterForm from './FilterForm'
 
-const TopCandidates = ({ candidateData, setCurrentCandidate, filter }) => {
-  const [setting, setSetting] = useState(false)
-  const toggle = () => setSetting(!setting)
+const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }) => {
+  const [setting, setSetting] = useState('top votes')
+  const settings = ['top votes', 'best average']
 
   const candidateList = Object.values(candidateData)
   function compare(a, b) {
@@ -12,13 +14,21 @@ const TopCandidates = ({ candidateData, setCurrentCandidate, filter }) => {
   function compareByElection(a, b) {
     return b.totalVotes / b.times - a.totalVotes / a.times
   }
-  const sortedCandidateList = candidateList
-    .sort(setting ? compare : compareByElection)
-    .slice(0, 300)
+  var sortedCandidateList = candidateList
+  if (setting === 'top votes') {
+    sortedCandidateList = candidateList.sort(compare).slice(0, 300)
+  } else {
+    sortedCandidateList = candidateList
+      .sort(compareByElection)
+      .filter(c => c.times > 1)
+      .slice(0, 300)
+  }
 
   return (
     <div>
-      <strong onClick={toggle}>Toggle [top votes all time / best average]</strong> <br/><br/>
+      <MenuButtons current={setting} setCurrent={setSetting} options={settings}/>
+      <FilterForm filter={filter} setFilter={setFilter} />
+
       {sortedCandidateList.map((candidate, index) =>
         JSON.stringify(candidate)
           .toLowerCase()
@@ -29,7 +39,7 @@ const TopCandidates = ({ candidateData, setCurrentCandidate, filter }) => {
             onClick={() => setCurrentCandidate(candidate.name)}
           >
             {index + 1}. {candidate.name}{' '}
-            {setting ? (
+            {setting === 'top votes' ? (
               <span>
                 <b>{candidate.totalVotes}</b> <i>{candidate.times}x</i>
               </span>

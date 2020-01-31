@@ -128,6 +128,7 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
 }
 
 const ElectionData = ({ candidateData, setCurrentCandidate, filter }) => {
+    
   if (candidateData === undefined) return ''
 
   return (
