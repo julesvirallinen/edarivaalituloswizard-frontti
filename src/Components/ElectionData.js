@@ -13,10 +13,7 @@ const ViewCandidate = ({ candidate, setCurrentCandidate }) => {
 
   return (
     <div>
-      <span
-        className="candidate"
-        onClick={() => setCurrentCandidate(candidateName)}
-      >
+      <span className="candidate" onClick={() => setCurrentCandidate(candidateName)}>
         {candidateName} / {candidate.value} {candidate.seats ? '/ ★' : ''}
       </span>
     </div>
@@ -24,26 +21,40 @@ const ViewCandidate = ({ candidate, setCurrentCandidate }) => {
 }
 
 const ViewGroup = ({ group, setCurrentCandidate, filter }) => {
+  const [isOpen, setIsOpen] = useState(true)
+  const toggle = () => setIsOpen(!isOpen)
+
   const divStyle = {
-    margin: '10px'
+    marginTop: '20px',
+    // padding: '5px'
   }
 
   return (
     <div style={divStyle}>
-      <h3>{group.name}</h3>
-      Votes: {group.value} Seats: {group.seats}
-      <br />
-      {group.children.map(candidate =>
-        candidate.name.toLowerCase().includes(filter) ? (
-          <ViewCandidate
-            candidate={candidate}
-            key={candidate.name}
-            setCurrentCandidate={setCurrentCandidate}
-          />
-        ) : (
-          ''
-        )
-      )}
+      <Card>
+        <CardHeader onClick={() => toggle()}>
+          <h5>
+            {group.name} <Badge color="danger">{group.seats}</Badge>
+          </h5>
+        </CardHeader>
+        <Collapse isOpen={isOpen}>
+          <CardBody>
+            Total votes: <Badge color="success">{group.value}</Badge>
+            <br /> <br />
+            {group.children.map(candidate =>
+              candidate.name.toLowerCase().includes(filter) ? (
+                <ViewCandidate
+                  candidate={candidate}
+                  key={candidate.name}
+                  setCurrentCandidate={setCurrentCandidate}
+                />
+              ) : (
+                ''
+              ),
+            )}
+          </CardBody>
+        </Collapse>
+      </Card>
     </div>
   )
 }
@@ -54,7 +65,7 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
   const toggle = () => setIsOpen(!isOpen)
 
   const divStyle = {
-    marginTop: '10px'
+    marginTop: '10px',
   }
 
   return (
@@ -76,11 +87,11 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
                   group={group}
                   key={group.name}
                   setCurrentCandidate={setCurrentCandidate}
-                  filter={group.name.toLowerCase().includes(filter)? '' : filter}
+                  filter={group.name.toLowerCase().includes(filter) ? '' : filter}
                 />
               ) : (
                 ''
-              )
+              ),
             )}
           </CardBody>
         </Collapse>
@@ -102,11 +113,11 @@ const ElectionData = ({ candidateData, setCurrentCandidate, filter }) => {
             coalition={coalition}
             key={coalition.name}
             setCurrentCandidate={setCurrentCandidate}
-            filter={coalition.name.toLowerCase().includes(filter)? '' : filter}
-            />
+            filter={coalition.name.toLowerCase().includes(filter) ? '' : filter}
+          />
         ) : (
           ''
-        )
+        ),
       )}
     </>
   )
