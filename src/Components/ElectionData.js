@@ -22,12 +22,12 @@ const ViewCandidate = ({ candidate, setCurrentCandidate }) => {
 
 const InfoCard = ({ votes, candidates }) => {
   return (
-    <Card className="statBox">
+    <div className="statBox">
       <span>
       🗳️:<Badge color="default">{votes}</Badge> 
         {candidates ? <span>👤:<Badge color="default">{candidates}</Badge></span> : ''}
       </span>
-    </Card>
+    </div>
   )
 }
 
@@ -52,9 +52,9 @@ const ViewGroup = ({ group, setCurrentCandidate, filter }) => {
     <div style={divStyle}>
       <Card>
         <CardHeader onClick={() => toggle()}>
-          <h5>
+          <b>
             {group.name} <Badge color="danger">{group.seats}</Badge>
-          </h5>
+          </b>
           <InfoCard votes={group.value} candidates={candidateCount}/>
         </CardHeader>
         <Collapse isOpen={isOpen}>
@@ -82,6 +82,9 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
 
   const toggle = () => setIsOpen(!isOpen)
 
+  var candidateCount = 0
+  coalition.children.forEach(child => (candidateCount+=child.children.length))
+
   const divStyle = {
     marginTop: '10px',
   }
@@ -92,17 +95,14 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
     marginLeft: '20px',
   }
 
-  //   console.log(coalition.children.reduce((a,b) => a+b))
-  //   console.log(coalition.children.map(child => (console.log(child.children.length))))
-
   return (
     <div style={divStyle}>
       <Card>
         <CardHeader onClick={() => toggle()}>
-          <h4>
+          <b>
             {coalition.name} <Badge color="warning">{coalition.seats}</Badge>
-          </h4>
-          <InfoCard votes={coalition.value}/>
+          </b>
+          <InfoCard votes={coalition.value} candidates={candidateCount}/>
         </CardHeader>
         <Collapse isOpen={isOpen}>
           <CardBody>
