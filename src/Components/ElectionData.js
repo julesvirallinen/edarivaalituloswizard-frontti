@@ -76,7 +76,7 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
                   group={group}
                   key={group.name}
                   setCurrentCandidate={setCurrentCandidate}
-                  filter={filter}
+                  filter={group.name.toLowerCase().includes(filter)? '' : filter}
                 />
               ) : (
                 ''
@@ -102,8 +102,8 @@ const ElectionData = ({ candidateData, setCurrentCandidate, filter }) => {
             coalition={coalition}
             key={coalition.name}
             setCurrentCandidate={setCurrentCandidate}
-            filter={filter}
-          />
+            filter={coalition.name.toLowerCase().includes(filter)? '' : filter}
+            />
         ) : (
           ''
         )
