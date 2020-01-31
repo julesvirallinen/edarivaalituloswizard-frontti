@@ -15,13 +15,13 @@ function App() {
   const [filter, setFilter] = useState('')
 
   useEffect(() => {
-    axios.get('http://localhost:3001/api/sample').then(response => {
+    axios.get('/api/sample').then(response => {
       setYearlyData(response.data)
     })
   }, [])
 
   useEffect(() => {
-    axios.get('http://localhost:3001/api/candidate').then(response => {
+    axios.get('/api/candidate').then(response => {
       setCandidateData(response.data)
     })
   }, [])
