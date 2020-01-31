@@ -3,7 +3,7 @@ import { Form, Input } from 'reactstrap'
 
 const FilterForm = ({ filter, setFilter }) => {
   const handleDataChange = event => {
-    setFilter(event.target.value)
+    setFilter(event.target.value.toLowerCase())
   }
 
   const InputField = {

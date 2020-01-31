@@ -78,7 +78,7 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
         </CardHeader>
         <Collapse isOpen={isOpen}>
           <CardBody>
-            Votes: {coalition.value} Seats: {coalition.seats}
+            Total votes: <Badge color="success">{coalition.value}</Badge>
             {coalition.children.map(group =>
               JSON.stringify(group)
                 .toLowerCase()
