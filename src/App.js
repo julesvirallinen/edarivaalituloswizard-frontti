@@ -11,7 +11,7 @@ function App() {
   const [currentYear, setCurrentYear] = useState(2018)
   const [candidateData, setCandidateData] = useState({})
   const [currentCandidate, setCurrentCandidate] = useState('')
-  const [currentPage, setCurrentPage] = useState('yearly')
+  const [currentPage, setCurrentPage] = useState('top candidates')
   const [filter, setFilter] = useState('')
 
   useEffect(() => {

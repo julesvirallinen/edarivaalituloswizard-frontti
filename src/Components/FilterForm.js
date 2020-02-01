@@ -14,7 +14,7 @@ const FilterForm = ({ filter, setFilter }) => {
     <Form>
       <Input
         type="text"
-        placeholder="Try 'HYAL' or 'Laura'"
+        placeholder="Try 'snäf', 'osy' or 'lauri'"
         value={filter}
         onChange={handleDataChange}
         style={InputField}

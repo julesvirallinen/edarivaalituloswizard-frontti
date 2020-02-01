@@ -3,9 +3,9 @@ import { Collapse, Badge, CardBody, Card, CardHeader } from 'reactstrap'
 
 const ViewCandidate = ({ candidate, setCurrentCandidate }) => {
   var candidateName = candidate.name.replace(/\s/g, '')
-  var nickname = ''
+//   var nickname = ''
   if (candidateName.includes("'")) {
-    nickname = candidateName.split("'")[1].split("'")[0]
+    // nickname = candidateName.split("'")[1].split("'")[0]
     candidateName = candidateName.split("'")[0]
   }
   const nameParts = candidateName.split(',')
@@ -53,7 +53,7 @@ const ViewGroup = ({ group, setCurrentCandidate, filter }) => {
       <Card>
         <CardHeader onClick={() => toggle()}>
           <b>
-            {group.name} <Badge color="danger">{group.seats}</Badge>
+            {group.name} <Badge color="default">{group.seats}</Badge>
           </b>
           <InfoCard votes={group.value} candidates={candidateCount}/>
         </CardHeader>
@@ -100,7 +100,7 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
       <Card>
         <CardHeader onClick={() => toggle()}>
           <b>
-            {coalition.name} <Badge color="warning">{coalition.seats}</Badge>
+            {coalition.name} <Badge color="default">{coalition.seats}</Badge>
           </b>
           <InfoCard votes={coalition.value} candidates={candidateCount}/>
         </CardHeader>
