@@ -109,7 +109,7 @@ const DisplayTopCandidates = ({
   return (
     <div>
       {candidates.map((candidate, index) =>
-        JSON.stringify((setting === 'year' ? candidate.years[selectedYear] : candidate))
+        (JSON.stringify((setting === 'year' ? candidate.years[selectedYear] : candidate))+candidate.name)
           .toLowerCase()
           .includes(filter) ? (
           <DisplayTopCandidate
