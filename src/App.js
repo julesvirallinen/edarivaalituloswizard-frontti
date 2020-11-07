@@ -8,7 +8,7 @@ import FilterForm from './Components/FilterForm'
 
 function App() {
   const [yearlyData, setYearlyData] = useState({})
-  const [currentYear, setCurrentYear] = useState(2018)
+  const [currentYear, setCurrentYear] = useState(2020)
   const [candidateData, setCandidateData] = useState({})
   const [currentCandidate, setCurrentCandidate] = useState('')
   const [currentPage, setCurrentPage] = useState('top candidates')

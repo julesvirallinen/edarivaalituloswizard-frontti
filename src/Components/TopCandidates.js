@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import * as R from 'ramda';
 import MenuButtons from './MenuButtons'
 import FilterForm from './FilterForm'
 import { Badge, Button } from 'reactstrap'
@@ -53,11 +54,16 @@ const GroupBadge = ({ groupName }) => {
   )
 }
 
+const getYear = (candidate, year) =>  {
+  return R.find(R.propEq('year', year))(candidate.years)
+}
 const DisplayTopCandidate = ({ candidate, index, setCurrentCandidate, setting, selectedYear }) => {
   var groups = Array.from(
     new Set(Object.values(candidate.years).map(year => year.group.toLowerCase())),
   )
-  if (setting === 'year') groups = [candidate.years[selectedYear].group.toLowerCase()]
+
+
+  if (setting === 'year') groups = [getYear(candidate, selectedYear).group.toLowerCase()]
 
   const groupBadges = groups.map(group => (
     <GroupBadge groupName={group} key={group + candidate.name} />
@@ -90,7 +96,7 @@ const DisplayTopCandidate = ({ candidate, index, setCurrentCandidate, setting, s
           </span>
         ) : (
           <span>
-            <b>{candidate.years[selectedYear].votes}</b>
+            <b>{getYear(candidate, selectedYear).votes}</b>
           </span>
         )}
         <br />
@@ -130,9 +136,9 @@ const DisplayTopCandidates = ({
 
 const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }) => {
   const [setting, setSetting] = useState('votes')
-  const [selectedYear, setSelectedYear] = useState(2018)
+  const [selectedYear, setSelectedYear] = useState(2020)
   const settings = ['votes', 'average', 'year']
-
+  
   const candidateList = Object.values(candidateData)
   if (candidateList.length === 0) return ''
 
@@ -142,7 +148,8 @@ const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }
 
   function compareByYear(year) {
     return function compare(a, b) {
-      return b.years[year].votes - a.years[year].votes
+
+      return getYear(b, year).votes - getYear(a, year).votes
     }
   }
 
@@ -150,7 +157,7 @@ const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }
     return b.totalVotes / b.times - a.totalVotes / a.times
   }
   var sortedCandidateList = [...candidateList]
-
+  
   if (setting === 'votes') {
     sortedCandidateList = sortedCandidateList.sort(compare).slice(0, 600)
   } else if (setting === 'average') {
@@ -159,15 +166,19 @@ const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }
       .filter(c => c.times > 1)
       .slice(0, 300)
   } else if (setting === 'year') {
-    sortedCandidateList = sortedCandidateList.filter(c => c.years[selectedYear] !== undefined)
+    sortedCandidateList = sortedCandidateList.filter(c => {
+      const years = c.years.map(y => y.year)
+      return years.includes(selectedYear);
+    })
     sortedCandidateList = sortedCandidateList.sort(compareByYear(selectedYear))
     console.log(sortedCandidateList)
+    
   }
   const yearStyle = { color: 'gray' }
   const yearSelectionButtons = (
     <p>
       View top candidates for year:{' '}
-      {[2012, 2014, 2016, 2018].map(y => (
+      {[2012, 2014, 2016, 2018, 2020].map(y => (
         <b
           style={y !== selectedYear ? yearStyle : undefined}
           key={y}
