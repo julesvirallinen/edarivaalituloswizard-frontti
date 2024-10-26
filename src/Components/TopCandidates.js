@@ -106,6 +106,7 @@ const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }
   const settings = ['votes', 'average', 'year']
 
   const candidateList = Object.values(candidateData)
+
   if (candidateList.length === 0) return ''
 
   function compare(a, b) {
@@ -136,20 +137,19 @@ const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }
       return years.includes(selectedYear)
     })
     sortedCandidateList = sortedCandidateList.sort(compareByYear(selectedYear))
-    console.log(sortedCandidateList)
   }
   const yearStyle = { color: 'gray' }
   const yearSelectionButtons = (
     <p>
       View top candidates for year:
       {YEARS.map((y) => (
-        <button
+        <b
           style={y !== selectedYear ? yearStyle : undefined}
           key={y}
           onClick={() => setSelectedYear(y)}
         >
           {y}
-        </button>
+        </b>
       ))}
     </p>
   )
