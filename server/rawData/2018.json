@@ -1,0 +1,5793 @@
+{
+  "name": "Vaalitulos",
+  "year": 2018,
+  "created_at": "2018-11-07T18:41:00+02:00",
+  "children": [
+    {
+      "name": "MP",
+      "seats": 20,
+      "value": 2668,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "HyVi",
+          "seats": 11,
+          "value": 1461,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Österman, Sebastian",
+              "value": 143,
+              "seats": 1,
+              "co_prop": 2668.0,
+              "al_prop": 1461.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pasanen, Amanda",
+              "value": 74,
+              "seats": 1,
+              "co_prop": 889.33333,
+              "al_prop": 730.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Häkkinen, Amanda",
+              "value": 62,
+              "seats": 1,
+              "co_prop": 533.6,
+              "al_prop": 487.0,
+              "ca_draw_id": "cx",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Sylgren, Inka",
+              "value": 62,
+              "seats": 1,
+              "co_prop": 381.14286,
+              "al_prop": 365.25,
+              "ca_draw_id": "cx",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Käyhkö, Oona",
+              "value": 60,
+              "seats": 1,
+              "co_prop": 296.44444,
+              "al_prop": 292.2,
+              "role": "candidate"
+            },
+            {
+              "name": "Tujunen, Aleksi",
+              "value": 57,
+              "seats": 1,
+              "co_prop": 266.8,
+              "al_prop": 243.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Rouvari, Akseli",
+              "value": 55,
+              "seats": 1,
+              "co_prop": 222.33333,
+              "al_prop": 208.71429,
+              "role": "candidate"
+            },
+            {
+              "name": "Tarkhova, Daria",
+              "value": 54,
+              "seats": 1,
+              "co_prop": 190.57143,
+              "al_prop": 182.625,
+              "role": "candidate"
+            },
+            {
+              "name": "Sauru, Miro",
+              "value": 51,
+              "seats": 1,
+              "co_prop": 166.75,
+              "al_prop": 162.33333,
+              "role": "candidate"
+            },
+            {
+              "name": "Seppänen, Tia",
+              "value": 46,
+              "seats": 1,
+              "co_prop": 148.22222,
+              "al_prop": 146.1,
+              "ca_draw_id": "cw",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lammensalo, Linda",
+              "value": 46,
+              "seats": 1,
+              "co_prop": 133.4,
+              "al_prop": 132.81818,
+              "ca_draw_id": "cw",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Karhunen, Paula",
+              "value": 43,
+              "seats": 0,
+              "co_prop": 127.04762,
+              "al_prop": 121.75,
+              "role": "candidate"
+            },
+            {
+              "name": "Aliklaavu, Viivi",
+              "value": 42,
+              "seats": 0,
+              "co_prop": 116.0,
+              "al_prop": 112.38462,
+              "role": "candidate"
+            },
+            {
+              "name": "Hekkala, Toni",
+              "value": 41,
+              "seats": 0,
+              "co_prop": 106.72,
+              "al_prop": 104.35714,
+              "role": "candidate"
+            },
+            {
+              "name": "Janhunen, Mia",
+              "value": 36,
+              "seats": 0,
+              "co_prop": 98.81481,
+              "al_prop": 97.4,
+              "role": "candidate"
+            },
+            {
+              "name": "Sveholm, Eevi",
+              "value": 34,
+              "seats": 0,
+              "co_prop": 92.0,
+              "al_prop": 91.3125,
+              "ca_draw_id": "cv",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Zidan, Sausan",
+              "value": 34,
+              "seats": 0,
+              "co_prop": 86.06452,
+              "al_prop": 85.94118,
+              "ca_draw_id": "cv",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Louhimies, Kukka",
+              "value": 31,
+              "seats": 0,
+              "co_prop": 83.375,
+              "al_prop": 81.16667,
+              "role": "candidate"
+            },
+            {
+              "name": "Puumalainen, Olli",
+              "value": 30,
+              "seats": 0,
+              "co_prop": 78.47059,
+              "al_prop": 76.89474,
+              "role": "candidate"
+            },
+            {
+              "name": "Turkki, Anna",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 74.11111,
+              "al_prop": 73.05,
+              "ca_draw_id": "cu",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Diarra, Fatim",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 70.21053,
+              "al_prop": 69.57143,
+              "ca_draw_id": "cu",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Sinisalo, Jade",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 66.7,
+              "al_prop": 66.40909,
+              "ca_draw_id": "cu",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kuokkanen, Karoliina",
+              "value": 23,
+              "seats": 0,
+              "co_prop": 63.52381,
+              "al_prop": 63.52174,
+              "ca_draw_id": "ct",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Harviainen, Juha",
+              "value": 23,
+              "seats": 0,
+              "co_prop": 62.04651,
+              "al_prop": 60.875,
+              "ca_draw_id": "ct",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Miikki, Aino",
+              "value": 23,
+              "seats": 0,
+              "co_prop": 59.28889,
+              "al_prop": 58.44,
+              "ca_draw_id": "ct",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kalliokoski, Henna",
+              "value": 21,
+              "seats": 0,
+              "co_prop": 56.76596,
+              "al_prop": 56.19231,
+              "role": "candidate"
+            },
+            {
+              "name": "Karvonen, Okko",
+              "value": 20,
+              "seats": 0,
+              "co_prop": 54.44898,
+              "al_prop": 54.11111,
+              "ca_draw_id": "cs",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Sivonen, Sameli",
+              "value": 20,
+              "seats": 0,
+              "co_prop": 52.31373,
+              "al_prop": 52.17857,
+              "ca_draw_id": "cs",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Oyedayo, Oyelowo 'Finnfrican'",
+              "value": 17,
+              "seats": 0,
+              "co_prop": 51.30769,
+              "al_prop": 50.37931,
+              "ca_draw_id": "cr",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Helin, John",
+              "value": 17,
+              "seats": 0,
+              "co_prop": 49.40741,
+              "al_prop": 48.7,
+              "ca_draw_id": "cr",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Saarinen, Ada",
+              "value": 17,
+              "seats": 0,
+              "co_prop": 47.64286,
+              "al_prop": 47.12903,
+              "ca_draw_id": "cr",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Huttunen, Oona",
+              "value": 16,
+              "seats": 0,
+              "co_prop": 46.0,
+              "al_prop": 45.65625,
+              "ca_draw_id": "cq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hadi, Mohammed S.",
+              "value": 16,
+              "seats": 0,
+              "co_prop": 44.46667,
+              "al_prop": 44.27273,
+              "ca_draw_id": "cq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Suhonen, Saku",
+              "value": 16,
+              "seats": 0,
+              "co_prop": 43.03226,
+              "al_prop": 42.97059,
+              "ca_draw_id": "cq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tähkävuori, Riikka",
+              "value": 14,
+              "seats": 0,
+              "co_prop": 42.34921,
+              "al_prop": 41.74286,
+              "role": "candidate"
+            },
+            {
+              "name": "Vehmassalo, Aleksi",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 41.04615,
+              "al_prop": 40.58333,
+              "role": "candidate"
+            },
+            {
+              "name": "Rytilä, Noora",
+              "value": 12,
+              "seats": 0,
+              "co_prop": 39.8209,
+              "al_prop": 39.48649,
+              "ca_draw_id": "cp",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Monira, Shirajum",
+              "value": 12,
+              "seats": 0,
+              "co_prop": 38.66667,
+              "al_prop": 38.44737,
+              "ca_draw_id": "cp",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Turunen, Eeva",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 37.57746,
+              "al_prop": 37.46154,
+              "ca_draw_id": "co",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Vinkki, Samuel",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 36.54795,
+              "al_prop": 36.525,
+              "ca_draw_id": "co",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Wasara, Mikki",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 36.05405,
+              "al_prop": 35.63415,
+              "ca_draw_id": "co",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Akkanen, Saara",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 35.10526,
+              "al_prop": 34.78571,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäkinen, Theresa",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 34.20513,
+              "al_prop": 33.97674,
+              "role": "candidate"
+            },
+            {
+              "name": "Linkola, Maija",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 33.35,
+              "al_prop": 33.20455,
+              "ca_draw_id": "cn",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Silvenoinen, Minna",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 32.53659,
+              "al_prop": 32.46667,
+              "ca_draw_id": "cn",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Koskijoki, Kreeta",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 31.7619,
+              "al_prop": 31.76087,
+              "ca_draw_id": "cn",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Ihalainen, Oskari",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 31.38824,
+              "al_prop": 31.08511,
+              "role": "candidate"
+            },
+            {
+              "name": "Tarpila, Lauri",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 30.66667,
+              "al_prop": 30.4375,
+              "role": "candidate"
+            },
+            {
+              "name": "Kopperoinen, Petja",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 29.97753,
+              "al_prop": 29.81633,
+              "ca_draw_id": "cm",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Beciroski, Nera",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 29.31868,
+              "al_prop": 29.22,
+              "ca_draw_id": "cm",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kivipuro, Matias",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 28.68817,
+              "al_prop": 28.64706,
+              "ca_draw_id": "cl",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Simola, Sara",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 28.38298,
+              "al_prop": 28.09615,
+              "ca_draw_id": "cl",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Vallittu, Emmi",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 27.79167,
+              "al_prop": 27.56604,
+              "ca_draw_id": "cl",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "SitVas",
+          "seats": 9,
+          "value": 1207,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Correa, Aracelis",
+              "value": 71,
+              "seats": 1,
+              "co_prop": 1334.0,
+              "al_prop": 1207.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Suihkonen, Tuomas",
+              "value": 49,
+              "seats": 1,
+              "co_prop": 667.0,
+              "al_prop": 603.5,
+              "ca_draw_id": "do",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kemppainen, Deniz",
+              "value": 49,
+              "seats": 1,
+              "co_prop": 444.66667,
+              "al_prop": 402.33333,
+              "ca_draw_id": "do",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Helminen, Fiona",
+              "value": 47,
+              "seats": 1,
+              "co_prop": 333.5,
+              "al_prop": 301.75,
+              "ca_draw_id": "dn",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Strauss, Inga",
+              "value": 47,
+              "seats": 1,
+              "co_prop": 242.54545,
+              "al_prop": 241.4,
+              "ca_draw_id": "dn",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Gustafsson, Inari",
+              "value": 41,
+              "seats": 1,
+              "co_prop": 205.23077,
+              "al_prop": 201.16667,
+              "ca_draw_id": "dm",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Maunula, Aliisa",
+              "value": 41,
+              "seats": 1,
+              "co_prop": 177.86667,
+              "al_prop": 172.42857,
+              "ca_draw_id": "dm",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lemström, Anna",
+              "value": 41,
+              "seats": 1,
+              "co_prop": 156.94118,
+              "al_prop": 150.875,
+              "ca_draw_id": "dm",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Himanen, Satu",
+              "value": 39,
+              "seats": 1,
+              "co_prop": 140.42105,
+              "al_prop": 134.11111,
+              "role": "candidate"
+            },
+            {
+              "name": "Heinonen, Marianna",
+              "value": 37,
+              "seats": 0,
+              "co_prop": 121.27273,
+              "al_prop": 120.7,
+              "role": "candidate"
+            },
+            {
+              "name": "Pulkkinen, Joonas",
+              "value": 33,
+              "seats": 0,
+              "co_prop": 111.16667,
+              "al_prop": 109.72727,
+              "role": "candidate"
+            },
+            {
+              "name": "Uusinarkaus, Julius",
+              "value": 31,
+              "seats": 0,
+              "co_prop": 102.61538,
+              "al_prop": 100.58333,
+              "role": "candidate"
+            },
+            {
+              "name": "Zidan, Sofia",
+              "value": 29,
+              "seats": 0,
+              "co_prop": 95.28571,
+              "al_prop": 92.84615,
+              "ca_draw_id": "dl",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kurkilahti, Varpu",
+              "value": 29,
+              "seats": 0,
+              "co_prop": 88.93333,
+              "al_prop": 86.21429,
+              "ca_draw_id": "dl",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Wallgren, Amos",
+              "value": 28,
+              "seats": 0,
+              "co_prop": 80.84848,
+              "al_prop": 80.46667,
+              "role": "candidate"
+            },
+            {
+              "name": "Wikblad, Frida",
+              "value": 27,
+              "seats": 0,
+              "co_prop": 76.22857,
+              "al_prop": 75.4375,
+              "role": "candidate"
+            },
+            {
+              "name": "Kaarento, Anni",
+              "value": 26,
+              "seats": 0,
+              "co_prop": 72.10811,
+              "al_prop": 71.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kivijärvi, Sari",
+              "value": 25,
+              "seats": 0,
+              "co_prop": 68.41026,
+              "al_prop": 67.05556,
+              "role": "candidate"
+            },
+            {
+              "name": "Kouhia, Ninette",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 65.07317,
+              "al_prop": 63.52632,
+              "ca_draw_id": "dk",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hiltunen, Titta",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 60.63636,
+              "al_prop": 60.35,
+              "ca_draw_id": "dk",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kyllönen, Riku-Petteri",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 58.0,
+              "al_prop": 57.47619,
+              "ca_draw_id": "dk",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pentikäinen, Viena",
+              "value": 22,
+              "seats": 0,
+              "co_prop": 55.58333,
+              "al_prop": 54.86364,
+              "role": "candidate"
+            },
+            {
+              "name": "Muilu, Jaakko",
+              "value": 21,
+              "seats": 0,
+              "co_prop": 53.36,
+              "al_prop": 52.47826,
+              "role": "candidate"
+            },
+            {
+              "name": "Rytkönen, Aleksi",
+              "value": 20,
+              "seats": 0,
+              "co_prop": 50.33962,
+              "al_prop": 50.29167,
+              "ca_draw_id": "dj",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Leppä, Sophia",
+              "value": 20,
+              "seats": 0,
+              "co_prop": 48.50909,
+              "al_prop": 48.28,
+              "ca_draw_id": "dj",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Korkman, Elsa",
+              "value": 19,
+              "seats": 0,
+              "co_prop": 46.80702,
+              "al_prop": 46.42308,
+              "ca_draw_id": "di",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Linna, Lauri",
+              "value": 19,
+              "seats": 0,
+              "co_prop": 45.22034,
+              "al_prop": 44.7037,
+              "ca_draw_id": "di",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Houttu, Aku",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 43.7377,
+              "al_prop": 43.10714,
+              "ca_draw_id": "dh",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Castrén, Olli",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 41.6875,
+              "al_prop": 41.62069,
+              "ca_draw_id": "dh",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Partanen, Linnea",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 40.42424,
+              "al_prop": 40.23333,
+              "ca_draw_id": "dh",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindqvist, Joel",
+              "value": 16,
+              "seats": 0,
+              "co_prop": 39.23529,
+              "al_prop": 38.93548,
+              "ca_draw_id": "dg",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lampuoti, Jarkko",
+              "value": 16,
+              "seats": 0,
+              "co_prop": 38.11429,
+              "al_prop": 37.71875,
+              "ca_draw_id": "dg",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tirronen, Aster",
+              "value": 15,
+              "seats": 0,
+              "co_prop": 37.05556,
+              "al_prop": 36.57576,
+              "role": "candidate"
+            },
+            {
+              "name": "Hanhijoki, Touko",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 35.57333,
+              "al_prop": 35.5,
+              "ca_draw_id": "df",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Nurmivaara, Sami",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 34.64935,
+              "al_prop": 34.48571,
+              "ca_draw_id": "df",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Heikkilä, Taavi",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 33.77215,
+              "al_prop": 33.52778,
+              "ca_draw_id": "de",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Halunen, Sanna",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 32.93827,
+              "al_prop": 32.62162,
+              "ca_draw_id": "de",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pettersson, Otto",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 32.14458,
+              "al_prop": 31.76316,
+              "ca_draw_id": "de",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rautila, Kanerva",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 31.02326,
+              "al_prop": 30.94872,
+              "ca_draw_id": "dd",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hansson, Axel",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 30.31818,
+              "al_prop": 30.175,
+              "ca_draw_id": "dd",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Huikku, Sofia",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 29.64444,
+              "al_prop": 29.43902,
+              "ca_draw_id": "dd",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pitkänen, Aarni",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 29.0,
+              "al_prop": 28.7381,
+              "co_draw_id": "a",
+              "co_draw_affects_elected": false,
+              "ca_draw_id": "dd",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Manninen, Arttu",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 28.08421,
+              "al_prop": 28.06977,
+              "ca_draw_id": "dd",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kähönen, Juuso",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 27.50515,
+              "al_prop": 27.43182,
+              "ca_draw_id": "dd",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kari, Onni",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 27.22449,
+              "al_prop": 26.82222,
+              "ca_draw_id": "dc",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rissanen, Jaakko",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 26.94949,
+              "al_prop": 26.23913,
+              "ca_draw_id": "dc",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Koivistoinen, Maija",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 26.68,
+              "al_prop": 25.68085,
+              "ca_draw_id": "dc",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Catani, Hanna",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 26.41584,
+              "al_prop": 25.14583,
+              "ca_draw_id": "db",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tapaninen, Pekka",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 26.15686,
+              "al_prop": 24.63265,
+              "ca_draw_id": "db",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Thune, Mikael",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 25.90291,
+              "al_prop": 24.14,
+              "ca_draw_id": "da",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Keskinen, Jesse",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 25.65385,
+              "al_prop": 23.66667,
+              "ca_draw_id": "da",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hallamaa, Tuomas",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 25.40952,
+              "al_prop": 23.21154,
+              "ca_draw_id": "da",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kristeri, Tomi",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 25.16981,
+              "al_prop": 22.77358,
+              "ca_draw_id": "da",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kukila, Eetu",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 24.93458,
+              "al_prop": 22.35185,
+              "ca_draw_id": "da",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kari, Onerva",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 24.7037,
+              "al_prop": 21.94545,
+              "ca_draw_id": "da",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Ojanperä, Heta",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 24.47706,
+              "al_prop": 21.55357,
+              "role": "candidate"
+            },
+            {
+              "name": "Lievonen, Pipsa",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 24.25455,
+              "al_prop": 21.17544,
+              "ca_draw_id": "cz",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Karkkonen, Mikael",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 24.03604,
+              "al_prop": 20.81034,
+              "ca_draw_id": "cz",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Palkoaho, Ella",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 23.82143,
+              "al_prop": 20.45763,
+              "ca_draw_id": "cy",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Jäynäs, Jesse",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 23.61062,
+              "al_prop": 20.11667,
+              "ca_draw_id": "cy",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HYAL",
+      "seats": 16,
+      "value": 2175,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "Human",
+          "seats": 3,
+          "value": 322,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Granström, Sampsa",
+              "value": 62,
+              "seats": 1,
+              "co_prop": 725.0,
+              "al_prop": 322.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Siljander, Saana",
+              "value": 53,
+              "seats": 1,
+              "co_prop": 181.25,
+              "al_prop": 161.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Grünthal, Lauri",
+              "value": 35,
+              "seats": 1,
+              "co_prop": 135.9375,
+              "al_prop": 107.33333,
+              "role": "candidate"
+            },
+            {
+              "name": "Jokela, Alina",
+              "value": 34,
+              "seats": 0,
+              "co_prop": 87.0,
+              "al_prop": 80.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Kotiniemi, Roope",
+              "value": 19,
+              "seats": 0,
+              "co_prop": 72.5,
+              "al_prop": 64.4,
+              "ca_draw_id": "d",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kalliokoski, Timo",
+              "value": 19,
+              "seats": 0,
+              "co_prop": 57.23684,
+              "al_prop": 53.66667,
+              "ca_draw_id": "d",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kärnä, Jane",
+              "value": 19,
+              "seats": 0,
+              "co_prop": 49.43182,
+              "al_prop": 46.0,
+              "ca_draw_id": "d",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Savisaari, Olli",
+              "value": 14,
+              "seats": 0,
+              "co_prop": 41.82692,
+              "al_prop": 40.25,
+              "role": "candidate"
+            },
+            {
+              "name": "Niemelä, Tia",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 38.15789,
+              "al_prop": 35.77778,
+              "role": "candidate"
+            },
+            {
+              "name": "Schumilov, Emma",
+              "value": 12,
+              "seats": 0,
+              "co_prop": 33.46154,
+              "al_prop": 32.2,
+              "ca_draw_id": "c",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Ingman, Hanna",
+              "value": 12,
+              "seats": 0,
+              "co_prop": 30.6338,
+              "al_prop": 29.27273,
+              "ca_draw_id": "c",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rousu, Fanny",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 28.24675,
+              "al_prop": 26.83333,
+              "ca_draw_id": "b",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Halkola, Jenni",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 26.85185,
+              "al_prop": 24.76923,
+              "ca_draw_id": "b",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Nurmi, Miska",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 25.2907,
+              "al_prop": 23.0,
+              "ca_draw_id": "a",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hynönen, Laura",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 24.16667,
+              "al_prop": 21.46667,
+              "ca_draw_id": "a",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Kumpu",
+          "seats": 4,
+          "value": 508,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Isomeri, Jessika",
+              "value": 100,
+              "seats": 1,
+              "co_prop": 1087.5,
+              "al_prop": 508.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Karttunen, Sasu",
+              "value": 80,
+              "seats": 1,
+              "co_prop": 362.5,
+              "al_prop": 254.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Niskala, Iiro",
+              "value": 57,
+              "seats": 1,
+              "co_prop": 241.66667,
+              "al_prop": 169.33333,
+              "role": "candidate"
+            },
+            {
+              "name": "Halme, Eetu",
+              "value": 39,
+              "seats": 1,
+              "co_prop": 145.0,
+              "al_prop": 127.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Saari, Ville-Veikko",
+              "value": 38,
+              "seats": 0,
+              "co_prop": 114.47368,
+              "al_prop": 101.6,
+              "role": "candidate"
+            },
+            {
+              "name": "Keltanen, Linnea",
+              "value": 34,
+              "seats": 0,
+              "co_prop": 98.86364,
+              "al_prop": 84.66667,
+              "role": "candidate"
+            },
+            {
+              "name": "Holvio, Anna",
+              "value": 31,
+              "seats": 0,
+              "co_prop": 77.67857,
+              "al_prop": 72.57143,
+              "role": "candidate"
+            },
+            {
+              "name": "Velin, Santeri 'TeriSan'",
+              "value": 22,
+              "seats": 0,
+              "co_prop": 67.96875,
+              "al_prop": 63.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Kähkönen, Harri",
+              "value": 21,
+              "seats": 0,
+              "co_prop": 62.14286,
+              "al_prop": 56.44444,
+              "role": "candidate"
+            },
+            {
+              "name": "Laihanen, Ira",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 53.04878,
+              "al_prop": 50.8,
+              "ca_draw_id": "g",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kujala, Nicholas",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 50.5814,
+              "al_prop": 46.18182,
+              "ca_draw_id": "g",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Öhrnberg, Ronja",
+              "value": 12,
+              "seats": 0,
+              "co_prop": 45.3125,
+              "al_prop": 42.33333,
+              "ca_draw_id": "f",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hautamäki, Jonna",
+              "value": 12,
+              "seats": 0,
+              "co_prop": 40.27778,
+              "al_prop": 39.07692,
+              "ca_draw_id": "f",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hirn, Mireleh",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 38.83929,
+              "al_prop": 36.28571,
+              "role": "candidate"
+            },
+            {
+              "name": "Malinen, Henri",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 35.65574,
+              "al_prop": 33.86667,
+              "ca_draw_id": "e",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pellinen, Mikko",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 32.46269,
+              "al_prop": 31.75,
+              "ca_draw_id": "e",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Leppälä, Ari",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 31.52174,
+              "al_prop": 29.88235,
+              "role": "candidate"
+            },
+            {
+              "name": "Salmenperä, Ilmo",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 29.39189,
+              "al_prop": 28.22222,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Meikku",
+          "seats": 1,
+          "value": 164,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Seppälä, Maaria",
+              "value": 67,
+              "seats": 1,
+              "co_prop": 217.5,
+              "al_prop": 164.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vilminko, Eetu",
+              "value": 43,
+              "seats": 0,
+              "co_prop": 94.56522,
+              "al_prop": 82.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kärnä, Julia",
+              "value": 25,
+              "seats": 0,
+              "co_prop": 60.41667,
+              "al_prop": 54.66667,
+              "role": "candidate"
+            },
+            {
+              "name": "Morikawa, Merit",
+              "value": 22,
+              "seats": 0,
+              "co_prop": 44.38776,
+              "al_prop": 41.0,
+              "role": "candidate"
+            },
+            {
+              "name": "El Fellah, Ali",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 34.52381,
+              "al_prop": 32.8,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Penger",
+          "seats": 4,
+          "value": 527,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Nuckols, Wilson",
+              "value": 43,
+              "seats": 1,
+              "co_prop": 2175.0,
+              "al_prop": 527.0,
+              "ca_draw_id": "m",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Nyyssönen, Sophie",
+              "value": 43,
+              "seats": 1,
+              "co_prop": 435.0,
+              "al_prop": 263.5,
+              "ca_draw_id": "m",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hakala, Nea",
+              "value": 41,
+              "seats": 1,
+              "co_prop": 310.71429,
+              "al_prop": 175.66667,
+              "role": "candidate"
+            },
+            {
+              "name": "Lahdelma, Minja",
+              "value": 39,
+              "seats": 1,
+              "co_prop": 155.35714,
+              "al_prop": 131.75,
+              "ca_draw_id": "l",
+              "ca_draw_affects_elected": true,
+              "role": "candidate"
+            },
+            {
+              "name": "Taipalus, Hanna",
+              "value": 39,
+              "seats": 0,
+              "co_prop": 120.83333,
+              "al_prop": 105.4,
+              "ca_draw_id": "l",
+              "ca_draw_affects_elected": true,
+              "role": "candidate"
+            },
+            {
+              "name": "Mustonen, Katariina",
+              "value": 35,
+              "seats": 0,
+              "co_prop": 108.75,
+              "al_prop": 87.83333,
+              "ca_draw_id": "k",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Nieminen, Elina",
+              "value": 35,
+              "seats": 0,
+              "co_prop": 80.55556,
+              "al_prop": 75.28571,
+              "ca_draw_id": "k",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Inkinen, Minna 'Inkine'",
+              "value": 30,
+              "seats": 0,
+              "co_prop": 75.0,
+              "al_prop": 65.875,
+              "role": "candidate"
+            },
+            {
+              "name": "Lahin, Laura",
+              "value": 28,
+              "seats": 0,
+              "co_prop": 65.90909,
+              "al_prop": 58.55556,
+              "role": "candidate"
+            },
+            {
+              "name": "Frolova, Kristina 'Kristi'",
+              "value": 26,
+              "seats": 0,
+              "co_prop": 54.375,
+              "al_prop": 52.7,
+              "role": "candidate"
+            },
+            {
+              "name": "Salejärvi, Jean",
+              "value": 23,
+              "seats": 0,
+              "co_prop": 51.78571,
+              "al_prop": 47.90909,
+              "role": "candidate"
+            },
+            {
+              "name": "Hirvonen, Lovisa 'Lollo'",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 47.28261,
+              "al_prop": 43.91667,
+              "role": "candidate"
+            },
+            {
+              "name": "Taponen, Jonna",
+              "value": 15,
+              "seats": 0,
+              "co_prop": 42.64706,
+              "al_prop": 40.53846,
+              "ca_draw_id": "j",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "De Pascale, Samuli 'Smuli'",
+              "value": 15,
+              "seats": 0,
+              "co_prop": 39.54545,
+              "al_prop": 37.64286,
+              "ca_draw_id": "j",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kanerva, Suvi",
+              "value": 14,
+              "seats": 0,
+              "co_prop": 36.86441,
+              "al_prop": 35.13333,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäki, Tommi",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 35.08065,
+              "al_prop": 32.9375,
+              "role": "candidate"
+            },
+            {
+              "name": "Majava, Anna",
+              "value": 12,
+              "seats": 0,
+              "co_prop": 31.98529,
+              "al_prop": 31.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tuominen, Marika",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 31.07143,
+              "al_prop": 29.27778,
+              "ca_draw_id": "i",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Heinonen, Otto",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 29.0,
+              "al_prop": 27.73684,
+              "co_draw_id": "a",
+              "co_draw_affects_elected": false,
+              "ca_draw_id": "i",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hellbom, Laura",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 27.53165,
+              "al_prop": 26.35,
+              "role": "candidate"
+            },
+            {
+              "name": "Lehtinen, Heini",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 27.1875,
+              "al_prop": 25.09524,
+              "role": "candidate"
+            },
+            {
+              "name": "Kallio, Riku 'Raikhart'",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 25.89286,
+              "al_prop": 23.95455,
+              "ca_draw_id": "h",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Laitila, Krista",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 24.71591,
+              "al_prop": 22.91304,
+              "ca_draw_id": "h",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lappalainen, Ilmari",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 24.4382,
+              "al_prop": 21.95833,
+              "ca_draw_id": "h",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Teol",
+          "seats": 1,
+          "value": 170,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Lindroth, Arttu",
+              "value": 32,
+              "seats": 1,
+              "co_prop": 271.875,
+              "al_prop": 170.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rinne, Susanna",
+              "value": 23,
+              "seats": 0,
+              "co_prop": 103.57143,
+              "al_prop": 85.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rättyä, Jonna",
+              "value": 22,
+              "seats": 0,
+              "co_prop": 63.97059,
+              "al_prop": 56.66667,
+              "role": "candidate"
+            },
+            {
+              "name": "Kivelä, Mio",
+              "value": 21,
+              "seats": 0,
+              "co_prop": 46.2766,
+              "al_prop": 42.5,
+              "ca_draw_id": "r",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Nikki, Anni-Sofia",
+              "value": 21,
+              "seats": 0,
+              "co_prop": 36.25,
+              "al_prop": 34.0,
+              "ca_draw_id": "r",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kirmanen, Lotta",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 29.79452,
+              "al_prop": 28.33333,
+              "role": "candidate"
+            },
+            {
+              "name": "Järvinen, Sara",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 26.20482,
+              "al_prop": 24.28571,
+              "role": "candidate"
+            },
+            {
+              "name": "Rantanen, Krista",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 23.9011,
+              "al_prop": 21.25,
+              "role": "candidate"
+            },
+            {
+              "name": "Raunio, Henri",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 23.6413,
+              "al_prop": 18.88889,
+              "ca_draw_id": "q",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Nurmela, Jessiina",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 23.3871,
+              "al_prop": 17.0,
+              "ca_draw_id": "q",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Saarela, Veronica",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 23.1383,
+              "al_prop": 15.45455,
+              "ca_draw_id": "p",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Vuori, Anna",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 22.89474,
+              "al_prop": 14.16667,
+              "ca_draw_id": "p",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Juutila, Markus",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 22.65625,
+              "al_prop": 13.07692,
+              "ca_draw_id": "o",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lehonmaa, Ville",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 22.42268,
+              "al_prop": 12.14286,
+              "ca_draw_id": "o",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kiiskilä, Roosa",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 22.19388,
+              "al_prop": 11.33333,
+              "ca_draw_id": "o",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Riihonen, Joni",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 21.9697,
+              "al_prop": 10.625,
+              "ca_draw_id": "o",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Korja, Säde",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 21.75,
+              "al_prop": 10.0,
+              "ca_draw_id": "o",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Väistö, Väinö",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 21.53465,
+              "al_prop": 9.44444,
+              "ca_draw_id": "n",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Raunio, Samuli",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 21.32353,
+              "al_prop": 8.94737,
+              "ca_draw_id": "n",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Valt",
+          "seats": 2,
+          "value": 321,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Kilpinen, Juuso",
+              "value": 70,
+              "seats": 1,
+              "co_prop": 543.75,
+              "al_prop": 321.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Davies, Caelum (Cal)",
+              "value": 49,
+              "seats": 1,
+              "co_prop": 167.30769,
+              "al_prop": 160.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Sorsa, Henrietta",
+              "value": 43,
+              "seats": 0,
+              "co_prop": 127.94118,
+              "al_prop": 107.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Wathén, Laura",
+              "value": 36,
+              "seats": 0,
+              "co_prop": 83.65385,
+              "al_prop": 80.25,
+              "role": "candidate"
+            },
+            {
+              "name": "Heikkilä, Tuomas",
+              "value": 26,
+              "seats": 0,
+              "co_prop": 70.16129,
+              "al_prop": 64.2,
+              "role": "candidate"
+            },
+            {
+              "name": "Timmer, Mathilda",
+              "value": 20,
+              "seats": 0,
+              "co_prop": 55.76923,
+              "al_prop": 53.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Hilska, Juuli",
+              "value": 17,
+              "seats": 0,
+              "co_prop": 48.33333,
+              "al_prop": 45.85714,
+              "role": "candidate"
+            },
+            {
+              "name": "Linna, Jutta",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 41.03774,
+              "al_prop": 40.125,
+              "ca_draw_id": "ae",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rantanen, Jyrki",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 37.5,
+              "al_prop": 35.66667,
+              "ca_draw_id": "ae",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Sinisalo, Mikko",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 32.95455,
+              "al_prop": 32.1,
+              "role": "candidate"
+            },
+            {
+              "name": "von Lerber, Milja",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 30.20833,
+              "al_prop": 29.18182,
+              "role": "candidate"
+            },
+            {
+              "name": "Sirviö, Tom-Henrik",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 27.88462,
+              "al_prop": 26.75,
+              "role": "candidate"
+            },
+            {
+              "name": "Alho, Alli",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 26.52439,
+              "al_prop": 24.69231,
+              "role": "candidate"
+            },
+            {
+              "name": "Mälkiä, Tanja",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 25.0,
+              "al_prop": 22.92857,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Viikki",
+          "seats": 1,
+          "value": 163,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Kinnunen, Salla",
+              "value": 62,
+              "seats": 1,
+              "co_prop": 197.72727,
+              "al_prop": 163.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Liu, Julia",
+              "value": 34,
+              "seats": 0,
+              "co_prop": 90.625,
+              "al_prop": 81.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindfors, Leena",
+              "value": 20,
+              "seats": 0,
+              "co_prop": 58.78378,
+              "al_prop": 54.33333,
+              "role": "candidate"
+            },
+            {
+              "name": "Lehtonen, Mikael",
+              "value": 19,
+              "seats": 0,
+              "co_prop": 43.5,
+              "al_prop": 40.75,
+              "role": "candidate"
+            },
+            {
+              "name": "Hannula, Sanni",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 33.98438,
+              "al_prop": 32.6,
+              "role": "candidate"
+            },
+            {
+              "name": "Juutilainen, Katriina",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 28.61842,
+              "al_prop": 27.16667,
+              "ca_draw_id": "ao",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Nematollahi, Neda",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 25.58824,
+              "al_prop": 23.28571,
+              "ca_draw_id": "ao",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HELP",
+      "seats": 9,
+      "value": 1278,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "HELP1",
+          "seats": 4,
+          "value": 511,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Liu, Ville",
+              "value": 66,
+              "seats": 1,
+              "co_prop": 1278.0,
+              "al_prop": 511.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ranta, Julia",
+              "value": 39,
+              "seats": 1,
+              "co_prop": 319.5,
+              "al_prop": 255.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Takala, Sini",
+              "value": 38,
+              "seats": 1,
+              "co_prop": 182.57143,
+              "al_prop": 170.33333,
+              "role": "candidate"
+            },
+            {
+              "name": "Kasanen, Ellamaija",
+              "value": 25,
+              "seats": 1,
+              "co_prop": 142.0,
+              "al_prop": 127.75,
+              "role": "candidate"
+            },
+            {
+              "name": "Lahtiharju, Arttu",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 106.5,
+              "al_prop": 102.2,
+              "ca_draw_id": "ad",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Mervaala, Lauri",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 91.28571,
+              "al_prop": 85.16667,
+              "ca_draw_id": "ad",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kuivanen, Antti",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 79.875,
+              "al_prop": 73.0,
+              "ca_draw_id": "ad",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Mykkänen, Anssi",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 67.26316,
+              "al_prop": 63.875,
+              "ca_draw_id": "ad",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kääriä, Samuli",
+              "value": 21,
+              "seats": 0,
+              "co_prop": 58.09091,
+              "al_prop": 56.77778,
+              "role": "candidate"
+            },
+            {
+              "name": "Posa, Matias",
+              "value": 20,
+              "seats": 0,
+              "co_prop": 53.25,
+              "al_prop": 51.1,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäkitalo, Roosa",
+              "value": 16,
+              "seats": 0,
+              "co_prop": 47.33333,
+              "al_prop": 46.45455,
+              "role": "candidate"
+            },
+            {
+              "name": "Syvälahti, Timo",
+              "value": 15,
+              "seats": 0,
+              "co_prop": 44.06897,
+              "al_prop": 42.58333,
+              "role": "candidate"
+            },
+            {
+              "name": "Savander, Henri",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 41.22581,
+              "al_prop": 39.30769,
+              "ca_draw_id": "ac",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tonteri, Elina",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 37.58824,
+              "al_prop": 36.5,
+              "ca_draw_id": "ac",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Wihuri, Eleonoora",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 34.54054,
+              "al_prop": 34.06667,
+              "ca_draw_id": "ab",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Virkkunen, Sirke",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 32.76923,
+              "al_prop": 31.9375,
+              "ca_draw_id": "ab",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Yoshizumi, Hanna",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 31.17073,
+              "al_prop": 30.05882,
+              "ca_draw_id": "ab",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lönnberg, Ivar",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 29.04545,
+              "al_prop": 28.38889,
+              "ca_draw_id": "ab",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lahti, Vilma",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 27.78261,
+              "al_prop": 26.89474,
+              "ca_draw_id": "aa",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lehtisalo, Minna",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 26.08163,
+              "al_prop": 25.55,
+              "ca_draw_id": "aa",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Mikkola, Visa",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 24.57692,
+              "al_prop": 24.33333,
+              "ca_draw_id": "z",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Vartiainen, Heini",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 23.66667,
+              "al_prop": 23.22727,
+              "ca_draw_id": "z",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Haapanen, Sami",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 22.82143,
+              "al_prop": 22.21739,
+              "ca_draw_id": "y",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Patomo, Joonatan",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 21.66102,
+              "al_prop": 21.29167,
+              "ca_draw_id": "y",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Grönlund, Julia",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 20.6129,
+              "al_prop": 20.44,
+              "ca_draw_id": "y",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tuomi, Tytti",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 19.96875,
+              "al_prop": 19.65385,
+              "ca_draw_id": "x",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Niskanen, Kaisa",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 19.07463,
+              "al_prop": 18.92593,
+              "ca_draw_id": "x",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hujanen, Roosa",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 18.52174,
+              "al_prop": 18.25,
+              "ca_draw_id": "w",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rouhiainen, Vilma",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 18.0,
+              "al_prop": 17.62069,
+              "ca_draw_id": "w",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Salaja, Lauri",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 17.27027,
+              "al_prop": 17.03333,
+              "ca_draw_id": "v",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Peuraharju, Elin",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 16.5974,
+              "al_prop": 16.48387,
+              "ca_draw_id": "v",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Välkki, Kristina",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 16.17722,
+              "al_prop": 15.96875,
+              "ca_draw_id": "v",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tuurala, Henri",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 15.58537,
+              "al_prop": 15.48485,
+              "ca_draw_id": "u",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rönty, Lotta",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 15.21429,
+              "al_prop": 15.02941,
+              "ca_draw_id": "u",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Syrjä, Maija",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 14.86047,
+              "al_prop": 14.6,
+              "ca_draw_id": "t",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Paunonen, Benjamin",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 14.35955,
+              "al_prop": 14.19444,
+              "ca_draw_id": "t",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rissanen, Anni",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 14.04396,
+              "al_prop": 13.81081,
+              "ca_draw_id": "t",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Weselius, Johanna",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 13.74194,
+              "al_prop": 13.44737,
+              "ca_draw_id": "t",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rantama, Pinja",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 13.59574,
+              "al_prop": 13.10256,
+              "ca_draw_id": "s",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tarkkonen, Teresa",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 13.3125,
+              "al_prop": 12.775,
+              "ca_draw_id": "s",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "HELP2",
+          "seats": 3,
+          "value": 419,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Kivistö, Kanerva",
+              "value": 75,
+              "seats": 1,
+              "co_prop": 639.0,
+              "al_prop": 419.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lehmus, Anniina",
+              "value": 37,
+              "seats": 1,
+              "co_prop": 255.6,
+              "al_prop": 209.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Meriläinen, Henrik",
+              "value": 31,
+              "seats": 1,
+              "co_prop": 159.75,
+              "al_prop": 139.66667,
+              "role": "candidate"
+            },
+            {
+              "name": "Lahdentausta, Salla",
+              "value": 25,
+              "seats": 0,
+              "co_prop": 116.18182,
+              "al_prop": 104.75,
+              "role": "candidate"
+            },
+            {
+              "name": "Martikainen, Joanna",
+              "value": 21,
+              "seats": 0,
+              "co_prop": 85.2,
+              "al_prop": 83.8,
+              "role": "candidate"
+            },
+            {
+              "name": "Wollstén, Daniela",
+              "value": 17,
+              "seats": 0,
+              "co_prop": 75.17647,
+              "al_prop": 69.83333,
+              "role": "candidate"
+            },
+            {
+              "name": "Mikkonen, Antti",
+              "value": 14,
+              "seats": 0,
+              "co_prop": 63.9,
+              "al_prop": 59.85714,
+              "role": "candidate"
+            },
+            {
+              "name": "Yli-Hynnilä, Anna",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 55.56522,
+              "al_prop": 52.375,
+              "role": "candidate"
+            },
+            {
+              "name": "Loukola, Johanna",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 49.15385,
+              "al_prop": 46.55556,
+              "ca_draw_id": "an",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Aho, Henna",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 42.6,
+              "al_prop": 41.9,
+              "ca_draw_id": "an",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hakala, Riikka",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 38.72727,
+              "al_prop": 38.09091,
+              "role": "candidate"
+            },
+            {
+              "name": "Heljanko, Viivi",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 36.51429,
+              "al_prop": 34.91667,
+              "ca_draw_id": "am",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lappalainen, Oskari",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 33.63158,
+              "al_prop": 32.23077,
+              "ca_draw_id": "am",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Huhtala, Minna",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 30.42857,
+              "al_prop": 29.92857,
+              "ca_draw_id": "al",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pohjavaara, Saana",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 28.4,
+              "al_prop": 27.93333,
+              "ca_draw_id": "al",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hirvonen, Helena",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 26.625,
+              "al_prop": 26.1875,
+              "ca_draw_id": "al",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Urvas, Lauri",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 25.05882,
+              "al_prop": 24.64706,
+              "ca_draw_id": "al",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kolehmainen, Sonja",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 24.11321,
+              "al_prop": 23.27778,
+              "ca_draw_id": "al",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Koivunen, Liisa \"Lissu-Petteri\"",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 22.42105,
+              "al_prop": 22.05263,
+              "role": "candidate"
+            },
+            {
+              "name": "Niemelä, Saana",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 21.3,
+              "al_prop": 20.95,
+              "ca_draw_id": "ak",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Takala, Milla",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 20.28571,
+              "al_prop": 19.95238,
+              "ca_draw_id": "ak",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hyytiäinen, Hennariikka",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 19.36364,
+              "al_prop": 19.04545,
+              "ca_draw_id": "ak",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Puharinen, Jarkko",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 18.25714,
+              "al_prop": 18.21739,
+              "ca_draw_id": "aj",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Saaristo, Teea",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 17.75,
+              "al_prop": 17.45833,
+              "ca_draw_id": "aj",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Äärimaa, Jouko",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 17.04,
+              "al_prop": 16.76,
+              "ca_draw_id": "aj",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kallio, Aleksi",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 16.38462,
+              "al_prop": 16.11538,
+              "ca_draw_id": "aj",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Metsähuone, Viena",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 15.77778,
+              "al_prop": 15.51852,
+              "ca_draw_id": "aj",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Huttunen, Minttu",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 15.03529,
+              "al_prop": 14.96429,
+              "role": "candidate"
+            },
+            {
+              "name": "Suhonen, Sonja",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 14.52273,
+              "al_prop": 14.44828,
+              "ca_draw_id": "ai",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Vikström, Maria",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 14.2,
+              "al_prop": 13.96667,
+              "ca_draw_id": "ai",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pernilä, Oona",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 13.8913,
+              "al_prop": 13.51613,
+              "ca_draw_id": "ai",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Saarimäki, Ville",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 13.45263,
+              "al_prop": 13.09375,
+              "ca_draw_id": "ai",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Helin, Lotta",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 13.17526,
+              "al_prop": 12.69697,
+              "ca_draw_id": "ai",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Helenius, Alexandra",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 13.04082,
+              "al_prop": 12.32353,
+              "ca_draw_id": "ai",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Aikio, Milko",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 12.90909,
+              "al_prop": 11.97143,
+              "ca_draw_id": "ai",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hämäläinen, Crista",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 12.78,
+              "al_prop": 11.63889,
+              "ca_draw_id": "ai",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Määttä, Roosa",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 12.65347,
+              "al_prop": 11.32432,
+              "ca_draw_id": "ah",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hänninen, Juuso",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 12.52941,
+              "al_prop": 11.02632,
+              "ca_draw_id": "ah",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Aalto, Karri",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 12.40777,
+              "al_prop": 10.74359,
+              "ca_draw_id": "ah",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rinne, Elias",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 12.28846,
+              "al_prop": 10.475,
+              "ca_draw_id": "ah",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Niittymäki, Erika",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 12.17143,
+              "al_prop": 10.21951,
+              "ca_draw_id": "ah",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Salonen, Nina",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 12.0566,
+              "al_prop": 9.97619,
+              "ca_draw_id": "ah",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Manninen, Kalle",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 11.94393,
+              "al_prop": 9.74419,
+              "ca_draw_id": "ag",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Järvi, Iiro",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 11.83333,
+              "al_prop": 9.52273,
+              "ca_draw_id": "ag",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Aho, Varpu",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 11.72477,
+              "al_prop": 9.31111,
+              "ca_draw_id": "ag",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kankaanpää, Mari",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 11.61818,
+              "al_prop": 9.1087,
+              "ca_draw_id": "ag",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Keskimäki, Sanne",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 11.51351,
+              "al_prop": 8.91489,
+              "ca_draw_id": "ag",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hintikka, Simo",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 11.41071,
+              "al_prop": 8.72917,
+              "ca_draw_id": "ag",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Antelo, Lauri",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 11.30973,
+              "al_prop": 8.55102,
+              "ca_draw_id": "af",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kristiansson, Sara",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 11.21053,
+              "al_prop": 8.38,
+              "ca_draw_id": "af",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Heininen, Susanna",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 11.11304,
+              "al_prop": 8.21569,
+              "ca_draw_id": "af",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hyttinen, Nea",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 11.01724,
+              "al_prop": 8.05769,
+              "ca_draw_id": "af",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tiainen, Elina",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 10.92308,
+              "al_prop": 7.90566,
+              "ca_draw_id": "af",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "HELP3",
+          "seats": 2,
+          "value": 348,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Nurminen, Sammy",
+              "value": 48,
+              "seats": 1,
+              "co_prop": 426.0,
+              "al_prop": 348.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Viherkenttä, Linnea",
+              "value": 39,
+              "seats": 1,
+              "co_prop": 213.0,
+              "al_prop": 174.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lumilahti, Juuso",
+              "value": 29,
+              "seats": 0,
+              "co_prop": 127.8,
+              "al_prop": 116.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kaarakainen, Henri",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 98.30769,
+              "al_prop": 87.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Piirainen, Sara",
+              "value": 23,
+              "seats": 0,
+              "co_prop": 71.0,
+              "al_prop": 69.6,
+              "ca_draw_id": "at",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Aila, Santeri",
+              "value": 23,
+              "seats": 0,
+              "co_prop": 60.85714,
+              "al_prop": 58.0,
+              "ca_draw_id": "at",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Seppälä, Eveliina",
+              "value": 22,
+              "seats": 0,
+              "co_prop": 51.12,
+              "al_prop": 49.71429,
+              "role": "candidate"
+            },
+            {
+              "name": "Markkanen, Kalle",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 45.64286,
+              "al_prop": 43.5,
+              "ca_draw_id": "as",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Fallenius, Jemina",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 39.9375,
+              "al_prop": 38.66667,
+              "ca_draw_id": "as",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Larinkari, Olga",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 35.5,
+              "al_prop": 34.8,
+              "ca_draw_id": "as",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Teittinen, Helinä",
+              "value": 16,
+              "seats": 0,
+              "co_prop": 31.95,
+              "al_prop": 31.63636,
+              "role": "candidate"
+            },
+            {
+              "name": "Reijonen, Sami",
+              "value": 15,
+              "seats": 0,
+              "co_prop": 29.72093,
+              "al_prop": 29.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Saari, Sakari",
+              "value": 14,
+              "seats": 0,
+              "co_prop": 27.19149,
+              "al_prop": 26.76923,
+              "role": "candidate"
+            },
+            {
+              "name": "Rytkönen, Olavi",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 25.56,
+              "al_prop": 24.85714,
+              "role": "candidate"
+            },
+            {
+              "name": "Lönnroth, Aapo",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 23.23636,
+              "al_prop": 23.2,
+              "role": "candidate"
+            },
+            {
+              "name": "Sassi, Lotta",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 22.03448,
+              "al_prop": 21.75,
+              "ca_draw_id": "ar",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Laitinen, Sara",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 20.95082,
+              "al_prop": 20.47059,
+              "ca_draw_id": "ar",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Barriskell, Daniel",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 19.66154,
+              "al_prop": 19.33333,
+              "ca_draw_id": "aq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Heikkilä, Valtteri",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 18.79412,
+              "al_prop": 18.31579,
+              "ca_draw_id": "aq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Antonacci, Sara",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 17.50685,
+              "al_prop": 17.4,
+              "ca_draw_id": "ap",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Sajakoski, Inka",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 16.81579,
+              "al_prop": 16.57143,
+              "ca_draw_id": "ap",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hieta-aho, Helmi",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 15.975,
+              "al_prop": 15.81818,
+              "ca_draw_id": "ap",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Asp, Aapo",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 15.39759,
+              "al_prop": 15.13043,
+              "ca_draw_id": "ap",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rytky, Ami",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 14.68966,
+              "al_prop": 14.5,
+              "ca_draw_id": "ap",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SNÄf",
+      "seats": 6,
+      "value": 848,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "CodTho",
+          "seats": 2,
+          "value": 299,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Liimatainen, Nora",
+              "value": 86,
+              "seats": 1,
+              "co_prop": 848.0,
+              "al_prop": 299.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Stenbäck, Andreas",
+              "value": 47,
+              "seats": 1,
+              "co_prop": 169.6,
+              "al_prop": 149.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Sjöberg, Nicolas",
+              "value": 40,
+              "seats": 0,
+              "co_prop": 121.14286,
+              "al_prop": 99.66667,
+              "role": "candidate"
+            },
+            {
+              "name": "Ahlström, Fredrik",
+              "value": 29,
+              "seats": 0,
+              "co_prop": 84.8,
+              "al_prop": 74.75,
+              "role": "candidate"
+            },
+            {
+              "name": "Cederlöf, Karin 'Karzza'",
+              "value": 21,
+              "seats": 0,
+              "co_prop": 70.66667,
+              "al_prop": 59.8,
+              "role": "candidate"
+            },
+            {
+              "name": "Folger, Daniel",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 53.0,
+              "al_prop": 49.83333,
+              "role": "candidate"
+            },
+            {
+              "name": "Härmälä, Rita",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 47.11111,
+              "al_prop": 42.71429,
+              "role": "candidate"
+            },
+            {
+              "name": "Nyberg, Teddi",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 40.38095,
+              "al_prop": 37.375,
+              "ca_draw_id": "av",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindbäck, 'H-J'",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 33.92,
+              "al_prop": 33.22222,
+              "ca_draw_id": "av",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Wallgren, Ville",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 32.61538,
+              "al_prop": 29.9,
+              "role": "candidate"
+            },
+            {
+              "name": "Tolonen, Joonas",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 28.26667,
+              "al_prop": 27.18182,
+              "role": "candidate"
+            },
+            {
+              "name": "Lång, Karolina",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 25.69697,
+              "al_prop": 24.91667,
+              "ca_draw_id": "au",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pipping, Hugo A.",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 24.22857,
+              "al_prop": 23.0,
+              "ca_draw_id": "au",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Nation",
+          "seats": 2,
+          "value": 201,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Granqvist, Emilia",
+              "value": 53,
+              "seats": 1,
+              "co_prop": 424.0,
+              "al_prop": 201.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Back, Lovisa",
+              "value": 34,
+              "seats": 1,
+              "co_prop": 141.33333,
+              "al_prop": 100.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindén, Vera",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 77.09091,
+              "al_prop": 67.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Karlsson, Jessica",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 56.53333,
+              "al_prop": 50.25,
+              "role": "candidate"
+            },
+            {
+              "name": "Westerholm, Antonia",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 42.4,
+              "al_prop": 40.2,
+              "role": "candidate"
+            },
+            {
+              "name": "Wik, Julia",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 35.33333,
+              "al_prop": 33.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Koskela, Calle",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 30.28571,
+              "al_prop": 28.71429,
+              "role": "candidate"
+            },
+            {
+              "name": "Sjöblom, Linda",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 26.5,
+              "al_prop": 25.125,
+              "ca_draw_id": "ay",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hammarberg, Linnéa",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 22.91892,
+              "al_prop": 22.33333,
+              "ca_draw_id": "ay",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Henriksson, Sebastian",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 21.74359,
+              "al_prop": 20.1,
+              "ca_draw_id": "ax",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Korhonen, Isabella",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 20.19048,
+              "al_prop": 18.27273,
+              "ca_draw_id": "ax",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Olander, Rasmus",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 18.84444,
+              "al_prop": 16.75,
+              "ca_draw_id": "ax",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Vuorijoki, Anders",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 18.04255,
+              "al_prop": 15.46154,
+              "ca_draw_id": "ax",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hägglund, Penny",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 17.30612,
+              "al_prop": 14.35714,
+              "ca_draw_id": "ax",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Ermala, Thomas",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 16.62745,
+              "al_prop": 13.4,
+              "role": "candidate"
+            },
+            {
+              "name": "Brummer, Saga",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 16.0,
+              "al_prop": 12.5625,
+              "role": "candidate"
+            },
+            {
+              "name": "Palmgren, Tobias",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 15.41818,
+              "al_prop": 11.82353,
+              "role": "candidate"
+            },
+            {
+              "name": "Karlman, Alexander",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 14.87719,
+              "al_prop": 11.16667,
+              "ca_draw_id": "aw",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Högel, Caroline",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 14.62069,
+              "al_prop": 10.57895,
+              "ca_draw_id": "aw",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Sjölund, Stefan",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 14.37288,
+              "al_prop": 10.05,
+              "ca_draw_id": "aw",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Aalto, Eira",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 14.13333,
+              "al_prop": 9.57143,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "StudO",
+          "seats": 1,
+          "value": 179,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Mickos, Viola 'Vipsu'",
+              "value": 55,
+              "seats": 1,
+              "co_prop": 282.66667,
+              "al_prop": 179.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ekelund, Mirjam Mima",
+              "value": 26,
+              "seats": 0,
+              "co_prop": 106.0,
+              "al_prop": 89.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Alperi, Camilla",
+              "value": 23,
+              "seats": 0,
+              "co_prop": 65.23077,
+              "al_prop": 59.66667,
+              "role": "candidate"
+            },
+            {
+              "name": "Thilman, Alex \"Sash\"",
+              "value": 17,
+              "seats": 0,
+              "co_prop": 49.88235,
+              "al_prop": 44.75,
+              "ca_draw_id": "bf",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Eriksson, Robert",
+              "value": 17,
+              "seats": 0,
+              "co_prop": 38.54545,
+              "al_prop": 35.8,
+              "ca_draw_id": "bf",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Perkonoja, Pauliina",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 31.40741,
+              "al_prop": 29.83333,
+              "role": "candidate"
+            },
+            {
+              "name": "Larjanko, Leo",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 27.35484,
+              "al_prop": 25.57143,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindfors, Matilda",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 23.55556,
+              "al_prop": 22.375,
+              "role": "candidate"
+            },
+            {
+              "name": "Åström, Amanda",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 21.2,
+              "al_prop": 19.88889,
+              "ca_draw_id": "be",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Westerlund, Elin",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 19.72093,
+              "al_prop": 17.9,
+              "ca_draw_id": "be",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hätinen, Annika",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 18.43478,
+              "al_prop": 16.27273,
+              "ca_draw_id": "bd",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Mickos, Daniel",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 17.66667,
+              "al_prop": 14.91667,
+              "ca_draw_id": "bd",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Laitinen, Jesper",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 16.96,
+              "al_prop": 13.76923,
+              "ca_draw_id": "bd",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Piippo, Emmi",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 16.30769,
+              "al_prop": 12.78571,
+              "role": "candidate"
+            },
+            {
+              "name": "Heimbürger, Tua",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 15.7037,
+              "al_prop": 11.93333,
+              "ca_draw_id": "bc",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Johansson, Peggy",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 15.14286,
+              "al_prop": 11.1875,
+              "ca_draw_id": "bc",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Ämnesf",
+          "seats": 1,
+          "value": 169,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Heikkilä, Emma",
+              "value": 39,
+              "seats": 1,
+              "co_prop": 212.0,
+              "al_prop": 169.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Olander, Viktor",
+              "value": 32,
+              "seats": 0,
+              "co_prop": 94.22222,
+              "al_prop": 84.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Sundström, Ester",
+              "value": 27,
+              "seats": 0,
+              "co_prop": 60.57143,
+              "al_prop": 56.33333,
+              "role": "candidate"
+            },
+            {
+              "name": "Piesala, Aapeli",
+              "value": 19,
+              "seats": 0,
+              "co_prop": 44.63158,
+              "al_prop": 42.25,
+              "role": "candidate"
+            },
+            {
+              "name": "Helaskoski, Linda",
+              "value": 15,
+              "seats": 0,
+              "co_prop": 36.86957,
+              "al_prop": 33.8,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindblom, Otto",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 29.24138,
+              "al_prop": 28.16667,
+              "role": "candidate"
+            },
+            {
+              "name": "Fellman, Aslak",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 24.94118,
+              "al_prop": 24.14286,
+              "role": "candidate"
+            },
+            {
+              "name": "Weckman, Mikaela",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 22.31579,
+              "al_prop": 21.125,
+              "ca_draw_id": "bl",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Still, Sonja",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 20.68293,
+              "al_prop": 18.77778,
+              "ca_draw_id": "bl",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Grünn, Ida",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 19.27273,
+              "al_prop": 16.9,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Edist",
+      "seats": 5,
+      "value": 734,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "Kok",
+          "seats": 4,
+          "value": 611,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Keski-Luoma, Miika",
+              "value": 59,
+              "seats": 1,
+              "co_prop": 734.0,
+              "al_prop": 611.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ahsanullah, Tarik",
+              "value": 53,
+              "seats": 1,
+              "co_prop": 367.0,
+              "al_prop": 305.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Pulliainen, Joonas",
+              "value": 35,
+              "seats": 1,
+              "co_prop": 244.66667,
+              "al_prop": 203.66667,
+              "role": "candidate"
+            },
+            {
+              "name": "Karhunen, Mikko",
+              "value": 25,
+              "seats": 1,
+              "co_prop": 183.5,
+              "al_prop": 152.75,
+              "role": "candidate"
+            },
+            {
+              "name": "Kuva, Salla",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 122.33333,
+              "al_prop": 122.2,
+              "role": "candidate"
+            },
+            {
+              "name": "Aho, Tuomas",
+              "value": 23,
+              "seats": 0,
+              "co_prop": 104.85714,
+              "al_prop": 101.83333,
+              "role": "candidate"
+            },
+            {
+              "name": "Nupponen, Konsta",
+              "value": 21,
+              "seats": 0,
+              "co_prop": 91.75,
+              "al_prop": 87.28571,
+              "ca_draw_id": "by",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Torikka, Peter",
+              "value": 21,
+              "seats": 0,
+              "co_prop": 81.55556,
+              "al_prop": 76.375,
+              "ca_draw_id": "by",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Nurmela, Jeremias",
+              "value": 21,
+              "seats": 0,
+              "co_prop": 73.4,
+              "al_prop": 67.88889,
+              "ca_draw_id": "by",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Sazonov, Daniel",
+              "value": 19,
+              "seats": 0,
+              "co_prop": 61.16667,
+              "al_prop": 61.1,
+              "ca_draw_id": "bx",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Huttunen, Hilma",
+              "value": 19,
+              "seats": 0,
+              "co_prop": 56.46154,
+              "al_prop": 55.54545,
+              "ca_draw_id": "bx",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hannuksela, Juho",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 52.42857,
+              "al_prop": 50.91667,
+              "role": "candidate"
+            },
+            {
+              "name": "Sarvela, Konsta",
+              "value": 16,
+              "seats": 0,
+              "co_prop": 48.93333,
+              "al_prop": 47.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sinisalo, Viivi",
+              "value": 15,
+              "seats": 0,
+              "co_prop": 45.875,
+              "al_prop": 43.64286,
+              "role": "candidate"
+            },
+            {
+              "name": "Kiiskinen, Maria",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 40.77778,
+              "al_prop": 40.73333,
+              "ca_draw_id": "bw",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Mankonen, Juuso",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 38.63158,
+              "al_prop": 38.1875,
+              "ca_draw_id": "bw",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Joensuu, Joakim",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 36.7,
+              "al_prop": 35.94118,
+              "ca_draw_id": "bv",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Vuornos, Henrik",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 34.95238,
+              "al_prop": 33.94444,
+              "ca_draw_id": "bv",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Botty van den Bruele, Adele",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 33.36364,
+              "al_prop": 32.15789,
+              "ca_draw_id": "bu",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hietala, Klaus",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 30.58333,
+              "al_prop": 30.55,
+              "ca_draw_id": "bu",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Niemi, Vertti",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 29.36,
+              "al_prop": 29.09524,
+              "ca_draw_id": "bu",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kähkönen, Paavo",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 28.23077,
+              "al_prop": 27.77273,
+              "ca_draw_id": "bu",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kontkin, Henri",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 27.18519,
+              "al_prop": 26.56522,
+              "ca_draw_id": "bt",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kupias, Marianna",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 26.21429,
+              "al_prop": 25.45833,
+              "ca_draw_id": "bt",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Salomaa, Olli",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 24.46667,
+              "al_prop": 24.44,
+              "ca_draw_id": "bt",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lohi, Santeri",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 23.67742,
+              "al_prop": 23.5,
+              "ca_draw_id": "bs",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hanhela, Heidi",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 22.9375,
+              "al_prop": 22.62963,
+              "ca_draw_id": "bs",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Jaatinen, Tatu",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 22.24242,
+              "al_prop": 21.82143,
+              "ca_draw_id": "br",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Laitila, Juho",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 21.58824,
+              "al_prop": 21.06897,
+              "ca_draw_id": "br",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Vatanen, Petra",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 20.38889,
+              "al_prop": 20.36667,
+              "ca_draw_id": "br",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pauna, Ella",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 19.83784,
+              "al_prop": 19.70968,
+              "ca_draw_id": "br",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tammekann, Samuel",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 19.31579,
+              "al_prop": 19.09375,
+              "ca_draw_id": "br",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäkelä, Patrik",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 18.82051,
+              "al_prop": 18.51515,
+              "ca_draw_id": "bq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Koivuniemi, Wilhelmiina",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 18.35,
+              "al_prop": 17.97059,
+              "ca_draw_id": "bq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Knaapi, Emilia",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 17.47619,
+              "al_prop": 17.45714,
+              "ca_draw_id": "bq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Meri, Otto",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 17.06977,
+              "al_prop": 16.97222,
+              "ca_draw_id": "bq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Isoaho, Atte",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 16.68182,
+              "al_prop": 16.51351,
+              "ca_draw_id": "bq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Wilskman, Juho",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 16.31111,
+              "al_prop": 16.07895,
+              "ca_draw_id": "bp",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Aine, Valtteri",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 15.95652,
+              "al_prop": 15.66667,
+              "ca_draw_id": "bp",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Perälampi, Lasse",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 15.29167,
+              "al_prop": 15.275,
+              "ca_draw_id": "bp",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Karjalainen, Topias",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 14.97959,
+              "al_prop": 14.90244,
+              "ca_draw_id": "bo",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kuutti, Janina",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 14.68,
+              "al_prop": 14.54762,
+              "ca_draw_id": "bo",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Taajamo, Joni",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 14.39216,
+              "al_prop": 14.2093,
+              "ca_draw_id": "bo",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tikkanen, Tuomas",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 14.11538,
+              "al_prop": 13.88636,
+              "ca_draw_id": "bo",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pirinen, Paula",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 13.59259,
+              "al_prop": 13.57778,
+              "ca_draw_id": "bo",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Heliste, Petteri",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 13.34545,
+              "al_prop": 13.28261,
+              "ca_draw_id": "bo",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kolinen, Laura",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 13.10714,
+              "al_prop": 13.0,
+              "ca_draw_id": "bo",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Vesinurm, Märt",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 12.87719,
+              "al_prop": 12.72917,
+              "ca_draw_id": "bo",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lehtinen, Mikko",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 12.65517,
+              "al_prop": 12.46939,
+              "ca_draw_id": "bn",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Ketola, Lenita",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 12.44068,
+              "al_prop": 12.22,
+              "ca_draw_id": "bn",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tarkiainen, Elisa",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 12.23333,
+              "al_prop": 11.98039,
+              "ca_draw_id": "bn",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Sillantaka, Nina",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 12.03279,
+              "al_prop": 11.75,
+              "ca_draw_id": "bm",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Granlund, Jenni",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 11.83871,
+              "al_prop": 11.5283,
+              "ca_draw_id": "bm",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Venäläinen, Emmi",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 11.65079,
+              "al_prop": 11.31481,
+              "ca_draw_id": "bm",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Widd, Cecilia",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 11.46875,
+              "al_prop": 11.10909,
+              "ca_draw_id": "bm",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Varama, Martin",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 11.29231,
+              "al_prop": 10.91071,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Kesk",
+          "seats": 1,
+          "value": 123,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Linnainmaa, Eeva",
+              "value": 70,
+              "seats": 1,
+              "co_prop": 146.8,
+              "al_prop": 123.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Härkönen, Hermanni (sit.)",
+              "value": 14,
+              "seats": 0,
+              "co_prop": 66.72727,
+              "al_prop": 61.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Brusila, Eerik",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 43.17647,
+              "al_prop": 41.0,
+              "ca_draw_id": "ce",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Saarinen, Salla",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 31.91304,
+              "al_prop": 30.75,
+              "ca_draw_id": "ce",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lahti, Risto",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 25.31034,
+              "al_prop": 24.6,
+              "role": "candidate"
+            },
+            {
+              "name": "Tuovinen, Väinö",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 20.97143,
+              "al_prop": 20.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Luttinen, Venla",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 17.90244,
+              "al_prop": 17.57143,
+              "role": "candidate"
+            },
+            {
+              "name": "Liimatainen, Anniina",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 15.61702,
+              "al_prop": 15.375,
+              "role": "candidate"
+            },
+            {
+              "name": "Toppi, Hanna",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 13.84906,
+              "al_prop": 13.66667,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Osak",
+      "seats": 4,
+      "value": 657,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "DGO",
+          "seats": 1,
+          "value": 218,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Pesonen, Aino",
+              "value": 72,
+              "seats": 1,
+              "co_prop": 657.0,
+              "al_prop": 218.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rahikainen, Sofia",
+              "value": 27,
+              "seats": 0,
+              "co_prop": 131.4,
+              "al_prop": 109.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vaaranta, Antti",
+              "value": 21,
+              "seats": 0,
+              "co_prop": 109.5,
+              "al_prop": 72.66667,
+              "role": "candidate"
+            },
+            {
+              "name": "Nikula, Ottilia",
+              "value": 15,
+              "seats": 0,
+              "co_prop": 59.72727,
+              "al_prop": 54.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Laine, Oona",
+              "value": 14,
+              "seats": 0,
+              "co_prop": 54.75,
+              "al_prop": 43.6,
+              "role": "candidate"
+            },
+            {
+              "name": "Ahola, Olli",
+              "value": 13,
+              "seats": 0,
+              "co_prop": 41.0625,
+              "al_prop": 36.33333,
+              "role": "candidate"
+            },
+            {
+              "name": "Koskinen, Anna-Liisa 'Ansku'",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 34.57895,
+              "al_prop": 31.14286,
+              "role": "candidate"
+            },
+            {
+              "name": "Salokoski, Janne",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 29.86364,
+              "al_prop": 27.25,
+              "ca_draw_id": "bb",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Relander, Camilla",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 25.26923,
+              "al_prop": 24.22222,
+              "ca_draw_id": "bb",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Helanne, Esa-Pekka",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 24.33333,
+              "al_prop": 21.8,
+              "role": "candidate"
+            },
+            {
+              "name": "Nurminen, Patrik",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 21.19355,
+              "al_prop": 19.81818,
+              "role": "candidate"
+            },
+            {
+              "name": "Pohjalainen, Piia",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 18.77143,
+              "al_prop": 18.16667,
+              "role": "candidate"
+            },
+            {
+              "name": "Taavitsainen, Ella",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 17.75676,
+              "al_prop": 16.76923,
+              "ca_draw_id": "ba",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Korhonen, Vesa",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 16.425,
+              "al_prop": 15.57143,
+              "ca_draw_id": "ba",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Mankinen, Eerika",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 15.64286,
+              "al_prop": 14.53333,
+              "ca_draw_id": "az",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pykälistö, Pasi",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 14.28261,
+              "al_prop": 13.625,
+              "ca_draw_id": "az",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Nurminen, Niklas",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 13.14,
+              "al_prop": 12.82353,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "EPOPPO",
+          "seats": 1,
+          "value": 130,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Korpi, Terhi",
+              "value": 29,
+              "seats": 1,
+              "co_prop": 328.5,
+              "al_prop": 130.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hasunen, Sami",
+              "value": 15,
+              "seats": 0,
+              "co_prop": 93.85714,
+              "al_prop": 65.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vähämäki, Tuuli",
+              "value": 14,
+              "seats": 0,
+              "co_prop": 50.53846,
+              "al_prop": 43.33333,
+              "ca_draw_id": "bk",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kettunen, Ilkka",
+              "value": 14,
+              "seats": 0,
+              "co_prop": 38.64706,
+              "al_prop": 32.5,
+              "ca_draw_id": "bk",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Suhonen, Emmi",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 28.56522,
+              "al_prop": 26.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rinne, Sara",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 23.46429,
+              "al_prop": 21.66667,
+              "role": "candidate"
+            },
+            {
+              "name": "Pitkänen, Katriina",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 19.90909,
+              "al_prop": 18.57143,
+              "role": "candidate"
+            },
+            {
+              "name": "Pohjanrinne, Mira",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 17.28947,
+              "al_prop": 16.25,
+              "role": "candidate"
+            },
+            {
+              "name": "Tasanko, Elisa",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 14.93182,
+              "al_prop": 14.44444,
+              "ca_draw_id": "bj",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rytky, Annukka",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 13.6875,
+              "al_prop": 13.0,
+              "ca_draw_id": "bj",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rinta-Koski, Aino",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 12.63462,
+              "al_prop": 11.81818,
+              "role": "candidate"
+            },
+            {
+              "name": "Rahkola, Iina",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 11.73214,
+              "al_prop": 10.83333,
+              "ca_draw_id": "bi",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Patronen, Pilvi",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 11.13559,
+              "al_prop": 10.0,
+              "ca_draw_id": "bi",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäkelä, Mikko",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 10.42857,
+              "al_prop": 9.28571,
+              "ca_draw_id": "bi",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Meri, Emmi",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 9.95455,
+              "al_prop": 8.66667,
+              "ca_draw_id": "bi",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Aho, Jenni",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 9.38571,
+              "al_prop": 8.125,
+              "ca_draw_id": "bi",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rahnasto, Johanna",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 9.125,
+              "al_prop": 7.64706,
+              "ca_draw_id": "bi",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kukkola, Ville",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 8.76,
+              "al_prop": 7.22222,
+              "ca_draw_id": "bh",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hunnakko, Jenni",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 8.53247,
+              "al_prop": 6.84211,
+              "ca_draw_id": "bh",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Ojala, Juha",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 8.31646,
+              "al_prop": 6.5,
+              "ca_draw_id": "bg",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Niemi, Saija",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 8.0122,
+              "al_prop": 6.19048,
+              "ca_draw_id": "bg",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Sarvola, Inka-Mari",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 7.82143,
+              "al_prop": 5.90909,
+              "ca_draw_id": "bg",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pitkänen, Ilona",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 7.55172,
+              "al_prop": 5.65217,
+              "ca_draw_id": "bg",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "ESOVSO",
+          "seats": 1,
+          "value": 129,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Karvonen, Riina",
+              "value": 39,
+              "seats": 1,
+              "co_prop": 219.0,
+              "al_prop": 129.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kelokari, Linda-Liisa",
+              "value": 31,
+              "seats": 0,
+              "co_prop": 82.125,
+              "al_prop": 64.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Ronkainen, Margareta",
+              "value": 10,
+              "seats": 0,
+              "co_prop": 46.92857,
+              "al_prop": 43.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tuokko, Kaarina",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 36.5,
+              "al_prop": 32.25,
+              "role": "candidate"
+            },
+            {
+              "name": "Huttunen, Mika",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 27.375,
+              "al_prop": 25.8,
+              "ca_draw_id": "cd",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kuusisto, Minttu",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 22.65517,
+              "al_prop": 21.5,
+              "ca_draw_id": "cd",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Salmi, Taru",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 19.32353,
+              "al_prop": 18.42857,
+              "role": "candidate"
+            },
+            {
+              "name": "Piippo, Ossi",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 16.84615,
+              "al_prop": 16.125,
+              "ca_draw_id": "cc",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hjerp, Anna",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 14.6,
+              "al_prop": 14.33333,
+              "ca_draw_id": "cc",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hamberg, Ninni",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 13.40816,
+              "al_prop": 12.9,
+              "role": "candidate"
+            },
+            {
+              "name": "Peuhkuri, Janne",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 12.39623,
+              "al_prop": 11.72727,
+              "ca_draw_id": "cb",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tuominen, Niko",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 11.52632,
+              "al_prop": 10.75,
+              "ca_draw_id": "cb",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Koskimäki, Mirkka",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 10.95,
+              "al_prop": 9.92308,
+              "ca_draw_id": "ca",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Takala, Sara",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 10.26563,
+              "al_prop": 9.21429,
+              "ca_draw_id": "ca",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Myllyneva, Meri 'Merissa'",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 9.80597,
+              "al_prop": 8.6,
+              "ca_draw_id": "ca",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rantala, Roosa",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 9.25352,
+              "al_prop": 8.0625,
+              "ca_draw_id": "ca",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Lepistö, Essi",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 9.0,
+              "al_prop": 7.58824,
+              "co_draw_id": "b",
+              "co_draw_affects_elected": false,
+              "ca_draw_id": "ca",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Vesa, Karoliina",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 8.64474,
+              "al_prop": 7.16667,
+              "ca_draw_id": "ca",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Taipale, Valtter",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 8.42308,
+              "al_prop": 6.78947,
+              "ca_draw_id": "ca",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Savolainen, Eeva-Miina",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 8.2125,
+              "al_prop": 6.45,
+              "ca_draw_id": "ca",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Salo, Anna",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 7.91566,
+              "al_prop": 6.14286,
+              "ca_draw_id": "ca",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Mikkola, Meri",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 7.72941,
+              "al_prop": 5.86364,
+              "ca_draw_id": "ca",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Karhula, Robi",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 7.46591,
+              "al_prop": 5.6087,
+              "ca_draw_id": "bz",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Koho, Samuli",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 7.38202,
+              "al_prop": 5.375,
+              "ca_draw_id": "bz",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "HOSatO",
+          "seats": 1,
+          "value": 122,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Tolonen, Topias",
+              "value": 23,
+              "seats": 1,
+              "co_prop": 164.25,
+              "al_prop": 122.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Djakonowsky, Maria",
+              "value": 22,
+              "seats": 0,
+              "co_prop": 73.0,
+              "al_prop": 61.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Matveinen, Kanerva",
+              "value": 19,
+              "seats": 0,
+              "co_prop": 43.8,
+              "al_prop": 40.66667,
+              "role": "candidate"
+            },
+            {
+              "name": "Anttila, Maria",
+              "value": 15,
+              "seats": 0,
+              "co_prop": 32.85,
+              "al_prop": 30.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Hirvonen, Tiera",
+              "value": 12,
+              "seats": 0,
+              "co_prop": 26.28,
+              "al_prop": 24.4,
+              "role": "candidate"
+            },
+            {
+              "name": "Siipola, Ossi",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 21.9,
+              "al_prop": 20.33333,
+              "role": "candidate"
+            },
+            {
+              "name": "Timonen, Ville",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 18.25,
+              "al_prop": 17.42857,
+              "ca_draw_id": "dr",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Weckström, Laura",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 16.02439,
+              "al_prop": 15.25,
+              "ca_draw_id": "dr",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Alitalo, Tero",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 13.97872,
+              "al_prop": 13.55556,
+              "ca_draw_id": "dr",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Silfverhuth, Iida",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 12.88235,
+              "al_prop": 12.2,
+              "ca_draw_id": "dq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Molin, Niko",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 11.94545,
+              "al_prop": 11.09091,
+              "ca_draw_id": "dq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäkipää, Mikko",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 11.32759,
+              "al_prop": 10.16667,
+              "ca_draw_id": "dq",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rinne, Jonna",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 10.59677,
+              "al_prop": 9.38462,
+              "ca_draw_id": "dp",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kivimäki, Anni",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 10.10769,
+              "al_prop": 8.71429,
+              "ca_draw_id": "dp",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Solehmainen, Jukka",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 9.52174,
+              "al_prop": 8.13333,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "SavO",
+          "seats": 0,
+          "value": 58,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Väkevä, Sakari 'Sakke'",
+              "value": 25,
+              "seats": 0,
+              "co_prop": 65.7,
+              "al_prop": 58.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ruuth, Riikka",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 31.28571,
+              "al_prop": 29.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kyyrönen, Vesa",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 20.53125,
+              "al_prop": 19.33333,
+              "ca_draw_id": "dw",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Nieminen, Sanni",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 15.27907,
+              "al_prop": 14.5,
+              "ca_draw_id": "dw",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kaukanen, Kari",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 12.16667,
+              "al_prop": 11.6,
+              "ca_draw_id": "dv",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Ylhäisi, Matti",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 10.77049,
+              "al_prop": 9.66667,
+              "ca_draw_id": "dv",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tanttu, Olli",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 9.66176,
+              "al_prop": 8.28571,
+              "role": "candidate"
+            },
+            {
+              "name": "Hatakka, Ilari",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 8.87838,
+              "al_prop": 7.25,
+              "ca_draw_id": "du",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Salkunen, Johanna",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 8.11111,
+              "al_prop": 6.44444,
+              "ca_draw_id": "du",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pirinen, Taneli 'tnli'",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 7.63953,
+              "al_prop": 5.8,
+              "ca_draw_id": "dt",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pajunen, Minna",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 7.3,
+              "al_prop": 5.27273,
+              "ca_draw_id": "dt",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Esselström, Juho 'Juhise'",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 7.21978,
+              "al_prop": 4.83333,
+              "ca_draw_id": "ds",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Hämäläinen, Iida",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 7.1413,
+              "al_prop": 4.46154,
+              "ca_draw_id": "ds",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSY",
+      "seats": 0,
+      "value": 121,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "OSY",
+          "seats": 0,
+          "value": 121,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Qiu, Toivo",
+              "value": 16,
+              "seats": 0,
+              "co_prop": 121.0,
+              "al_prop": 121.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Myllyniemi, Markus",
+              "value": 14,
+              "seats": 0,
+              "co_prop": 60.5,
+              "al_prop": 60.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Gustafsson, Aleksanteri",
+              "value": 12,
+              "seats": 0,
+              "co_prop": 40.33333,
+              "al_prop": 40.33333,
+              "role": "candidate"
+            },
+            {
+              "name": "Reinola, Inka",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 30.25,
+              "al_prop": 30.25,
+              "role": "candidate"
+            },
+            {
+              "name": "Mattila, Eetu",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 24.2,
+              "al_prop": 24.2,
+              "role": "candidate"
+            },
+            {
+              "name": "Loima, Maria",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 20.16667,
+              "al_prop": 20.16667,
+              "ca_draw_id": "cj",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Gebhard, Elisa",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 17.28571,
+              "al_prop": 17.28571,
+              "ca_draw_id": "cj",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Vuori, Wiking",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 15.125,
+              "al_prop": 15.125,
+              "role": "candidate"
+            },
+            {
+              "name": "Peltonen, Eemeli",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 13.44444,
+              "al_prop": 13.44444,
+              "role": "candidate"
+            },
+            {
+              "name": "Peltola, Jyri",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 12.1,
+              "al_prop": 12.1,
+              "ca_draw_id": "ci",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Salomäki, Mia",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 11.0,
+              "al_prop": 11.0,
+              "ca_draw_id": "ci",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kymäläinen, Mikko",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 10.08333,
+              "al_prop": 10.08333,
+              "ca_draw_id": "ci",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Jääskeläinen, Jesse",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 9.30769,
+              "al_prop": 9.30769,
+              "ca_draw_id": "ch",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kinnunen, Venla",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 8.64286,
+              "al_prop": 8.64286,
+              "ca_draw_id": "ch",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Luukkainen, Elli",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 8.06667,
+              "al_prop": 8.06667,
+              "ca_draw_id": "ch",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Behnke, Hanno",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 7.5625,
+              "al_prop": 7.5625,
+              "ca_draw_id": "ch",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tyyskä, Saija",
+              "value": 3,
+              "seats": 0,
+              "co_prop": 7.11765,
+              "al_prop": 7.11765,
+              "ca_draw_id": "ch",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäkynen, Matias",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 6.72222,
+              "al_prop": 6.72222,
+              "ca_draw_id": "cg",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kovanen, Emilia",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 6.36842,
+              "al_prop": 6.36842,
+              "ca_draw_id": "cg",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Immonen, Erik",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 6.05,
+              "al_prop": 6.05,
+              "ca_draw_id": "cf",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Rissanen, Simo",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 5.7619,
+              "al_prop": 5.7619,
+              "ca_draw_id": "cf",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Pitkänen, Tuulia",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 5.5,
+              "al_prop": 5.5,
+              "ca_draw_id": "cf",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Eronen, Tuukka",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 5.26087,
+              "al_prop": 5.26087,
+              "ca_draw_id": "cf",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Ruonaniemi, Silja",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 5.04167,
+              "al_prop": 5.04167,
+              "ca_draw_id": "cf",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Suontakanen, Teppo",
+              "value": 1,
+              "seats": 0,
+              "co_prop": 4.84,
+              "al_prop": 4.84,
+              "ca_draw_id": "cf",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Koreneff, Atte",
+              "value": 0,
+              "seats": 0,
+              "co_prop": 4.65385,
+              "al_prop": 4.65385,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS",
+      "seats": 0,
+      "value": 98,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "PS",
+          "seats": 0,
+          "value": 98,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Saramo, Nico Anton",
+              "value": 29,
+              "seats": 0,
+              "co_prop": 98.0,
+              "al_prop": 98.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lahtinen, Teemu",
+              "value": 24,
+              "seats": 0,
+              "co_prop": 49.0,
+              "al_prop": 49.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ollikainen, Jasmina",
+              "value": 23,
+              "seats": 0,
+              "co_prop": 32.66667,
+              "al_prop": 32.66667,
+              "role": "candidate"
+            },
+            {
+              "name": "Kulmala, Roger",
+              "value": 8,
+              "seats": 0,
+              "co_prop": 24.5,
+              "al_prop": 24.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Myllymäki, Tapio",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 19.6,
+              "al_prop": 19.6,
+              "ca_draw_id": "ck",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Kinnunen, Asseri",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 16.33333,
+              "al_prop": 16.33333,
+              "ca_draw_id": "ck",
+              "ca_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Tahvanainen, Lauri",
+              "value": 4,
+              "seats": 0,
+              "co_prop": 14.0,
+              "al_prop": 14.0,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VP",
+      "seats": 0,
+      "value": 38,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "ToniAh",
+          "seats": 0,
+          "value": 11,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Ahva, Toni",
+              "value": 11,
+              "seats": 0,
+              "co_prop": 12.66667,
+              "al_prop": 11.0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "KD",
+          "seats": 0,
+          "value": 27,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Sarasmaa, Aleksi",
+              "value": 18,
+              "seats": 0,
+              "co_prop": 38.0,
+              "al_prop": 27.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kuhno, Maisa",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 19.0,
+              "al_prop": 13.5,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PIR",
+      "seats": 0,
+      "value": 27,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "PIR",
+          "seats": 0,
+          "value": 27,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Kantola, Roni",
+              "value": 9,
+              "seats": 0,
+              "co_prop": 27.0,
+              "al_prop": 27.0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hämäläinen, Veli-Pekka",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 13.5,
+              "al_prop": 13.5,
+              "role": "candidate"
+            },
+            {
+              "name": "Kiiskinen, Merja",
+              "value": 6,
+              "seats": 0,
+              "co_prop": 9.0,
+              "al_prop": 9.0,
+              "co_draw_id": "b",
+              "co_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Immonen, Satu",
+              "value": 5,
+              "seats": 0,
+              "co_prop": 6.75,
+              "al_prop": 6.75,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LIB",
+      "seats": 0,
+      "value": 9,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "LIB",
+          "seats": 0,
+          "value": 9,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Sjöström, Kim",
+              "value": 7,
+              "seats": 0,
+              "co_prop": 9.0,
+              "al_prop": 9.0,
+              "co_draw_id": "b",
+              "co_draw_affects_elected": false,
+              "role": "candidate"
+            },
+            {
+              "name": "Andersson, Timo",
+              "value": 2,
+              "seats": 0,
+              "co_prop": 4.5,
+              "al_prop": 4.5,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
