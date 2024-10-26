@@ -2,11 +2,13 @@ import React, { useState } from 'react'
 import ElectionData from './Components/ElectionData.js'
 import MenuButtons from './Components/MenuButtons.js'
 import ViewSingleCandidate from './Components/ViewSingleCandidate.js'
-import TopCandidates from './Components/TopCandidates.js'
+import TopCandidates from './Components/TopCandidates'
 import FilterForm from './Components/FilterForm.js'
 import yearlyData from './data/yearlyData.json'
 import candidateData from './data/byCandidate.json'
-import { YEARS } from './dataUtils/years.js'
+import { YEARS } from './dataUtils/years'
+
+export type TCandidate = (typeof candidateData)['Aino Ikävalko']
 
 function App() {
   const [currentYear, setCurrentYear] = useState(2020)

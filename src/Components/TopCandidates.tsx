@@ -5,6 +5,23 @@ import { Badge } from 'reactstrap'
 import { GROUP_MAPPINGS } from '../data/groupMappings'
 import { YEARS } from '../dataUtils/years'
 import styled from 'styled-components'
+import { TCandidate } from '../App'
+
+type TCandidateProps = {
+  candidates: TCandidate[]
+  setting: 'votes' | 'average' | 'year'
+  filter: string
+  setCurrentCandidate: (candidate: string) => void
+  selectedYear: number
+}
+
+type TDisplayTopCandidateProps = {
+  candidate: TCandidate
+  index: number
+  setting: 'votes' | 'average' | 'year'
+  setCurrentCandidate: (candidate: string) => void
+  selectedYear: number
+}
 
 const StyledBadge = styled(Badge)`
   background-color: ${(props) => props.color};
@@ -23,10 +40,16 @@ const Candidate = styled.span`
   gap: 0.5rem;
 `
 
-const getYear = (candidate, year) => {
+const getYear = (candidate: TCandidate, year: number) => {
   return candidate.years.find((y) => y.year === year)
 }
-const DisplayTopCandidate = ({ candidate, index, setCurrentCandidate, setting, selectedYear }) => {
+const DisplayTopCandidate = ({
+  candidate,
+  index,
+  setCurrentCandidate,
+  setting,
+  selectedYear,
+}: TDisplayTopCandidateProps) => {
   var groups = Array.from(
     new Set(Object.values(candidate.years).map((year) => year.group.toLowerCase())),
   )
@@ -78,7 +101,7 @@ const DisplayTopCandidates = ({
   filter,
   setCurrentCandidate,
   selectedYear,
-}) => {
+}: TCandidateProps) => {
   return (
     <div>
       {candidates.map((candidate, index) =>
@@ -105,11 +128,12 @@ const DisplayTopCandidates = ({
 }
 
 const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }) => {
-  const [setting, setSetting] = useState('votes')
-  const [selectedYear, setSelectedYear] = useState(2024)
   const settings = ['votes', 'average', 'year']
 
-  const candidateList = Object.values(candidateData)
+  const [setting, setSetting] = useState<'votes' | 'average' | 'year'>('votes')
+  const [selectedYear, setSelectedYear] = useState(2024)
+
+  const candidateList: TCandidate[] = Object.values(candidateData)
 
   if (candidateList.length === 0) return ''
 
@@ -117,7 +141,7 @@ const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }
     return b.totalVotes - a.totalVotes
   }
 
-  function compareByYear(year) {
+  function compareByYear(year: number) {
     return function compare(a, b) {
       return getYear(b, year).votes - getYear(a, year).votes
     }
