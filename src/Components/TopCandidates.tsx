@@ -99,6 +99,18 @@ const DisplayTopCandidate = ({
   );
 };
 
+const filterCandidate =
+  (filter: string, year?: number) => (candidate: TCandidate) => {
+    return (
+      (
+        JSON.stringify(!!year ? candidate.years[year] : candidate) +
+        candidate.name
+      )
+        .toLowerCase()
+        .includes(filter) || candidate.name.toLowerCase().includes(filter)
+    );
+  };
+
 const DisplayTopCandidates = ({
   candidates,
   setting,
@@ -106,28 +118,21 @@ const DisplayTopCandidates = ({
   setCurrentCandidate,
   selectedYear,
 }: TCandidateProps) => {
+  const filteredCandidates = candidates.filter(
+    filterCandidate(filter, setting === "year" ? selectedYear : undefined),
+  );
   return (
     <div>
-      {candidates.map((candidate, index) =>
-        (
-          JSON.stringify(
-            setting === "year" ? candidate.years[selectedYear] : candidate,
-          ) + candidate.name
-        )
-          .toLowerCase()
-          .includes(filter) ? (
-          <DisplayTopCandidate
-            candidate={candidate}
-            index={index}
-            setCurrentCandidate={setCurrentCandidate}
-            setting={setting}
-            key={candidate.name}
-            selectedYear={selectedYear}
-          />
-        ) : (
-          ""
-        ),
-      )}
+      {filteredCandidates.map((candidate, index) => (
+        <DisplayTopCandidate
+          candidate={candidate}
+          index={index}
+          setCurrentCandidate={setCurrentCandidate}
+          setting={setting}
+          key={candidate.name}
+          selectedYear={selectedYear}
+        />
+      ))}
     </div>
   );
 };
