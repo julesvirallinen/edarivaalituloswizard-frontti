@@ -5,26 +5,14 @@ import MenuButtons from './Components/MenuButtons'
 import ViewSingleCandidate from './Components/ViewSingleCandidate'
 import TopCandidates from './Components/TopCandidates'
 import FilterForm from './Components/FilterForm'
+import yearlyData from './data/yearlyData.json'
+import candidateData from './data/byCandidate.json'
 
 function App() {
-  const [yearlyData, setYearlyData] = useState({})
   const [currentYear, setCurrentYear] = useState(2020)
-  const [candidateData, setCandidateData] = useState({})
   const [currentCandidate, setCurrentCandidate] = useState('')
   const [currentPage, setCurrentPage] = useState('top candidates')
   const [filter, setFilter] = useState('')
-
-  useEffect(() => {
-    axios.get('/api/sample').then(response => {
-      setYearlyData(response.data)
-    })
-  }, [])
-
-  useEffect(() => {
-    axios.get('/api/candidate').then(response => {
-      setCandidateData(response.data)
-    })
-  }, [])
 
   const menuOptions = ['yearly', 'top candidates']
 
@@ -42,11 +30,7 @@ function App() {
   if (currentPage === 'yearly') {
     return (
       <div>
-        <MenuButtons
-          setCurrent={setCurrentPage}
-          current={currentPage}
-          options={menuOptions}
-        />
+        <MenuButtons setCurrent={setCurrentPage} current={currentPage} options={menuOptions} />
         <MenuButtons
           setCurrent={setCurrentYear}
           current={currentYear}
@@ -66,11 +50,7 @@ function App() {
   if (currentPage === 'top candidates') {
     return (
       <div>
-        <MenuButtons
-          setCurrent={setCurrentPage}
-          current={currentPage}
-          options={menuOptions}
-        />
+        <MenuButtons setCurrent={setCurrentPage} current={currentPage} options={menuOptions} />
 
         <TopCandidates
           candidateData={candidateData}

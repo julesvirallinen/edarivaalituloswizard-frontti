@@ -4,15 +4,15 @@ const path = require('path')
 const createCandidateJson = () => {
   const fileList = getFiles('rawData')
   var candidateList = {}
-  fileList.forEach(file => {
+  fileList.forEach((file) => {
     let rawdata = fs.readFileSync(file)
     let data = JSON.parse(rawdata)
     const year = data.year
-    data.children.forEach(coalition => {
+    data.children.forEach((coalition) => {
       const coalitionName = coalition.name
-      coalition.children.forEach(group => {
+      coalition.children.forEach((group) => {
         const groupName = group.name
-        group.children.forEach(candidate => {
+        group.children.forEach((candidate) => {
           candidateObject = {
             votes: candidate.value,
             elected: candidate.seats,
@@ -20,25 +20,24 @@ const createCandidateJson = () => {
             al_prop: 1461,
             coalition: coalitionName,
             group: groupName,
-            year: year
+            year: year,
           }
           var name = candidate.name.replace(/\s/g, '')
           if (name.includes("'")) {
             const nickname = name.split("'")[1].split("'")[0]
             name = name.split("'")[0]
-            candidateObject["nickname"] = nickname
+            candidateObject['nickname'] = nickname
           }
 
-          const nameParts = name.split(",")
+          const nameParts = name.split(',')
           name = `${nameParts[1]} ${nameParts[0]}`
-
 
           if (candidateList[name] === undefined) {
             candidateList[name] = {
               totalVotes: 0,
               times: 0,
               years: [],
-              name: name
+              name: name,
             }
           }
 
@@ -49,19 +48,23 @@ const createCandidateJson = () => {
       })
     })
   })
-  fs.writeFile('byCandidate.json', JSON.stringify(candidateList), err => {
-    if (err) {
-      console.error(err)
-      return
+  fs.writeFile(
+    'data/byCandidate.json',
+    JSON.stringify(candidateList),
+    (err) => {
+      if (err) {
+        console.error(err)
+        return
+      }
+      console.log('File has been created')
     }
-    console.log('File has been created')
-  })
+  )
 }
 
 const createListList = () => {
   const fileList = getFiles('rawData')
   var dataObject = {}
-  fileList.forEach(file => {
+  fileList.forEach((file) => {
     const name = file.split('/')[1].split('.')[0]
     let rawdata = fs.readFileSync(file)
     let data = JSON.parse(rawdata)
@@ -69,7 +72,7 @@ const createListList = () => {
     dataObject[name] = data
   })
 
-  fs.writeFile('./yearlyData.json', JSON.stringify(dataObject), err => {
+  fs.writeFile('./yearlyData.json', JSON.stringify(dataObject), (err) => {
     if (err) {
       console.error(err)
       return
