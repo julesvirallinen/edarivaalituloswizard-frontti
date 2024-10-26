@@ -5,7 +5,7 @@ import { Badge } from 'reactstrap'
 import { GROUP_MAPPINGS } from '../data/groupMappings'
 import { YEARS } from '../dataUtils/years'
 import styled from 'styled-components'
-import { TCandidate } from '../App'
+import { TCandidate } from '../types/candidate'
 
 type TCandidateProps = {
   candidates: TCandidate[]

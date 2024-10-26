@@ -1,7 +1,13 @@
 import React from 'react'
 import { Form, Input } from 'reactstrap'
 
-const FilterForm = ({ filter, setFilter }) => {
+const FilterForm = ({
+  filter,
+  setFilter,
+}: {
+  filter: string
+  setFilter: (filter: string) => void
+}) => {
   const handleDataChange = (event) => {
     setFilter(event.target.value.toLowerCase())
   }

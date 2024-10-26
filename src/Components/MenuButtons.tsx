@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { Dispatch, SetStateAction } from 'react'
 
-const MenuButtons = ({ setCurrent, current, options }) => {
+type MenuButtonsProps<T = unknown> = {
+  setCurrent: Dispatch<SetStateAction<any>>
+  current: any
+  options: any[]
+}
+
+const MenuButtons = ({ setCurrent, current, options }: MenuButtonsProps) => {
   const yearStyle = {
     color: 'gray',
   }

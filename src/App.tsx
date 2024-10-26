@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
 import ElectionData from './Components/ElectionData.js'
-import MenuButtons from './Components/MenuButtons.js'
-import ViewSingleCandidate from './Components/ViewSingleCandidate.js'
+import MenuButtons from './Components/MenuButtons'
+import ViewSingleCandidate from './Components/ViewSingleCandidate'
 import TopCandidates from './Components/TopCandidates'
-import FilterForm from './Components/FilterForm.js'
+import FilterForm from './Components/FilterForm'
 import yearlyData from './data/yearlyData.json'
 import candidateData from './data/byCandidate.json'
 import { YEARS } from './dataUtils/years'
 
-export type TCandidate = (typeof candidateData)['Aino Ikävalko']
+type TPage = 'yearly' | 'top candidates'
 
 function App() {
   const [currentYear, setCurrentYear] = useState(2020)
   const [currentCandidate, setCurrentCandidate] = useState('')
-  const [currentPage, setCurrentPage] = useState('top candidates')
+  const [currentPage, setCurrentPage] = useState<TPage>('top candidates')
   const [filter, setFilter] = useState('')
 
   const menuOptions = ['yearly', 'top candidates']
