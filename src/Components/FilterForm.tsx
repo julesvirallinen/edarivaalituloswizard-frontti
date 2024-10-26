@@ -1,20 +1,20 @@
-import React from 'react'
-import { Form, Input } from 'reactstrap'
+import React from "react";
+import { Form, Input } from "reactstrap";
 
 const FilterForm = ({
   filter,
   setFilter,
 }: {
-  filter: string
-  setFilter: (filter: string) => void
+  filter: string;
+  setFilter: (filter: string) => void;
 }) => {
   const handleDataChange = (event) => {
-    setFilter(event.target.value.toLowerCase())
-  }
+    setFilter(event.target.value.toLowerCase());
+  };
 
   const InputField = {
-    marginBottom: '10px',
-  }
+    marginBottom: "10px",
+  };
 
   return (
     <Form>
@@ -26,7 +26,7 @@ const FilterForm = ({
         style={InputField}
       />
     </Form>
-  )
-}
+  );
+};
 
-export default FilterForm
+export default FilterForm;

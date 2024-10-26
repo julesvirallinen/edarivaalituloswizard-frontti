@@ -1,24 +1,24 @@
-import React, { useState } from 'react'
-import ElectionData from './Components/ElectionData.js'
-import MenuButtons from './Components/MenuButtons'
-import ViewSingleCandidate from './Components/ViewSingleCandidate'
-import TopCandidates from './Components/TopCandidates'
-import FilterForm from './Components/FilterForm'
-import yearlyData from './data/yearlyData.json'
-import candidateData from './data/byCandidate.json'
-import { YEARS } from './dataUtils/years'
+import React, { useState } from "react";
+import ElectionData from "./Components/ElectionData.js";
+import MenuButtons from "./Components/MenuButtons";
+import ViewSingleCandidate from "./Components/ViewSingleCandidate";
+import TopCandidates from "./Components/TopCandidates";
+import FilterForm from "./Components/FilterForm";
+import yearlyData from "./data/yearlyData.json";
+import candidateData from "./data/byCandidate.json";
+import { YEARS } from "./dataUtils/years";
 
-type TPage = 'yearly' | 'top candidates'
+type TPage = "yearly" | "top candidates";
 
 function App() {
-  const [currentYear, setCurrentYear] = useState(2020)
-  const [currentCandidate, setCurrentCandidate] = useState('')
-  const [currentPage, setCurrentPage] = useState<TPage>('top candidates')
-  const [filter, setFilter] = useState('')
+  const [currentYear, setCurrentYear] = useState(2020);
+  const [currentCandidate, setCurrentCandidate] = useState("");
+  const [currentPage, setCurrentPage] = useState<TPage>("top candidates");
+  const [filter, setFilter] = useState("");
 
-  const menuOptions = ['yearly', 'top candidates']
+  const menuOptions = ["yearly", "top candidates"];
 
-  if (currentCandidate !== '') {
+  if (currentCandidate !== "") {
     return (
       <div>
         <ViewSingleCandidate
@@ -27,13 +27,21 @@ function App() {
           setCurrentCandidate={setCurrentCandidate}
         />
       </div>
-    )
+    );
   }
-  if (currentPage === 'yearly') {
+  if (currentPage === "yearly") {
     return (
       <div>
-        <MenuButtons setCurrent={setCurrentPage} current={currentPage} options={menuOptions} />
-        <MenuButtons setCurrent={setCurrentYear} current={currentYear} options={YEARS} />
+        <MenuButtons
+          setCurrent={setCurrentPage}
+          current={currentPage}
+          options={menuOptions}
+        />
+        <MenuButtons
+          setCurrent={setCurrentYear}
+          current={currentYear}
+          options={YEARS}
+        />
         <FilterForm filter={filter} setFilter={setFilter} />
 
         <ElectionData
@@ -42,13 +50,17 @@ function App() {
           filter={filter}
         />
       </div>
-    )
+    );
   }
 
-  if (currentPage === 'top candidates') {
+  if (currentPage === "top candidates") {
     return (
       <div>
-        <MenuButtons setCurrent={setCurrentPage} current={currentPage} options={menuOptions} />
+        <MenuButtons
+          setCurrent={setCurrentPage}
+          current={currentPage}
+          options={menuOptions}
+        />
 
         <TopCandidates
           candidateData={candidateData}
@@ -57,8 +69,8 @@ function App() {
           setFilter={setFilter}
         />
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;

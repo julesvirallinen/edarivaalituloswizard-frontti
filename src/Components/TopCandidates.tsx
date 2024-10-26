@@ -1,48 +1,49 @@
-import React, { useState } from 'react'
-import MenuButtons from './MenuButtons'
-import FilterForm from './FilterForm'
-import { Badge } from 'reactstrap'
-import { GROUP_MAPPINGS } from '../data/groupMappings'
-import { YEARS } from '../dataUtils/years'
-import styled from 'styled-components'
-import { TCandidate } from '../types/candidate'
+import React, { useState } from "react";
+import MenuButtons from "./MenuButtons";
+import FilterForm from "./FilterForm";
+import { Badge } from "reactstrap";
+import { GROUP_MAPPINGS } from "../data/groupMappings";
+import { YEARS } from "../dataUtils/years";
+import styled from "styled-components";
+import { TCandidate } from "../types/candidate";
 
 type TCandidateProps = {
-  candidates: TCandidate[]
-  setting: 'votes' | 'average' | 'year'
-  filter: string
-  setCurrentCandidate: (candidate: string) => void
-  selectedYear: number
-}
+  candidates: TCandidate[];
+  setting: "votes" | "average" | "year";
+  filter: string;
+  setCurrentCandidate: (candidate: string) => void;
+  selectedYear: number;
+};
 
 type TDisplayTopCandidateProps = {
-  candidate: TCandidate
-  index: number
-  setting: 'votes' | 'average' | 'year'
-  setCurrentCandidate: (candidate: string) => void
-  selectedYear: number
-}
+  candidate: TCandidate;
+  index: number;
+  setting: "votes" | "average" | "year";
+  setCurrentCandidate: (candidate: string) => void;
+  selectedYear: number;
+};
 
 const StyledBadge = styled(Badge)`
   background-color: ${(props) => props.color};
-`
+`;
 
 const GroupBadge = ({ groupName }) => {
   return (
     <>
       <StyledBadge color={GROUP_MAPPINGS[groupName]}>{groupName}</StyledBadge>
     </>
-  )
-}
+  );
+};
 
 const Candidate = styled.span`
   display: flex;
   gap: 0.5rem;
-`
+`;
 
 const getYear = (candidate: TCandidate, year: number) => {
-  return candidate.years.find((y) => y.year === year)
-}
+  return candidate.years.find((y) => y.year === year);
+};
+
 const DisplayTopCandidate = ({
   candidate,
   index,
@@ -51,21 +52,24 @@ const DisplayTopCandidate = ({
   selectedYear,
 }: TDisplayTopCandidateProps) => {
   var groups = Array.from(
-    new Set(Object.values(candidate.years).map((year) => year.group.toLowerCase())),
-  )
+    new Set(
+      Object.values(candidate.years).map((year) => year.group.toLowerCase()),
+    ),
+  );
 
-  if (setting === 'year') groups = [getYear(candidate, selectedYear).group.toLowerCase()]
+  if (setting === "year")
+    groups = [getYear(candidate, selectedYear).group.toLowerCase()];
 
   const groupBadges = groups.map((group) => (
     <GroupBadge groupName={group} key={group + candidate.name} />
-  ))
+  ));
 
   const basicData = (
     <>
       {index + 1}. {candidate.name}
       {groupBadges}
     </>
-  )
+  );
 
   return (
     <div>
@@ -75,13 +79,13 @@ const DisplayTopCandidate = ({
         onClick={() => setCurrentCandidate(candidate.name)}
       >
         {basicData}
-        {setting === 'votes' ? (
+        {setting === "votes" ? (
           <span>
             <b>{candidate.totalVotes}</b> <i>{candidate.times}x</i>
           </span>
-        ) : setting === 'average' ? (
+        ) : setting === "average" ? (
           <span>
-            {candidate.totalVotes}/<i>{candidate.times}</i> ={' '}
+            {candidate.totalVotes}/<i>{candidate.times}</i> ={" "}
             <b>{Math.round(candidate.totalVotes / candidate.times)}</b>
           </span>
         ) : (
@@ -92,8 +96,8 @@ const DisplayTopCandidate = ({
         <br />
       </Candidate>
     </div>
-  )
-}
+  );
+};
 
 const DisplayTopCandidates = ({
   candidates,
@@ -106,8 +110,9 @@ const DisplayTopCandidates = ({
     <div>
       {candidates.map((candidate, index) =>
         (
-          JSON.stringify(setting === 'year' ? candidate.years[selectedYear] : candidate) +
-          candidate.name
+          JSON.stringify(
+            setting === "year" ? candidate.years[selectedYear] : candidate,
+          ) + candidate.name
         )
           .toLowerCase()
           .includes(filter) ? (
@@ -120,53 +125,58 @@ const DisplayTopCandidates = ({
             selectedYear={selectedYear}
           />
         ) : (
-          ''
+          ""
         ),
       )}
     </div>
-  )
-}
+  );
+};
 
-const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }) => {
-  const settings = ['votes', 'average', 'year']
+const TopCandidates = ({
+  candidateData,
+  setCurrentCandidate,
+  filter,
+  setFilter,
+}) => {
+  const settings = ["votes", "average", "year"];
 
-  const [setting, setSetting] = useState<'votes' | 'average' | 'year'>('votes')
-  const [selectedYear, setSelectedYear] = useState(2024)
+  const [setting, setSetting] = useState<"votes" | "average" | "year">("votes");
+  const [selectedYear, setSelectedYear] = useState(2024);
 
-  const candidateList: TCandidate[] = Object.values(candidateData)
+  const candidateList: TCandidate[] = Object.values(candidateData);
 
-  if (candidateList.length === 0) return ''
+  if (candidateList.length === 0) return "";
 
   function compare(a, b) {
-    return b.totalVotes - a.totalVotes
+    return b.totalVotes - a.totalVotes;
   }
 
   function compareByYear(year: number) {
     return function compare(a, b) {
-      return getYear(b, year).votes - getYear(a, year).votes
-    }
+      return getYear(b, year).votes - getYear(a, year).votes;
+    };
   }
 
   function compareAverage(a, b) {
-    return b.totalVotes / b.times - a.totalVotes / a.times
+    return b.totalVotes / b.times - a.totalVotes / a.times;
   }
-  var sortedCandidateList = [...candidateList]
+  var sortedCandidateList = [...candidateList];
 
-  if (setting === 'votes') {
-    sortedCandidateList = sortedCandidateList.sort(compare).slice(0, 600)
-  } else if (setting === 'average') {
+  if (setting === "votes") {
+    sortedCandidateList = sortedCandidateList.sort(compare).slice(0, 600);
+  } else if (setting === "average") {
     sortedCandidateList = candidateList
       .sort(compareAverage)
       .filter((c) => c.times > 1)
-      .slice(0, 300)
-  } else if (setting === 'year') {
+      .slice(0, 300);
+  } else if (setting === "year") {
     sortedCandidateList = sortedCandidateList.filter((c) => {
-      const years = c.years.map((y) => y.year)
-      return years.includes(selectedYear)
-    })
-    sortedCandidateList = sortedCandidateList.sort(compareByYear(selectedYear))
+      const years = c.years.map((y) => y.year);
+      return years.includes(selectedYear);
+    });
+    sortedCandidateList = sortedCandidateList.sort(compareByYear(selectedYear));
   }
-  const yearStyle = { color: 'gray' }
+  const yearStyle = { color: "gray" };
   const yearSelectionButtons = (
     <p>
       View top candidates for year:
@@ -180,19 +190,23 @@ const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }
         </b>
       ))}
     </p>
-  )
+  );
 
   const menuAndHeader = (
     <>
-      <MenuButtons current={setting} setCurrent={setSetting} options={settings} />
+      <MenuButtons
+        current={setting}
+        setCurrent={setSetting}
+        options={settings}
+      />
       <FilterForm filter={filter} setFilter={setFilter} />
     </>
-  )
+  );
 
   return (
     <div>
       {menuAndHeader}
-      {setting === 'year' ? yearSelectionButtons : ''}
+      {setting === "year" ? yearSelectionButtons : ""}
       <DisplayTopCandidates
         candidates={sortedCandidateList}
         setting={setting}
@@ -201,7 +215,7 @@ const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }
         selectedYear={selectedYear}
       />
     </div>
-  )
-}
+  );
+};
 
-export default TopCandidates
+export default TopCandidates;

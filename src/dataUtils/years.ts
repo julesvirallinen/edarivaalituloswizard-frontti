@@ -1,3 +1,3 @@
-import yearlyData from '../data/yearlyData.json'
+import yearlyData from "../data/yearlyData.json";
 
-export const YEARS = Object.keys(yearlyData).map((year) => parseInt(year))
+export const YEARS = Object.keys(yearlyData).map((year) => parseInt(year));

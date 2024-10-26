@@ -1,15 +1,15 @@
-import React, { Dispatch, SetStateAction } from 'react'
+import React, { Dispatch, SetStateAction } from "react";
 
 type MenuButtonsProps<T = unknown> = {
-  setCurrent: Dispatch<SetStateAction<any>>
-  current: any
-  options: any[]
-}
+  setCurrent: Dispatch<SetStateAction<any>>;
+  current: any;
+  options: any[];
+};
 
 const MenuButtons = ({ setCurrent, current, options }: MenuButtonsProps) => {
   const yearStyle = {
-    color: 'gray',
-  }
+    color: "gray",
+  };
 
   return (
     <h1>
@@ -23,7 +23,7 @@ const MenuButtons = ({ setCurrent, current, options }: MenuButtonsProps) => {
         </span>
       ))}
     </h1>
-  )
-}
+  );
+};
 
-export default MenuButtons
+export default MenuButtons;

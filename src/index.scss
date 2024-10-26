@@ -3,27 +3,26 @@ body {
 }
 
 .candidate:hover {
-  color:darkslategray;
+  color: darkslategray;
   cursor: default;
 }
 
-
-@-ms-viewport{
+@-ms-viewport {
   width: device-width;
 }
 
-.card-header{
-  display:flex
+.card-header {
+  display: flex;
 }
 
-.statBox{
+.statBox {
   display: inline-block;
   margin-left: 20px;
 }
 
 @media screen and (min-width: 1000px) {
-  body{
-    padding-left:300px;
-    padding-right:300px
+  body {
+    padding-left: 300px;
+    padding-right: 300px;
   }
 }

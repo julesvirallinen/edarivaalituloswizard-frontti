@@ -1,24 +1,27 @@
-import React, { useState } from 'react'
-import { Collapse, Badge, CardBody, Card, CardHeader } from 'reactstrap'
+import React, { useState } from "react";
+import { Collapse, Badge, CardBody, Card, CardHeader } from "reactstrap";
 
 const ViewCandidate = ({ candidate, setCurrentCandidate }) => {
-  var candidateName = candidate.name.replace(/\s/g, '')
+  var candidateName = candidate.name.replace(/\s/g, "");
   //   var nickname = ''
   if (candidateName.includes("'")) {
     // nickname = candidateName.split("'")[1].split("'")[0]
-    candidateName = candidateName.split("'")[0]
+    candidateName = candidateName.split("'")[0];
   }
-  const nameParts = candidateName.split(',')
-  candidateName = `${nameParts[1]} ${nameParts[0]}`
+  const nameParts = candidateName.split(",");
+  candidateName = `${nameParts[1]} ${nameParts[0]}`;
 
   return (
     <div>
-      <span className="candidate" onClick={() => setCurrentCandidate(candidateName)}>
-        {candidateName} / {candidate.value} {candidate.seats ? '/ ★' : ''}
+      <span
+        className="candidate"
+        onClick={() => setCurrentCandidate(candidateName)}
+      >
+        {candidateName} / {candidate.value} {candidate.seats ? "/ ★" : ""}
       </span>
     </div>
-  )
-}
+  );
+};
 
 const InfoCard = ({ votes, candidates }) => {
   return (
@@ -30,23 +33,23 @@ const InfoCard = ({ votes, candidates }) => {
             👤:<Badge color="default">{candidates}</Badge>
           </span>
         ) : (
-          ''
+          ""
         )}
       </span>
     </div>
-  )
-}
+  );
+};
 
 const ViewGroup = ({ group, setCurrentCandidate, filter }) => {
-  const [isOpen, setIsOpen] = useState(true)
-  const toggle = () => setIsOpen(!isOpen)
+  const [isOpen, setIsOpen] = useState(true);
+  const toggle = () => setIsOpen(!isOpen);
 
   const divStyle = {
-    marginTop: '5px',
+    marginTop: "5px",
     // padding: '5px'
-  }
+  };
 
-  const candidateCount = group.children.length
+  const candidateCount = group.children.length;
 
   return (
     <div style={divStyle}>
@@ -67,27 +70,29 @@ const ViewGroup = ({ group, setCurrentCandidate, filter }) => {
                   setCurrentCandidate={setCurrentCandidate}
                 />
               ) : (
-                ''
+                ""
               ),
             )}
           </CardBody>
         </Collapse>
       </Card>
     </div>
-  )
-}
+  );
+};
 
 const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(true);
 
-  const toggle = () => setIsOpen(!isOpen)
+  const toggle = () => setIsOpen(!isOpen);
 
-  var candidateCount = 0
-  coalition.children.forEach((child) => (candidateCount += child.children.length))
+  var candidateCount = 0;
+  coalition.children.forEach(
+    (child) => (candidateCount += child.children.length),
+  );
 
   const divStyle = {
-    marginTop: '10px',
-  }
+    marginTop: "10px",
+  };
 
   return (
     <div style={divStyle}>
@@ -106,21 +111,23 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
                   group={group}
                   key={group.name}
                   setCurrentCandidate={setCurrentCandidate}
-                  filter={group.name.toLowerCase().includes(filter) ? '' : filter}
+                  filter={
+                    group.name.toLowerCase().includes(filter) ? "" : filter
+                  }
                 />
               ) : (
-                ''
+                ""
               ),
             )}
           </CardBody>
         </Collapse>
       </Card>
     </div>
-  )
-}
+  );
+};
 
 const ElectionData = ({ candidateData, setCurrentCandidate, filter }) => {
-  if (candidateData === undefined) return ''
+  if (candidateData === undefined) return "";
 
   return (
     <>
@@ -130,14 +137,14 @@ const ElectionData = ({ candidateData, setCurrentCandidate, filter }) => {
             coalition={coalition}
             key={coalition.name}
             setCurrentCandidate={setCurrentCandidate}
-            filter={coalition.name.toLowerCase().includes(filter) ? '' : filter}
+            filter={coalition.name.toLowerCase().includes(filter) ? "" : filter}
           />
         ) : (
-          ''
+          ""
         ),
       )}
     </>
-  )
-}
+  );
+};
 
-export default ElectionData
+export default ElectionData;
