@@ -1,6 +1,6 @@
-import React, { Dispatch, SetStateAction } from "react";
+import { Dispatch, SetStateAction } from "react";
 
-type MenuButtonsProps<T = unknown> = {
+type MenuButtonsProps = {
   setCurrent: Dispatch<SetStateAction<any>>;
   current: any;
   options: any[];
