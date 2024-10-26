@@ -18,6 +18,11 @@ const GroupBadge = ({ groupName }) => {
   )
 }
 
+const Candidate = styled.span`
+  display: flex;
+  gap: 0.5rem;
+`
+
 const getYear = (candidate, year) => {
   return candidate.years.find((y) => y.year === year)
 }
@@ -41,7 +46,7 @@ const DisplayTopCandidate = ({ candidate, index, setCurrentCandidate, setting, s
 
   return (
     <div>
-      <span
+      <Candidate
         className="candidate"
         key={candidate.name}
         onClick={() => setCurrentCandidate(candidate.name)}
@@ -62,7 +67,7 @@ const DisplayTopCandidate = ({ candidate, index, setCurrentCandidate, setting, s
           </span>
         )}
         <br />
-      </span>
+      </Candidate>
     </div>
   )
 }
