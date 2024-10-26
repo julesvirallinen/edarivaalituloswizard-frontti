@@ -46,12 +46,6 @@ const ViewGroup = ({ group, setCurrentCandidate, filter }) => {
     // padding: '5px'
   }
 
-  const cardStyle = {
-    display: 'inline-block',
-    padding: '5px',
-    marginLeft: '20px',
-  }
-
   const candidateCount = group.children.length
 
   return (
@@ -93,12 +87,6 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
 
   const divStyle = {
     marginTop: '10px',
-  }
-
-  const cardStyle = {
-    display: 'inline-block',
-    padding: '5px',
-    marginLeft: '20px',
   }
 
   return (
