@@ -13,7 +13,6 @@ const MenuButtons = ({ setCurrent, current, options }) => {
           key={year}
           onClick={() => setCurrent(year)}
         >
-          {' '}
           {year}
         </span>
       ))}
