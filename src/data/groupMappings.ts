@@ -46,6 +46,8 @@ export const GROUP_MAPPINGS = {
   peruss: "#856404",
   murros: "#856404",
 
-  "kesk.": "yellow",
-  kesk: "yellow",
+  "kesk.": "lightblue",
+  kesk: "lightblue",
+
+  snäf: "pink",
 };

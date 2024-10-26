@@ -181,19 +181,13 @@ const TopCandidates = ({
     });
     sortedCandidateList = sortedCandidateList.sort(compareByYear(selectedYear));
   }
-  const yearStyle = { color: "gray" };
   const yearSelectionButtons = (
     <p>
-      View top candidates for year:
-      {YEARS.map((y) => (
-        <b
-          style={y !== selectedYear ? yearStyle : undefined}
-          key={y}
-          onClick={() => setSelectedYear(y)}
-        >
-          {y}
-        </b>
-      ))}
+      <MenuButtons
+        current={selectedYear}
+        setCurrent={setSelectedYear}
+        options={YEARS}
+      />
     </p>
   );
 
