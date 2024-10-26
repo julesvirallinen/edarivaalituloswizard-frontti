@@ -7,7 +7,7 @@ const MenuButtons = ({ setCurrent, current, options }) => {
 
   return (
     <h1>
-      {options.map(year => (
+      {options.map((year) => (
         <span
           style={current != year ? yearStyle : undefined}
           key={year}

@@ -2,49 +2,13 @@ import React, { useState } from 'react'
 import * as R from 'ramda'
 import MenuButtons from './MenuButtons'
 import FilterForm from './FilterForm'
-import { Badge, Button } from 'reactstrap'
+import { Badge } from 'reactstrap'
+import { GROUP_MAPPINGS } from '../data/groupMappings'
+import { YEARS } from '../dataUtils/years'
 
 const GroupBadge = ({ groupName }) => {
-  const groupColors = {
-    tsempp: 'lightblue',
-    studo: 'lightgreen',
-    nation: 'lightgreen',
-    stud: 'lightgreen',
-    codtho: 'lightgreen',
-    ämnesf: 'lightgreen',
-    agrof: 'lightgreen',
-    sitvas: 'red',
-    hyvi: 'green',
-    kok: 'blue',
-    maltil: 'blue',
-    osy: 'lightcoral',
-    sd: 'lightcoral',
-    lks: 'orange',
-    help1: 'orange',
-    help2: 'orange',
-    help3: 'orange',
-    eky: 'orange',
-    ekyyfk: 'orange',
-    pykälä: 'orange',
-    '(h)lks': 'orange',
-    'lks/hl': 'orange',
-    'viik-n': 'purple',
-    kumpu: 'purple',
-    viikki: 'purple',
-    valt: 'purple',
-    human: 'purple',
-    teol: 'purple',
-    penger: 'purple',
-    meikku: 'purple',
-    käytt: 'purple',
-    ps: '#856404',
-    peruss: '#856404',
-    'kesk.': 'yellow',
-    kesk: 'yellow',
-  }
-
   const badgeStyle = {
-    backgroundColor: groupColors[groupName],
+    backgroundColor: GROUP_MAPPINGS[groupName],
   }
   return (
     <>
@@ -138,7 +102,7 @@ const DisplayTopCandidates = ({
 
 const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }) => {
   const [setting, setSetting] = useState('votes')
-  const [selectedYear, setSelectedYear] = useState(2020)
+  const [selectedYear, setSelectedYear] = useState(2024)
   const settings = ['votes', 'average', 'year']
 
   const candidateList = Object.values(candidateData)
@@ -177,15 +141,15 @@ const TopCandidates = ({ candidateData, setCurrentCandidate, filter, setFilter }
   const yearStyle = { color: 'gray' }
   const yearSelectionButtons = (
     <p>
-      View top candidates for year:{' '}
-      {[2012, 2014, 2016, 2018, 2020, 2022, 2024].map((y) => (
-        <b
+      View top candidates for year:
+      {YEARS.map((y) => (
+        <button
           style={y !== selectedYear ? yearStyle : undefined}
           key={y}
           onClick={() => setSelectedYear(y)}
         >
           {y}
-        </b>
+        </button>
       ))}
     </p>
   )

@@ -3,7 +3,7 @@ import { Collapse, Badge, CardBody, Card, CardHeader } from 'reactstrap'
 
 const ViewCandidate = ({ candidate, setCurrentCandidate }) => {
   var candidateName = candidate.name.replace(/\s/g, '')
-//   var nickname = ''
+  //   var nickname = ''
   if (candidateName.includes("'")) {
     // nickname = candidateName.split("'")[1].split("'")[0]
     candidateName = candidateName.split("'")[0]
@@ -24,8 +24,14 @@ const InfoCard = ({ votes, candidates }) => {
   return (
     <div className="statBox">
       <span>
-      🗳️:<Badge color="default">{votes}</Badge> 
-        {candidates ? <span>👤:<Badge color="default">{candidates}</Badge></span> : ''}
+        🗳️:<Badge color="default">{votes}</Badge>
+        {candidates ? (
+          <span>
+            👤:<Badge color="default">{candidates}</Badge>
+          </span>
+        ) : (
+          ''
+        )}
       </span>
     </div>
   )
@@ -55,11 +61,11 @@ const ViewGroup = ({ group, setCurrentCandidate, filter }) => {
           <b>
             {group.name} <Badge color="default">{group.seats}</Badge>
           </b>
-          <InfoCard votes={group.value} candidates={candidateCount}/>
+          <InfoCard votes={group.value} candidates={candidateCount} />
         </CardHeader>
         <Collapse isOpen={isOpen}>
           <CardBody>
-            {group.children.map(candidate =>
+            {group.children.map((candidate) =>
               candidate.name.toLowerCase().includes(filter) ? (
                 <ViewCandidate
                   candidate={candidate}
@@ -83,7 +89,7 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
   const toggle = () => setIsOpen(!isOpen)
 
   var candidateCount = 0
-  coalition.children.forEach(child => (candidateCount+=child.children.length))
+  coalition.children.forEach((child) => (candidateCount += child.children.length))
 
   const divStyle = {
     marginTop: '10px',
@@ -102,14 +108,12 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
           <b>
             {coalition.name} <Badge color="default">{coalition.seats}</Badge>
           </b>
-          <InfoCard votes={coalition.value} candidates={candidateCount}/>
+          <InfoCard votes={coalition.value} candidates={candidateCount} />
         </CardHeader>
         <Collapse isOpen={isOpen}>
           <CardBody>
-            {coalition.children.map(group =>
-              JSON.stringify(group)
-                .toLowerCase()
-                .includes(filter) ? (
+            {coalition.children.map((group) =>
+              JSON.stringify(group).toLowerCase().includes(filter) ? (
                 <ViewGroup
                   group={group}
                   key={group.name}
@@ -128,15 +132,12 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
 }
 
 const ElectionData = ({ candidateData, setCurrentCandidate, filter }) => {
-    
   if (candidateData === undefined) return ''
 
   return (
     <>
-      {candidateData.children.map(coalition =>
-        JSON.stringify(coalition)
-          .toLowerCase()
-          .includes(filter) ? (
+      {candidateData.children.map((coalition) =>
+        JSON.stringify(coalition).toLowerCase().includes(filter) ? (
           <ViewCoalition
             coalition={coalition}
             key={coalition.name}
