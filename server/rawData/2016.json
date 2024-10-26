@@ -1,1 +1,3888 @@
-{"name": "Vaalitulos", "year": 2016, "created_at": "2016-11-02T18:44:22+02:00", "children": [{"name": "HYAL", "seats": 18, "value": 2369, "role": "coalition", "children": [{"name": "Human", "seats": 4, "value": 530, "role": "alliance", "children": [{"name": "Granström, Sampsa", "value": 74, "seats": 1, "role": "candidate"}, {"name": "Lindberg, Sebastian 'Basse'", "value": 54, "seats": 1, "role": "candidate"}, {"name": "Grünthal, Lauri", "value": 53, "seats": 1, "role": "candidate"}, {"name": "Hoffrén, Riitta", "value": 49, "seats": 1, "role": "candidate"}, {"name": "Kärnä, Jane", "value": 42, "seats": 0, "role": "candidate"}, {"name": "Siljander, Saana", "value": 32, "seats": 0, "role": "candidate"}, {"name": "Thagapsov, Adam", "value": 23, "seats": 0, "role": "candidate"}, {"name": "Pasanen, Piia 'Norppis'", "value": 22, "seats": 0, "role": "candidate"}, {"name": "Sorjonen, Jenna", "value": 20, "seats": 0, "role": "candidate"}, {"name": "Aalto, Sofia", "value": 19, "seats": 0, "role": "candidate"}, {"name": "Schumilov, Emma", "value": 19, "seats": 0, "role": "candidate"}, {"name": "Paaskoski, Oili", "value": 19, "seats": 0, "role": "candidate"}, {"name": "Pihlajamaa, Olli", "value": 16, "seats": 0, "role": "candidate"}, {"name": "Järvi, Maikki", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Zelenskaia, Julia", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Jussila, Aapo", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Kalliokoski, Timo", "value": 12, "seats": 0, "role": "candidate"}, {"name": "Kajava, Juho", "value": 11, "seats": 0, "role": "candidate"}, {"name": "Savolainen, Jenna", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Konkola, Petteri", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Leipakka, Laura", "value": 5, "seats": 0, "role": "candidate"}]}, {"name": "Käytt", "seats": 5, "value": 595, "role": "alliance", "children": [{"name": "Nieminen, Elina", "value": 72, "seats": 1, "role": "candidate"}, {"name": "Savisaari, Olli", "value": 46, "seats": 1, "role": "candidate"}, {"name": "Abdulhamed, Rekar", "value": 42, "seats": 1, "role": "candidate"}, {"name": "Fernström, Pinja", "value": 42, "seats": 1, "role": "candidate"}, {"name": "Lahdelma, Minja", "value": 42, "seats": 1, "role": "candidate"}, {"name": "Laitila, Krista", "value": 41, "seats": 0, "role": "candidate"}, {"name": "Tuominen, Marika", "value": 32, "seats": 0, "role": "candidate"}, {"name": "Lappalainen, Ilmari", "value": 31, "seats": 0, "role": "candidate"}, {"name": "Nyyssönen, Sophie", "value": 29, "seats": 0, "role": "candidate"}, {"name": "Suorsa, Minna", "value": 29, "seats": 0, "role": "candidate"}, {"name": "Rossinen, Eveliina", "value": 26, "seats": 0, "role": "candidate"}, {"name": "Piira, Viivi", "value": 26, "seats": 0, "role": "candidate"}, {"name": "Tappura, Hanna", "value": 23, "seats": 0, "role": "candidate"}, {"name": "Jokimies, Susanna", "value": 17, "seats": 0, "role": "candidate"}, {"name": "Mäki, Tommi", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Nuckols, Wilson", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Laaksovirta, Eevi", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Vainio, Jouni", "value": 13, "seats": 0, "role": "candidate"}, {"name": "De Pascale, Samuli", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Sjöberg, Tove", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Silvasti, Katja", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Raivonen, Peppi", "value": 7, "seats": 0, "role": "candidate"}]}, {"name": "Teol", "seats": 2, "value": 311, "role": "alliance", "children": [{"name": "Koponen, Matias", "value": 90, "seats": 1, "role": "candidate"}, {"name": "Järvinen, Sara", "value": 32, "seats": 1, "role": "candidate"}, {"name": "Lehtonen, Mikael", "value": 27, "seats": 0, "role": "candidate"}, {"name": "Lindroth, Arttu", "value": 24, "seats": 0, "role": "candidate"}, {"name": "Tillander, Rasmus", "value": 22, "seats": 0, "role": "candidate"}, {"name": "Rantanen, Krista", "value": 19, "seats": 0, "role": "candidate"}, {"name": "Lehonmaa, Ville", "value": 18, "seats": 0, "role": "candidate"}, {"name": "Rättyä, Jonna", "value": 16, "seats": 0, "role": "candidate"}, {"name": "Kuivalainen, Riki", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Kaski, Kata", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Rehn, Teemu H.V.", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Leporanta, Miro", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Saarela, Veronica", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Latvala, Saara", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Siltanen, Markus", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Virtanen, Emmi", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Enqvist, Aleksi", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Ranta, Susanna", "value": 1, "seats": 0, "role": "candidate"}]}, {"name": "Kumpu", "seats": 3, "value": 420, "role": "alliance", "children": [{"name": "Nenonen, Ville", "value": 60, "seats": 1, "role": "candidate"}, {"name": "Björk, Tiia", "value": 43, "seats": 1, "role": "candidate"}, {"name": "Koivurova, Antti", "value": 33, "seats": 1, "role": "candidate"}, {"name": "Karttunen, Sasu", "value": 31, "seats": 0, "role": "candidate"}, {"name": "Saari, Ville-Veikko", "value": 29, "seats": 0, "role": "candidate"}, {"name": "Velin, Santeri 'TeriSan'", "value": 25, "seats": 0, "role": "candidate"}, {"name": "Niskala, Iiro", "value": 24, "seats": 0, "role": "candidate"}, {"name": "Vainio, Tomi", "value": 24, "seats": 0, "role": "candidate"}, {"name": "Salmenperä, Ilmo", "value": 18, "seats": 0, "role": "candidate"}, {"name": "Korkiakoski, Niilo 'Kari'", "value": 16, "seats": 0, "role": "candidate"}, {"name": "Hartikka, Piia", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Jantunen, Ville", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Nurmi, Matias", "value": 12, "seats": 0, "role": "candidate"}, {"name": "Hauhia, Joni", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Malinen, Henri", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Renlund, Jere", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Turunen, Heikki", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Rämö, Miia", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Kähkönen, Harri", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Määttänen, Aino-Maija", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Rasola, Miika", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Leppänen, Veera", "value": 5, "seats": 0, "role": "candidate"}]}, {"name": "Viik-N", "seats": 2, "value": 237, "role": "alliance", "children": [{"name": "Jalo, Mikko", "value": 71, "seats": 1, "role": "candidate"}, {"name": "Kaajakari, Emma", "value": 48, "seats": 1, "role": "candidate"}, {"name": "Piitulainen, Hanna", "value": 34, "seats": 0, "role": "candidate"}, {"name": "Lindfors, Leena", "value": 28, "seats": 0, "role": "candidate"}, {"name": "Juutilainen, Katriina", "value": 27, "seats": 0, "role": "candidate"}, {"name": "Ollilainen, Sara", "value": 17, "seats": 0, "role": "candidate"}, {"name": "Juntti, Venla", "value": 12, "seats": 0, "role": "candidate"}]}, {"name": "Valt", "seats": 2, "value": 276, "role": "alliance", "children": [{"name": "Timmer, Mathilda", "value": 49, "seats": 1, "role": "candidate"}, {"name": "Alho, Alli", "value": 44, "seats": 1, "role": "candidate"}, {"name": "Oksanen, Joni", "value": 35, "seats": 0, "role": "candidate"}, {"name": "Hilska, Juuli", "value": 21, "seats": 0, "role": "candidate"}, {"name": "Wathén, Laura", "value": 21, "seats": 0, "role": "candidate"}, {"name": "Jääskeläinen, Timo", "value": 20, "seats": 0, "role": "candidate"}, {"name": "Pursiainen, Henna", "value": 18, "seats": 0, "role": "candidate"}, {"name": "Ahola, Heidi", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Ostrovskij, Tommi", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Pottonen, Ville", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Luoto, Laura", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Miettinen, Johanna", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Viitala, Ville", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Aura, Siiri", "value": 2, "seats": 0, "role": "candidate"}]}]}, {"name": "MPTsem", "seats": 17, "value": 2322, "role": "coalition", "children": [{"name": "SitVas", "seats": 8, "value": 1063, "role": "alliance", "children": [{"name": "Linna, Lauri", "value": 57, "seats": 1, "role": "candidate"}, {"name": "Hiltunen, Titta", "value": 51, "seats": 1, "role": "candidate"}, {"name": "Hokkanen, Saana", "value": 50, "seats": 1, "role": "candidate"}, {"name": "Lemström, Anna", "value": 48, "seats": 1, "role": "candidate"}, {"name": "Kolehmainen, Laura", "value": 46, "seats": 1, "role": "candidate"}, {"name": "Kemppainen, Deniz", "value": 45, "seats": 1, "role": "candidate"}, {"name": "Pulkkinen, Joonas", "value": 42, "seats": 1, "role": "candidate"}, {"name": "Lindqvist, Joel", "value": 42, "seats": 1, "role": "candidate"}, {"name": "Routarinne, Veera", "value": 37, "seats": 0, "role": "candidate"}, {"name": "von Pfaler, Lauri 'Pafu'", "value": 35, "seats": 0, "role": "candidate"}, {"name": "Uusinarkaus, Julius", "value": 33, "seats": 0, "role": "candidate"}, {"name": "Heikkilä, Taavi", "value": 32, "seats": 0, "role": "candidate"}, {"name": "Suominen, Vihtori", "value": 24, "seats": 0, "role": "candidate"}, {"name": "Piikkilä, Mimmi", "value": 24, "seats": 0, "role": "candidate"}, {"name": "Hallamaa, Tuomas", "value": 23, "seats": 0, "role": "candidate"}, {"name": "Rissanen, Jaakko", "value": 22, "seats": 0, "role": "candidate"}, {"name": "Annala, Iiris", "value": 22, "seats": 0, "role": "candidate"}, {"name": "Kirvesmäki, Juho", "value": 20, "seats": 0, "role": "candidate"}, {"name": "Koivistoinen, Maija", "value": 20, "seats": 0, "role": "candidate"}, {"name": "Kouhia, Ninette", "value": 20, "seats": 0, "role": "candidate"}, {"name": "Pönkä, Saila", "value": 19, "seats": 0, "role": "candidate"}, {"name": "Wallgren, Amos", "value": 19, "seats": 0, "role": "candidate"}, {"name": "Kyllönen, Riku-Petteri", "value": 18, "seats": 0, "role": "candidate"}, {"name": "Hanhijoki, Touko", "value": 17, "seats": 0, "role": "candidate"}, {"name": "Kari, Onni", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Mauranen, Angi", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Vienola, Minna-Kerttu", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Mustonen, Elmo", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Holopainen, Markus", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Kaura, Amari", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Kangas, Vilma", "value": 12, "seats": 0, "role": "candidate"}, {"name": "Kärkkäinen, Jonna", "value": 12, "seats": 0, "role": "candidate"}, {"name": "Siika, Laura", "value": 12, "seats": 0, "role": "candidate"}, {"name": "Parkkinen, Tiina 'Poppis'", "value": 12, "seats": 0, "role": "candidate"}, {"name": "Parkkinen, Samuli", "value": 11, "seats": 0, "role": "candidate"}, {"name": "Lindholm, Olli", "value": 11, "seats": 0, "role": "candidate"}, {"name": "Lindblom, Sofia", "value": 11, "seats": 0, "role": "candidate"}, {"name": "Iso-Markku, Antti", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Pakkasvirta, Elsa", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Roikonen, Ida", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Lindholm, Jan", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Rautila, Kanerva", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Leppä, Sophia 'Soffe'", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Nurmivaara, Sami", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Brunila, Tuukka", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Lampuoti, Jarkko", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Karppinen, Aleksi", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Tervonen, Aksu", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Auer, Irene", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Voutilainen, Juhana", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Juolahti, Minerva", "value": 5, "seats": 0, "role": "candidate"}, {"name": "von Pfaler, Cornelius", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Louekari, Ville", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Muilu, Jaakko", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Heiskanen, Pyry", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Hiltunen, Roote", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Pajala, Vilma-Lotta", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Nieminen, Jeremi", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Kola, Pauli", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Korhonen, Mikko", "value": 0, "seats": 0, "role": "candidate"}]}, {"name": "HyVi", "seats": 9, "value": 1158, "role": "alliance", "children": [{"name": "Pasanen, Amanda", "value": 139, "seats": 1, "role": "candidate"}, {"name": "Österman, Sebastian", "value": 72, "seats": 1, "role": "candidate"}, {"name": "Ahmad, Mian", "value": 70, "seats": 1, "role": "candidate"}, {"name": "Favén, Milla", "value": 65, "seats": 1, "role": "candidate"}, {"name": "Tarkhova, Daria", "value": 60, "seats": 1, "role": "candidate"}, {"name": "Elolahti, Auli", "value": 45, "seats": 1, "role": "candidate"}, {"name": "Silvennoinen, Minna", "value": 44, "seats": 1, "role": "candidate"}, {"name": "Saarinen, Ada", "value": 42, "seats": 1, "role": "candidate"}, {"name": "Sauru, Miro", "value": 41, "seats": 1, "role": "candidate"}, {"name": "Alametsä, Alviina", "value": 38, "seats": 0, "role": "candidate"}, {"name": "Wasara, Mikki", "value": 34, "seats": 0, "role": "candidate"}, {"name": "Miettinen, Nina", "value": 34, "seats": 0, "role": "candidate"}, {"name": "Sivonen, Sameli", "value": 33, "seats": 0, "role": "candidate"}, {"name": "Tähkävuori, Riikka", "value": 29, "seats": 0, "role": "candidate"}, {"name": "Vehmassalo, Aleksi", "value": 28, "seats": 0, "role": "candidate"}, {"name": "Uusikangas, Silja", "value": 24, "seats": 0, "role": "candidate"}, {"name": "Diarra, Fatim", "value": 23, "seats": 0, "role": "candidate"}, {"name": "Teperi, Kaisa", "value": 22, "seats": 0, "role": "candidate"}, {"name": "Nummelin, Pilvi", "value": 22, "seats": 0, "role": "candidate"}, {"name": "Manninen, Petra", "value": 22, "seats": 0, "role": "candidate"}, {"name": "Kalliokoski, Henna", "value": 22, "seats": 0, "role": "candidate"}, {"name": "Kankaanpää, Viljami", "value": 21, "seats": 0, "role": "candidate"}, {"name": "Riipi, Paula", "value": 21, "seats": 0, "role": "candidate"}, {"name": "Sveholm, Eevi", "value": 21, "seats": 0, "role": "candidate"}, {"name": "Tenn, Selene", "value": 20, "seats": 0, "role": "candidate"}, {"name": "Kauppinen, Vera", "value": 16, "seats": 0, "role": "candidate"}, {"name": "Heiskanen, Vladimir", "value": 16, "seats": 0, "role": "candidate"}, {"name": "Karvonen, Okko", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Louhimies, kukka", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Kyrölainen, Anni", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Hämäläinen, Ville", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Harjunen, Arttu", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Niemi, Tuukka", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Reini, Ida", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Röynä, Jenni", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Ilvonen, Elina", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Hannula, Anssi", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Kurki, Visa", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Holst, Alexander 'Alex'", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Salonen, Tuisku", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Myllärniemi, Joona", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Immonen, Johanna", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Rouvali, Roope", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Saarela, Eppu", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Rokkanen, Susanna", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Laitakari, Tiamo", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Pietiläinen, Katariina", "value": 1, "seats": 0, "role": "candidate"}]}, {"name": "Tsempp", "seats": 0, "value": 101, "role": "alliance", "children": [{"name": "Chi, Louchin", "value": 30, "seats": 0, "role": "candidate"}, {"name": "Er, Safak", "value": 23, "seats": 0, "role": "candidate"}, {"name": "Mackie, Adam", "value": 22, "seats": 0, "role": "candidate"}, {"name": "Pietiläinen, Pihla", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Wei, Wei", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Zatina, Beate", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Pallaoro, Joonas", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Romero, Alejandro", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Shoket, Sahar Khan", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Navarro Leon, Mariel", "value": 0, "seats": 0, "role": "candidate"}]}]}, {"name": "HELP", "seats": 9, "value": 1172, "role": "coalition", "children": [{"name": "(H)LKS", "seats": 4, "value": 488, "role": "alliance", "children": [{"name": "Liu, Ville", "value": 69, "seats": 1, "role": "candidate"}, {"name": "Mykkänen, Anssi", "value": 59, "seats": 1, "role": "candidate"}, {"name": "Tuomi, Tytti", "value": 49, "seats": 1, "role": "candidate"}, {"name": "Juntura, Jonne", "value": 40, "seats": 1, "role": "candidate"}, {"name": "Mäkelä, Sara", "value": 25, "seats": 0, "role": "candidate"}, {"name": "Järvinen, Tommi", "value": 24, "seats": 0, "role": "candidate"}, {"name": "Lehtisalo, Minna", "value": 22, "seats": 0, "role": "candidate"}, {"name": "Mikkola, Visa", "value": 20, "seats": 0, "role": "candidate"}, {"name": "Honkasalo, Arttu", "value": 19, "seats": 0, "role": "candidate"}, {"name": "Rissanen, Anni", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Suur-Uski, Johanna", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Al-Sharefi, Arif", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Eloranta, Katja", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Lumikari, Tuomas", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Mukka, Milla", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Kaartinen, Taavi", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Karhinen, Nina", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Naskali, Emmi", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Tamminen, Tero", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Huhtanen, Mia", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Aaltio, Juho", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Bergmann, Fanny", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Lilja, Petrus", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Peuraharju, Elin", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Ylä-Soininmäki, Tomi", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Rönty, Lotta", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Leivo, Eeva", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Hankimaa, Suvi", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Virkkunen, Sirke", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Lönnberg, Ivar", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Jokela, Arttu", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Niskanen, Kaisa", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Suvijärvi, Satu", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Hänninen, Mikko", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Saares, Marjo", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Hovinmaa, Emilia", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Pylvänen, Emma", "value": 0, "seats": 0, "role": "candidate"}]}, {"name": "EkyYfk", "seats": 2, "value": 295, "role": "alliance", "children": [{"name": "Heljanko, Viivi", "value": 82, "seats": 1, "role": "candidate"}, {"name": "Meriläinen, Henrik", "value": 42, "seats": 1, "role": "candidate"}, {"name": "Aminoff, Nea", "value": 35, "seats": 0, "role": "candidate"}, {"name": "Hietanen, Perttu", "value": 30, "seats": 0, "role": "candidate"}, {"name": "Hämäläinen, Crista", "value": 19, "seats": 0, "role": "candidate"}, {"name": "Koivunen, Liisa", "value": 16, "seats": 0, "role": "candidate"}, {"name": "Hakala, Riikka", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Söderman, André", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Mykkänen, Jarkko", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Perkiö, Pekka", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Mäkelä, Anu", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Leppänen, Iina", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Kangas, Eetu", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Aho, Varpu", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Rahkola, Mari", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Isokotamäki, Lotta", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Ekman, Pilvi", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Hirvonen, Helena", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Rajasalmi, Saara", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Kesti, Ilmari", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Jokinen, Sara", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Nikitin, Riikka", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Huikari, Veera", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Löytty, Emil", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Saari, Sini", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Takala, Milla", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Piesanen, Sofia", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Saaristo, Teea", "value": 0, "seats": 0, "role": "candidate"}]}, {"name": "Pykälä", "seats": 3, "value": 389, "role": "alliance", "children": [{"name": "Teittinen, Helinä", "value": 75, "seats": 1, "role": "candidate"}, {"name": "Viitanen, Salla", "value": 47, "seats": 1, "role": "candidate"}, {"name": "Talvinko, Tuuli", "value": 42, "seats": 1, "role": "candidate"}, {"name": "Piirainen, Sara", "value": 20, "seats": 0, "role": "candidate"}, {"name": "Markkanen, Kalle", "value": 19, "seats": 0, "role": "candidate"}, {"name": "Reijonen, Sami", "value": 18, "seats": 0, "role": "candidate"}, {"name": "Takalo, Tiia", "value": 18, "seats": 0, "role": "candidate"}, {"name": "Antonacci, Sara", "value": 17, "seats": 0, "role": "candidate"}, {"name": "Sinisalo, Laura", "value": 16, "seats": 0, "role": "candidate"}, {"name": "Majewski, Lotta", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Järvi, Katariina", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Raittila, Sinia", "value": 12, "seats": 0, "role": "candidate"}, {"name": "Guidastri, Alberto", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Vehviläinen, Jami", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Salminen, Ilmi", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Hjelt, Jere", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Saranpää, Jose", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Heiskanen, Jesse", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Sassi, Lotta", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Hiltunen, Ella", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Sajakoski, Inka", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Tuominen, Tuomas", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Vepsäläinen, Konsta", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Isola, Valtteri", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Kumpula, Ilkka", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Jonkka, Matti", "value": 0, "seats": 0, "role": "candidate"}]}]}, {"name": "Edist", "seats": 6, "value": 845, "role": "coalition", "children": [{"name": "Kok", "seats": 5, "value": 716, "role": "alliance", "children": [{"name": "Ahsanullah, Tarik", "value": 155, "seats": 1, "role": "candidate"}, {"name": "Niskanen, Dani", "value": 97, "seats": 1, "role": "candidate"}, {"name": "Lilja, Anna", "value": 30, "seats": 1, "role": "candidate"}, {"name": "Torikka, Peter", "value": 25, "seats": 1, "role": "candidate"}, {"name": "Anomaa, Mattias", "value": 25, "seats": 1, "role": "candidate"}, {"name": "Nissinen, Jarkko", "value": 25, "seats": 0, "role": "candidate"}, {"name": "Pirinen, Paula", "value": 21, "seats": 0, "role": "candidate"}, {"name": "Nupponen, Konsta", "value": 17, "seats": 0, "role": "candidate"}, {"name": "Niemi, Vertti", "value": 16, "seats": 0, "role": "candidate"}, {"name": "Sazonov, Daniel", "value": 16, "seats": 0, "role": "candidate"}, {"name": "Rokkanen, Sakari", "value": 16, "seats": 0, "role": "candidate"}, {"name": "Nurmela, Jeremias", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Tikkanen, Tuomas", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Botty van den Bruele, Adele", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Lohi, Santeri", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Isoaho, Atte", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Sinisalo, Viivi", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Mankonen, Juuso", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Aine, Valtteri", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Walldén, Anna", "value": 11, "seats": 0, "role": "candidate"}, {"name": "Nuuttila, Eemil", "value": 11, "seats": 0, "role": "candidate"}, {"name": "Kupias, Marianna", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Vuornos, Henrik", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Harjanne, Petteri", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Wilskman, Juho", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Varjokari, Laura", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Granlund, Jenni", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Ristimäki, Jenna", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Knaapi, Emilia", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Wardi, Bennie", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Hanhela, Heidi", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Hietala, Klaus", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Berger, Miikka", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Tulkki, Kasperi", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Hellman, Jukka-Pekka", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Evokari, Auri", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Pyykkö, Tommi", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Tarkiainen, Elisa", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Sarpola, Amina", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Ketola, Lenita", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Lindholm, Micke", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Tammekann, Samuel", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Säteri, Vilma", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Marttunen, Pessi", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Jokiranta, Tiia", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Skön, Lauri, 'Päällikkö'", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Sillantaka, Nina", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Muradli, Vafa", "value": 0, "seats": 0, "role": "candidate"}]}, {"name": "Kesk.", "seats": 1, "value": 129, "role": "alliance", "children": [{"name": "Koivulahti, Arttu", "value": 66, "seats": 1, "role": "candidate"}, {"name": "Saarinen, Salla", "value": 20, "seats": 0, "role": "candidate"}, {"name": "Lahti, Risto", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Liimatainen, Anniina", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Ylimaa, Markus", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Saramäki, Sara", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Mäkitalo, Hilma", "value": 4, "seats": 0, "role": "candidate"}]}]}, {"name": "Osak", "seats": 5, "value": 757, "role": "coalition", "children": [{"name": "EPOPPO", "seats": 1, "value": 165, "role": "alliance", "children": [{"name": "Palkki, Teemu", "value": 21, "seats": 1, "role": "candidate"}, {"name": "Haapalainen, Anni", "value": 17, "seats": 0, "role": "candidate"}, {"name": "Korpi, Terhi", "value": 16, "seats": 0, "role": "candidate"}, {"name": "Hasunen, Sami", "value": 11, "seats": 0, "role": "candidate"}, {"name": "Eilola, Noora", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Häkkilä, Hanna-Maria", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Pitkänen, Noora", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Rahnasto, Johanna", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Lukin, Nina", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Rahkola, Iina", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Vähämäki, Tuuli", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Pollari, Antti", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Turpeinen, Hennaleena", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Matero, Tero", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Pitkänen, Katriina", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Niinimäki, Joukopouko", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Hemminki, Kaisa", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Puranen, Unni", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Aho, Jenni", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Arffman, Mina", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Jutila, Arttu", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Meri, Emmi", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Taipalus, Marjo", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Kaarto, Riikka", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Mäkelä, Mikko", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Raivio, Oskari", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Kukkola, Ville", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Niemi, Saija", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Savolainen, Sonja", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Kenttälä, Tuomas", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Koivikko, Panu", "value": 0, "seats": 0, "role": "candidate"}]}, {"name": "DGO", "seats": 2, "value": 176, "role": "alliance", "children": [{"name": "Rahikainen, Sofia", "value": 22, "seats": 1, "role": "candidate"}, {"name": "Kaplas, Otto", "value": 17, "seats": 1, "role": "candidate"}, {"name": "Okkola, Suvi", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Heiskanen, Otso", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Ackermann, Manuel 'Manu'", "value": 12, "seats": 0, "role": "candidate"}, {"name": "Ahola, Olli", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Elfving, Iina", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Tilli, Joni", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Korhonen, Laura", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Ahtiainen, Salli", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Marttinen, Roosa", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Taavitsainen, Ella", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Hirvonen, Tero", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Pykälistö, Pasi", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Lassila, Elina", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Helanne, Esa-Pekka", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Mankinen, Eerika", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Tähkäpää, Sara", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Koskinen, Anna-Liisa 'Ansku'", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Matikka, Santeri", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Pesonen, Aino", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Vihtonen, Johanna", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Reijonen, Mari", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Pohjalainen, Piia", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Kuukka, Essi", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Heikkilä, Tiina", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Hirvelä, Leon", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Pitkänen, Iris", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Salmi, Maini", "value": 0, "seats": 0, "role": "candidate"}]}, {"name": "HO", "seats": 1, "value": 158, "role": "alliance", "children": [{"name": "Mikkola, Heidi", "value": 46, "seats": 1, "role": "candidate"}, {"name": "Tolonen, Topias", "value": 32, "seats": 0, "role": "candidate"}, {"name": "Piesala, Aapeli", "value": 17, "seats": 0, "role": "candidate"}, {"name": "Anttila, Maria", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Laaksonen, Fanny", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Peltomaa, Amanda", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Matveinen, Kanerva", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Öhman, Maija", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Heliö, Jukka", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Hämäläinen, Anneli", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Kujala, Martta", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Solehmainen, Jukka", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Järviö, Juhana", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Laine, Taneli", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Välimäki, Janette", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Siipola, Janne", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Saarela, Sara", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Takanen, Jussi", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Kivimäki, Anni", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Rinne, Jonna", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Weckström, Laura", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Katajisto, Väinö", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Axelsen, Rasmus", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Tolonen, Jukka", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Honkasuo, Joel", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Tarpio, Ximenna", "value": 0, "seats": 0, "role": "candidate"}, {"name": "Ingelius, Oskar", "value": 0, "seats": 0, "role": "candidate"}]}, {"name": "SavO", "seats": 0, "value": 36, "role": "alliance", "children": [{"name": "Ruuth, Riikka", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Ahonen, Jari", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Venäläinen, Tuomas", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Ylhäisi, Matti", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Dumell, Anna-Maria", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Hannikainen, Jaakko \"Mufasa\"", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Malvet, Kristian", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Lindström, Linda", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Heinonen, Henri", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Korhonen, Henri", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Turunen, Tommi", "value": 0, "seats": 0, "role": "candidate"}]}, {"name": "ESO", "seats": 1, "value": 116, "role": "alliance", "children": [{"name": "Tuovinen, Aino", "value": 19, "seats": 1, "role": "candidate"}, {"name": "Ronkainen, Margareta", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Kelokari, Linda-Liisa", "value": 12, "seats": 0, "role": "candidate"}, {"name": "Nissinen, Sari", "value": 11, "seats": 0, "role": "candidate"}, {"name": "Tuokko, Kaarina", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Zagai, Jasmina", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Avela, Henri", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Piippo, Ossi", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Eerola, Ville", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Steidel, Isa", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Hyppönen, Arttu", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Myllyneva, Meri", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Virto, Ella", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Lampinen, Hemu", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Salmi, Taru", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Takala, Sara", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Hjerp, Anna 'AK'", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Vesa, Karoliina", "value": 0, "seats": 0, "role": "candidate"}]}, {"name": "SatO", "seats": 0, "value": 62, "role": "alliance", "children": [{"name": "Hirvonen, Tiera", "value": 14, "seats": 0, "role": "candidate"}, {"name": "Pasanen, Riikka", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Seppälä, Jussi T.", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Djakonowsky, Maria", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Nurmi, Pietari", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Järvenpää, Jenna", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Levander, Minttu", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Honko, Elina", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Vihervirta, Johannes", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Suominen, Laura", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Alhanen, Milla-Maria", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Terho, Iikka", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Mäkipää, Mikko", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Hyvärinen, Ossi", "value": 0, "seats": 0, "role": "candidate"}]}, {"name": "VSO", "seats": 0, "value": 44, "role": "alliance", "children": [{"name": "Riikonen, Anniina", "value": 12, "seats": 0, "role": "candidate"}, {"name": "Salonen, Aino", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Valo, Katriina", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Huittinen, Matleena", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Ääri, Kristiina", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Oksa, Vilma", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Tuominen, Niko", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Hamberg, Ninni", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Härmävaara, Hanna-Ilona", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Niittynen, Ilona", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Rantala, Roosa", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Huttunen, Mika", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Nieminen, Rosa", "value": 0, "seats": 0, "role": "candidate"}]}]}, {"name": "SNÄf", "seats": 3, "value": 484, "role": "coalition", "children": [{"name": "CodTho", "seats": 2, "value": 240, "role": "alliance", "children": [{"name": "Cederlöf, Karin", "value": 94, "seats": 1, "role": "candidate"}, {"name": "Olander, Rasmus", "value": 82, "seats": 1, "role": "candidate"}, {"name": "Kuhlefelt, Alexandra", "value": 18, "seats": 0, "role": "candidate"}, {"name": "Nyberg, Theodora \"Teddi\"", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Böling, Evalena", "value": 10, "seats": 0, "role": "candidate"}, {"name": "Lång, Karolina", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Westerholm, Anita", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Ahlström, Sofia", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Ollus, Robin", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Lassila, Fanny", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Hoven, Sophie", "value": 0, "seats": 0, "role": "candidate"}]}, {"name": "Stud", "seats": 1, "value": 147, "role": "alliance", "children": [{"name": "Bergh, Claes", "value": 43, "seats": 1, "role": "candidate"}, {"name": "Mickos, Daniel", "value": 25, "seats": 0, "role": "candidate"}, {"name": "Rinne, Elsa", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Tikkanen, Lilian", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Mickos, Viola", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Perkonoja, Pauliina", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Yrjölä, Susanna \"Sussu\"", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Lindroos, Stefanie", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Backlund, Niklas", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Strömbäck, Emma", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Elmgren, Christa", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Nurmio, Axel", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Palin, Paula", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Björkqvist, Anna", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Roos, Ariel", "value": 3, "seats": 0, "role": "candidate"}, {"name": "Ekelund, Henrik", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Ahlfors, Kia", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Haapalahti, Sara", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Strömgård, Sofia", "value": 0, "seats": 0, "role": "candidate"}]}, {"name": "Nation", "seats": 0, "value": 97, "role": "alliance", "children": [{"name": "Granqvist, Emilia", "value": 21, "seats": 0, "role": "candidate"}, {"name": "Lindblom, Otto", "value": 19, "seats": 0, "role": "candidate"}, {"name": "Ehnström, Emil", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Koskela, Calle", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Karlsson, Jessica", "value": 11, "seats": 0, "role": "candidate"}, {"name": "Lanu, Julia", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Sundholm, Emilia", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Skoglund, Jenny", "value": 3, "seats": 0, "role": "candidate"}]}]}, {"name": "OSY", "seats": 2, "value": 332, "role": "coalition", "children": [{"name": "OSY", "seats": 2, "value": 332, "role": "alliance", "children": [{"name": "Valtonen, Jetro", "value": 55, "seats": 1, "role": "candidate"}, {"name": "Loima, Maria", "value": 30, "seats": 1, "role": "candidate"}, {"name": "Aitonurmi, Joonas", "value": 25, "seats": 0, "role": "candidate"}, {"name": "Kovanen, Emilia", "value": 22, "seats": 0, "role": "candidate"}, {"name": "Kymäläinen, Mikko", "value": 21, "seats": 0, "role": "candidate"}, {"name": "Nurminen, Nelli", "value": 21, "seats": 0, "role": "candidate"}, {"name": "Gustafsson, Aleksanteri", "value": 16, "seats": 0, "role": "candidate"}, {"name": "Korvuo, Pekko", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Matikainen, Kaisa", "value": 12, "seats": 0, "role": "candidate"}, {"name": "Rissanen, Simo", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Eronen, Tuukka", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Isometsä, Sanni", "value": 9, "seats": 0, "role": "candidate"}, {"name": "Ahonen, Veronica", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Saarto, Patrik", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Gebhard, Elisa", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Nevalainen, Sofia", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Peltonen, Eemeli", "value": 7, "seats": 0, "role": "candidate"}, {"name": "Heikkinen, Aleksander", "value": 6, "seats": 0, "role": "candidate"}, {"name": "Mattila, Eetu", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Tyyskä, Saija", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Immonen, Erik", "value": 5, "seats": 0, "role": "candidate"}, {"name": "Behnke, Hanno", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Vuori, Wiking", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Luukkainen, Elli", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Ruostetsaari, Niko", "value": 4, "seats": 0, "role": "candidate"}, {"name": "Salomäki, Mia", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Lönnqvist, Miikka", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Jääskeläinen, Jesse", "value": 2, "seats": 0, "role": "candidate"}, {"name": "Kammonen, Viljami", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Zec, Ermin", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Malste, Antti", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Pitkänen, Tuulia", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Kontio, Timo", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Laitila, Outi", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Kekkonen, Aki", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Hytti, Antti", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Niemi, Anna", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Köngäs, Otto", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Holmgren, Markus", "value": 1, "seats": 0, "role": "candidate"}, {"name": "Mäkynen, Matias", "value": 0, "seats": 0, "role": "candidate"}]}]}, {"name": "Perus", "seats": 0, "value": 60, "role": "coalition", "children": [{"name": "PerusS", "seats": 0, "value": 60, "role": "alliance", "children": [{"name": "Ahva, Toni", "value": 36, "seats": 0, "role": "candidate"}, {"name": "Kulmala, Roger", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Lahtinen, Teemu", "value": 11, "seats": 0, "role": "candidate"}]}]}, {"name": "Pir", "seats": 0, "value": 44, "role": "coalition", "children": [{"name": "Pir", "seats": 0, "value": 44, "role": "alliance", "children": [{"name": "Mäkinen, Joonas \"JoonasD6\"", "value": 15, "seats": 0, "role": "candidate"}, {"name": "Immonen, Satu", "value": 13, "seats": 0, "role": "candidate"}, {"name": "Keinänen, Tero", "value": 12, "seats": 0, "role": "candidate"}, {"name": "Kantola, Roni", "value": 4, "seats": 0, "role": "candidate"}]}]}, {"name": "Lib", "seats": 0, "value": 12, "role": "coalition", "children": [{"name": "Lib", "seats": 0, "value": 12, "role": "alliance", "children": [{"name": "Sjöström, Kiim", "value": 8, "seats": 0, "role": "candidate"}, {"name": "Andersson, Timo", "value": 4, "seats": 0, "role": "candidate"}]}]}]}
+{
+  "name": "Vaalitulos",
+  "year": 2016,
+  "created_at": "2016-11-02T18:44:22+02:00",
+  "children": [
+    {
+      "name": "HYAL",
+      "seats": 18,
+      "value": 2369,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "Human",
+          "seats": 4,
+          "value": 530,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Granström, Sampsa",
+              "value": 74,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindberg, Sebastian 'Basse'",
+              "value": 54,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Grünthal, Lauri",
+              "value": 53,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Hoffrén, Riitta",
+              "value": 49,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Kärnä, Jane",
+              "value": 42,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Siljander, Saana",
+              "value": 32,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Thagapsov, Adam",
+              "value": 23,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pasanen, Piia 'Norppis'",
+              "value": 22,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sorjonen, Jenna",
+              "value": 20,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Aalto, Sofia",
+              "value": 19,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Schumilov, Emma",
+              "value": 19,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Paaskoski, Oili",
+              "value": 19,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pihlajamaa, Olli",
+              "value": 16,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Järvi, Maikki",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Zelenskaia, Julia",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Jussila, Aapo",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kalliokoski, Timo",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kajava, Juho",
+              "value": 11,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Savolainen, Jenna",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Konkola, Petteri",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Leipakka, Laura",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Käytt",
+          "seats": 5,
+          "value": 595,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Nieminen, Elina",
+              "value": 72,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Savisaari, Olli",
+              "value": 46,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Abdulhamed, Rekar",
+              "value": 42,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Fernström, Pinja",
+              "value": 42,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Lahdelma, Minja",
+              "value": 42,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Laitila, Krista",
+              "value": 41,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tuominen, Marika",
+              "value": 32,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lappalainen, Ilmari",
+              "value": 31,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nyyssönen, Sophie",
+              "value": 29,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Suorsa, Minna",
+              "value": 29,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rossinen, Eveliina",
+              "value": 26,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Piira, Viivi",
+              "value": 26,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tappura, Hanna",
+              "value": 23,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Jokimies, Susanna",
+              "value": 17,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäki, Tommi",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nuckols, Wilson",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Laaksovirta, Eevi",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vainio, Jouni",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "De Pascale, Samuli",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sjöberg, Tove",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Silvasti, Katja",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Raivonen, Peppi",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Teol",
+          "seats": 2,
+          "value": 311,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Koponen, Matias",
+              "value": 90,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Järvinen, Sara",
+              "value": 32,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Lehtonen, Mikael",
+              "value": 27,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindroth, Arttu",
+              "value": 24,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tillander, Rasmus",
+              "value": 22,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rantanen, Krista",
+              "value": 19,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lehonmaa, Ville",
+              "value": 18,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rättyä, Jonna",
+              "value": 16,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kuivalainen, Riki",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kaski, Kata",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rehn, Teemu H.V.",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Leporanta, Miro",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Saarela, Veronica",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Latvala, Saara",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Siltanen, Markus",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Virtanen, Emmi",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Enqvist, Aleksi",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ranta, Susanna",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Kumpu",
+          "seats": 3,
+          "value": 420,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Nenonen, Ville",
+              "value": 60,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Björk, Tiia",
+              "value": 43,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Koivurova, Antti",
+              "value": 33,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Karttunen, Sasu",
+              "value": 31,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Saari, Ville-Veikko",
+              "value": 29,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Velin, Santeri 'TeriSan'",
+              "value": 25,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Niskala, Iiro",
+              "value": 24,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vainio, Tomi",
+              "value": 24,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Salmenperä, Ilmo",
+              "value": 18,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Korkiakoski, Niilo 'Kari'",
+              "value": 16,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hartikka, Piia",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Jantunen, Ville",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nurmi, Matias",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hauhia, Joni",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Malinen, Henri",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Renlund, Jere",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Turunen, Heikki",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rämö, Miia",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kähkönen, Harri",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Määttänen, Aino-Maija",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rasola, Miika",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Leppänen, Veera",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Viik-N",
+          "seats": 2,
+          "value": 237,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Jalo, Mikko",
+              "value": 71,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Kaajakari, Emma",
+              "value": 48,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Piitulainen, Hanna",
+              "value": 34,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindfors, Leena",
+              "value": 28,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Juutilainen, Katriina",
+              "value": 27,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ollilainen, Sara",
+              "value": 17,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Juntti, Venla",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Valt",
+          "seats": 2,
+          "value": 276,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Timmer, Mathilda",
+              "value": 49,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Alho, Alli",
+              "value": 44,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Oksanen, Joni",
+              "value": 35,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hilska, Juuli",
+              "value": 21,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Wathén, Laura",
+              "value": 21,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Jääskeläinen, Timo",
+              "value": 20,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pursiainen, Henna",
+              "value": 18,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ahola, Heidi",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ostrovskij, Tommi",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pottonen, Ville",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Luoto, Laura",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Miettinen, Johanna",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Viitala, Ville",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Aura, Siiri",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MPTsem",
+      "seats": 17,
+      "value": 2322,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "SitVas",
+          "seats": 8,
+          "value": 1063,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Linna, Lauri",
+              "value": 57,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Hiltunen, Titta",
+              "value": 51,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Hokkanen, Saana",
+              "value": 50,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Lemström, Anna",
+              "value": 48,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Kolehmainen, Laura",
+              "value": 46,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Kemppainen, Deniz",
+              "value": 45,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Pulkkinen, Joonas",
+              "value": 42,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindqvist, Joel",
+              "value": 42,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Routarinne, Veera",
+              "value": 37,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "von Pfaler, Lauri 'Pafu'",
+              "value": 35,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Uusinarkaus, Julius",
+              "value": 33,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Heikkilä, Taavi",
+              "value": 32,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Suominen, Vihtori",
+              "value": 24,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Piikkilä, Mimmi",
+              "value": 24,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hallamaa, Tuomas",
+              "value": 23,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rissanen, Jaakko",
+              "value": 22,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Annala, Iiris",
+              "value": 22,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kirvesmäki, Juho",
+              "value": 20,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Koivistoinen, Maija",
+              "value": 20,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kouhia, Ninette",
+              "value": 20,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pönkä, Saila",
+              "value": 19,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Wallgren, Amos",
+              "value": 19,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kyllönen, Riku-Petteri",
+              "value": 18,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hanhijoki, Touko",
+              "value": 17,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kari, Onni",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mauranen, Angi",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vienola, Minna-Kerttu",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mustonen, Elmo",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Holopainen, Markus",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kaura, Amari",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kangas, Vilma",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kärkkäinen, Jonna",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Siika, Laura",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Parkkinen, Tiina 'Poppis'",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Parkkinen, Samuli",
+              "value": 11,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindholm, Olli",
+              "value": 11,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindblom, Sofia",
+              "value": 11,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Iso-Markku, Antti",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pakkasvirta, Elsa",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Roikonen, Ida",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindholm, Jan",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rautila, Kanerva",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Leppä, Sophia 'Soffe'",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nurmivaara, Sami",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Brunila, Tuukka",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lampuoti, Jarkko",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Karppinen, Aleksi",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tervonen, Aksu",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Auer, Irene",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Voutilainen, Juhana",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Juolahti, Minerva",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "von Pfaler, Cornelius",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Louekari, Ville",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Muilu, Jaakko",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Heiskanen, Pyry",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hiltunen, Roote",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pajala, Vilma-Lotta",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nieminen, Jeremi",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kola, Pauli",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Korhonen, Mikko",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "HyVi",
+          "seats": 9,
+          "value": 1158,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Pasanen, Amanda",
+              "value": 139,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Österman, Sebastian",
+              "value": 72,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Ahmad, Mian",
+              "value": 70,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Favén, Milla",
+              "value": 65,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Tarkhova, Daria",
+              "value": 60,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Elolahti, Auli",
+              "value": 45,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Silvennoinen, Minna",
+              "value": 44,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Saarinen, Ada",
+              "value": 42,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Sauru, Miro",
+              "value": 41,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Alametsä, Alviina",
+              "value": 38,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Wasara, Mikki",
+              "value": 34,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Miettinen, Nina",
+              "value": 34,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sivonen, Sameli",
+              "value": 33,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tähkävuori, Riikka",
+              "value": 29,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vehmassalo, Aleksi",
+              "value": 28,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Uusikangas, Silja",
+              "value": 24,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Diarra, Fatim",
+              "value": 23,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Teperi, Kaisa",
+              "value": 22,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nummelin, Pilvi",
+              "value": 22,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Manninen, Petra",
+              "value": 22,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kalliokoski, Henna",
+              "value": 22,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kankaanpää, Viljami",
+              "value": 21,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Riipi, Paula",
+              "value": 21,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sveholm, Eevi",
+              "value": 21,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tenn, Selene",
+              "value": 20,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kauppinen, Vera",
+              "value": 16,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Heiskanen, Vladimir",
+              "value": 16,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Karvonen, Okko",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Louhimies, kukka",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kyrölainen, Anni",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hämäläinen, Ville",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Harjunen, Arttu",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Niemi, Tuukka",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Reini, Ida",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Röynä, Jenni",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ilvonen, Elina",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hannula, Anssi",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kurki, Visa",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Holst, Alexander 'Alex'",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Salonen, Tuisku",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Myllärniemi, Joona",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Immonen, Johanna",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rouvali, Roope",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Saarela, Eppu",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rokkanen, Susanna",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Laitakari, Tiamo",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pietiläinen, Katariina",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Tsempp",
+          "seats": 0,
+          "value": 101,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Chi, Louchin",
+              "value": 30,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Er, Safak",
+              "value": 23,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mackie, Adam",
+              "value": 22,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pietiläinen, Pihla",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            { "name": "Wei, Wei", "value": 6, "seats": 0, "role": "candidate" },
+            {
+              "name": "Zatina, Beate",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pallaoro, Joonas",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Romero, Alejandro",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Shoket, Sahar Khan",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Navarro Leon, Mariel",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HELP",
+      "seats": 9,
+      "value": 1172,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "(H)LKS",
+          "seats": 4,
+          "value": 488,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Liu, Ville",
+              "value": 69,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Mykkänen, Anssi",
+              "value": 59,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Tuomi, Tytti",
+              "value": 49,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Juntura, Jonne",
+              "value": 40,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäkelä, Sara",
+              "value": 25,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Järvinen, Tommi",
+              "value": 24,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lehtisalo, Minna",
+              "value": 22,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mikkola, Visa",
+              "value": 20,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Honkasalo, Arttu",
+              "value": 19,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rissanen, Anni",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Suur-Uski, Johanna",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Al-Sharefi, Arif",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Eloranta, Katja",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lumikari, Tuomas",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mukka, Milla",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kaartinen, Taavi",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Karhinen, Nina",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Naskali, Emmi",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tamminen, Tero",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Huhtanen, Mia",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Aaltio, Juho",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Bergmann, Fanny",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lilja, Petrus",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Peuraharju, Elin",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ylä-Soininmäki, Tomi",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rönty, Lotta",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Leivo, Eeva",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hankimaa, Suvi",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Virkkunen, Sirke",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lönnberg, Ivar",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Jokela, Arttu",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Niskanen, Kaisa",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Suvijärvi, Satu",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hänninen, Mikko",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Saares, Marjo",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hovinmaa, Emilia",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pylvänen, Emma",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "EkyYfk",
+          "seats": 2,
+          "value": 295,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Heljanko, Viivi",
+              "value": 82,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Meriläinen, Henrik",
+              "value": 42,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Aminoff, Nea",
+              "value": 35,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hietanen, Perttu",
+              "value": 30,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hämäläinen, Crista",
+              "value": 19,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Koivunen, Liisa",
+              "value": 16,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hakala, Riikka",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Söderman, André",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mykkänen, Jarkko",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Perkiö, Pekka",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäkelä, Anu",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Leppänen, Iina",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kangas, Eetu",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Aho, Varpu",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rahkola, Mari",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Isokotamäki, Lotta",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ekman, Pilvi",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hirvonen, Helena",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rajasalmi, Saara",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kesti, Ilmari",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Jokinen, Sara",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nikitin, Riikka",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Huikari, Veera",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Löytty, Emil",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Saari, Sini",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Takala, Milla",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Piesanen, Sofia",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Saaristo, Teea",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Pykälä",
+          "seats": 3,
+          "value": 389,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Teittinen, Helinä",
+              "value": 75,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Viitanen, Salla",
+              "value": 47,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Talvinko, Tuuli",
+              "value": 42,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Piirainen, Sara",
+              "value": 20,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Markkanen, Kalle",
+              "value": 19,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Reijonen, Sami",
+              "value": 18,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Takalo, Tiia",
+              "value": 18,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Antonacci, Sara",
+              "value": 17,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sinisalo, Laura",
+              "value": 16,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Majewski, Lotta",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Järvi, Katariina",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Raittila, Sinia",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Guidastri, Alberto",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vehviläinen, Jami",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Salminen, Ilmi",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hjelt, Jere",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Saranpää, Jose",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Heiskanen, Jesse",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sassi, Lotta",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hiltunen, Ella",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sajakoski, Inka",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tuominen, Tuomas",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vepsäläinen, Konsta",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Isola, Valtteri",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kumpula, Ilkka",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Jonkka, Matti",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Edist",
+      "seats": 6,
+      "value": 845,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "Kok",
+          "seats": 5,
+          "value": 716,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Ahsanullah, Tarik",
+              "value": 155,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Niskanen, Dani",
+              "value": 97,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Lilja, Anna",
+              "value": 30,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Torikka, Peter",
+              "value": 25,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Anomaa, Mattias",
+              "value": 25,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Nissinen, Jarkko",
+              "value": 25,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pirinen, Paula",
+              "value": 21,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nupponen, Konsta",
+              "value": 17,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Niemi, Vertti",
+              "value": 16,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sazonov, Daniel",
+              "value": 16,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rokkanen, Sakari",
+              "value": 16,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nurmela, Jeremias",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tikkanen, Tuomas",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Botty van den Bruele, Adele",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lohi, Santeri",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Isoaho, Atte",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sinisalo, Viivi",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mankonen, Juuso",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Aine, Valtteri",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Walldén, Anna",
+              "value": 11,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nuuttila, Eemil",
+              "value": 11,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kupias, Marianna",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vuornos, Henrik",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Harjanne, Petteri",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Wilskman, Juho",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Varjokari, Laura",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Granlund, Jenni",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ristimäki, Jenna",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Knaapi, Emilia",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Wardi, Bennie",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hanhela, Heidi",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hietala, Klaus",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Berger, Miikka",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tulkki, Kasperi",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hellman, Jukka-Pekka",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Evokari, Auri",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pyykkö, Tommi",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tarkiainen, Elisa",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sarpola, Amina",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ketola, Lenita",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindholm, Micke",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tammekann, Samuel",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Säteri, Vilma",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Marttunen, Pessi",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Jokiranta, Tiia",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Skön, Lauri, 'Päällikkö'",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sillantaka, Nina",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Muradli, Vafa",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Kesk.",
+          "seats": 1,
+          "value": 129,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Koivulahti, Arttu",
+              "value": 66,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Saarinen, Salla",
+              "value": 20,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lahti, Risto",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Liimatainen, Anniina",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ylimaa, Markus",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Saramäki, Sara",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäkitalo, Hilma",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Osak",
+      "seats": 5,
+      "value": 757,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "EPOPPO",
+          "seats": 1,
+          "value": 165,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Palkki, Teemu",
+              "value": 21,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Haapalainen, Anni",
+              "value": 17,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Korpi, Terhi",
+              "value": 16,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hasunen, Sami",
+              "value": 11,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Eilola, Noora",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Häkkilä, Hanna-Maria",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pitkänen, Noora",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rahnasto, Johanna",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lukin, Nina",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rahkola, Iina",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vähämäki, Tuuli",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pollari, Antti",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Turpeinen, Hennaleena",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Matero, Tero",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pitkänen, Katriina",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Niinimäki, Joukopouko",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hemminki, Kaisa",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Puranen, Unni",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Aho, Jenni",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Arffman, Mina",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Jutila, Arttu",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Meri, Emmi",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Taipalus, Marjo",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kaarto, Riikka",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäkelä, Mikko",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Raivio, Oskari",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kukkola, Ville",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Niemi, Saija",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Savolainen, Sonja",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kenttälä, Tuomas",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Koivikko, Panu",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "DGO",
+          "seats": 2,
+          "value": 176,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Rahikainen, Sofia",
+              "value": 22,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Kaplas, Otto",
+              "value": 17,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Okkola, Suvi",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Heiskanen, Otso",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ackermann, Manuel 'Manu'",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ahola, Olli",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Elfving, Iina",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tilli, Joni",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Korhonen, Laura",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ahtiainen, Salli",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Marttinen, Roosa",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Taavitsainen, Ella",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hirvonen, Tero",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pykälistö, Pasi",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lassila, Elina",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Helanne, Esa-Pekka",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mankinen, Eerika",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tähkäpää, Sara",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Koskinen, Anna-Liisa 'Ansku'",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Matikka, Santeri",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pesonen, Aino",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vihtonen, Johanna",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Reijonen, Mari",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pohjalainen, Piia",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kuukka, Essi",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Heikkilä, Tiina",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hirvelä, Leon",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pitkänen, Iris",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Salmi, Maini",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "HO",
+          "seats": 1,
+          "value": 158,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Mikkola, Heidi",
+              "value": 46,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Tolonen, Topias",
+              "value": 32,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Piesala, Aapeli",
+              "value": 17,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Anttila, Maria",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Laaksonen, Fanny",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Peltomaa, Amanda",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Matveinen, Kanerva",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Öhman, Maija",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Heliö, Jukka",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hämäläinen, Anneli",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kujala, Martta",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Solehmainen, Jukka",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Järviö, Juhana",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Laine, Taneli",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Välimäki, Janette",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Siipola, Janne",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Saarela, Sara",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Takanen, Jussi",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kivimäki, Anni",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rinne, Jonna",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Weckström, Laura",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Katajisto, Väinö",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Axelsen, Rasmus",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tolonen, Jukka",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Honkasuo, Joel",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tarpio, Ximenna",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ingelius, Oskar",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "SavO",
+          "seats": 0,
+          "value": 36,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Ruuth, Riikka",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ahonen, Jari",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Venäläinen, Tuomas",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ylhäisi, Matti",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Dumell, Anna-Maria",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hannikainen, Jaakko \"Mufasa\"",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Malvet, Kristian",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindström, Linda",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Heinonen, Henri",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Korhonen, Henri",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Turunen, Tommi",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "ESO",
+          "seats": 1,
+          "value": 116,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Tuovinen, Aino",
+              "value": 19,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Ronkainen, Margareta",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kelokari, Linda-Liisa",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nissinen, Sari",
+              "value": 11,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tuokko, Kaarina",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Zagai, Jasmina",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Avela, Henri",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Piippo, Ossi",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Eerola, Ville",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Steidel, Isa",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hyppönen, Arttu",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Myllyneva, Meri",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Virto, Ella",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lampinen, Hemu",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Salmi, Taru",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Takala, Sara",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hjerp, Anna 'AK'",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vesa, Karoliina",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "SatO",
+          "seats": 0,
+          "value": 62,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Hirvonen, Tiera",
+              "value": 14,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pasanen, Riikka",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Seppälä, Jussi T.",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Djakonowsky, Maria",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nurmi, Pietari",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Järvenpää, Jenna",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Levander, Minttu",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Honko, Elina",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vihervirta, Johannes",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Suominen, Laura",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Alhanen, Milla-Maria",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Terho, Iikka",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäkipää, Mikko",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hyvärinen, Ossi",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "VSO",
+          "seats": 0,
+          "value": 44,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Riikonen, Anniina",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Salonen, Aino",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Valo, Katriina",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Huittinen, Matleena",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ääri, Kristiina",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Oksa, Vilma",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tuominen, Niko",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hamberg, Ninni",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Härmävaara, Hanna-Ilona",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Niittynen, Ilona",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rantala, Roosa",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Huttunen, Mika",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nieminen, Rosa",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SNÄf",
+      "seats": 3,
+      "value": 484,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "CodTho",
+          "seats": 2,
+          "value": 240,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Cederlöf, Karin",
+              "value": 94,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Olander, Rasmus",
+              "value": 82,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Kuhlefelt, Alexandra",
+              "value": 18,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nyberg, Theodora \"Teddi\"",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Böling, Evalena",
+              "value": 10,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lång, Karolina",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Westerholm, Anita",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ahlström, Sofia",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ollus, Robin",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lassila, Fanny",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hoven, Sophie",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Stud",
+          "seats": 1,
+          "value": 147,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Bergh, Claes",
+              "value": 43,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Mickos, Daniel",
+              "value": 25,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rinne, Elsa",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tikkanen, Lilian",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mickos, Viola",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Perkonoja, Pauliina",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Yrjölä, Susanna \"Sussu\"",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindroos, Stefanie",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Backlund, Niklas",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Strömbäck, Emma",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Elmgren, Christa",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nurmio, Axel",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Palin, Paula",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Björkqvist, Anna",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Roos, Ariel",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ekelund, Henrik",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ahlfors, Kia",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Haapalahti, Sara",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Strömgård, Sofia",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        },
+        {
+          "name": "Nation",
+          "seats": 0,
+          "value": 97,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Granqvist, Emilia",
+              "value": 21,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lindblom, Otto",
+              "value": 19,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ehnström, Emil",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Koskela, Calle",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Karlsson, Jessica",
+              "value": 11,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lanu, Julia",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Sundholm, Emilia",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Skoglund, Jenny",
+              "value": 3,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSY",
+      "seats": 2,
+      "value": 332,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "OSY",
+          "seats": 2,
+          "value": 332,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Valtonen, Jetro",
+              "value": 55,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Loima, Maria",
+              "value": 30,
+              "seats": 1,
+              "role": "candidate"
+            },
+            {
+              "name": "Aitonurmi, Joonas",
+              "value": 25,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kovanen, Emilia",
+              "value": 22,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kymäläinen, Mikko",
+              "value": 21,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nurminen, Nelli",
+              "value": 21,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Gustafsson, Aleksanteri",
+              "value": 16,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Korvuo, Pekko",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Matikainen, Kaisa",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Rissanen, Simo",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Eronen, Tuukka",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Isometsä, Sanni",
+              "value": 9,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ahonen, Veronica",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Saarto, Patrik",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Gebhard, Elisa",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Nevalainen, Sofia",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Peltonen, Eemeli",
+              "value": 7,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Heikkinen, Aleksander",
+              "value": 6,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mattila, Eetu",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Tyyskä, Saija",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Immonen, Erik",
+              "value": 5,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Behnke, Hanno",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Vuori, Wiking",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Luukkainen, Elli",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Ruostetsaari, Niko",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Salomäki, Mia",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lönnqvist, Miikka",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Jääskeläinen, Jesse",
+              "value": 2,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kammonen, Viljami",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Zec, Ermin",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Malste, Antti",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Pitkänen, Tuulia",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kontio, Timo",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Laitila, Outi",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kekkonen, Aki",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Hytti, Antti",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Niemi, Anna",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Köngäs, Otto",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Holmgren, Markus",
+              "value": 1,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Mäkynen, Matias",
+              "value": 0,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perus",
+      "seats": 0,
+      "value": 60,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "PerusS",
+          "seats": 0,
+          "value": 60,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Ahva, Toni",
+              "value": 36,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kulmala, Roger",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Lahtinen, Teemu",
+              "value": 11,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pir",
+      "seats": 0,
+      "value": 44,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "Pir",
+          "seats": 0,
+          "value": 44,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Mäkinen, Joonas \"JoonasD6\"",
+              "value": 15,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Immonen, Satu",
+              "value": 13,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Keinänen, Tero",
+              "value": 12,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Kantola, Roni",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lib",
+      "seats": 0,
+      "value": 12,
+      "role": "coalition",
+      "children": [
+        {
+          "name": "Lib",
+          "seats": 0,
+          "value": 12,
+          "role": "alliance",
+          "children": [
+            {
+              "name": "Sjöström, Kiim",
+              "value": 8,
+              "seats": 0,
+              "role": "candidate"
+            },
+            {
+              "name": "Andersson, Timo",
+              "value": 4,
+              "seats": 0,
+              "role": "candidate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
