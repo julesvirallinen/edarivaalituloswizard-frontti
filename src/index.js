@@ -1,9 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import App from './App';
+import React from 'react'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import './index.scss'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import App from './App'
+import { createRoot } from 'react-dom/client'
 
-
+createRoot(document.getElementById('root')).render(<App />)

@@ -1,25 +1,25 @@
 import React, { useState } from 'react'
-import * as R from 'ramda'
 import MenuButtons from './MenuButtons'
 import FilterForm from './FilterForm'
 import { Badge } from 'reactstrap'
 import { GROUP_MAPPINGS } from '../data/groupMappings'
 import { YEARS } from '../dataUtils/years'
+import styled from 'styled-components'
+
+const StyledBadge = styled(Badge)`
+  background-color: ${(props) => props.color};
+`
 
 const GroupBadge = ({ groupName }) => {
-  const badgeStyle = {
-    backgroundColor: GROUP_MAPPINGS[groupName],
-  }
   return (
     <>
-      <Badge style={badgeStyle}>{groupName}</Badge>
-      {'   '}
+      <StyledBadge color={GROUP_MAPPINGS[groupName]}>{groupName}</StyledBadge>
     </>
   )
 }
 
 const getYear = (candidate, year) => {
-  return R.find(R.propEq('year', year))(candidate.years)
+  return candidate.years.find((y) => y.year === year)
 }
 const DisplayTopCandidate = ({ candidate, index, setCurrentCandidate, setting, selectedYear }) => {
   var groups = Array.from(
@@ -35,7 +35,6 @@ const DisplayTopCandidate = ({ candidate, index, setCurrentCandidate, setting, s
   const basicData = (
     <>
       {index + 1}. {candidate.name}
-      {'  '}
       {groupBadges}
     </>
   )
