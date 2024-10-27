@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import MenuButtons from "./MenuButtons";
-import FilterForm from "./FilterForm";
+import MenuButtons from "../Components/MenuButtons";
+import FilterForm from "../Components/FilterForm";
 import { YEARS } from "../dataUtils/years";
 import styled from "styled-components";
 import { TCandidate } from "../types/candidate";
 import { useGetData } from "../hooks/useGetData";
-import { GroupBadge } from "./GroupName";
+import { GroupBadge } from "../Components/GroupName";
 
 type TCandidateProps = {
   candidates: TCandidate[];

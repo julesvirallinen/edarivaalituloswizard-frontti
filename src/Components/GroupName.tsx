@@ -7,11 +7,16 @@ const StyledBadge = styled(Badge)`
   background-color: ${(props) => props.color};
 `;
 
-export const GroupBadge = ({ groupName }: { groupName: string }) => {
+export const getGroupColor = (groupName: string) => {
   const lowerCase = groupName.toLowerCase();
+  return GROUP_MAPPINGS[lowerCase];
+};
+
+export const GroupBadge = ({ groupName }: { groupName: string }) => {
+  const color = getGroupColor(groupName);
   return (
     <>
-      <StyledBadge color={GROUP_MAPPINGS[lowerCase]}>{groupName}</StyledBadge>
+      <StyledBadge color={color}>{groupName}</StyledBadge>
     </>
   );
 };
