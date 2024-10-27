@@ -1,10 +1,10 @@
-import { Dispatch, SetStateAction } from "react";
+import React, { Dispatch, SetStateAction } from "react";
 import styled from "styled-components";
 
-type MenuButtonsProps = {
-  setCurrent: Dispatch<SetStateAction<any>>;
-  current: any;
-  options: any[];
+type MenuButtonsProps<T extends string | number> = {
+  setCurrent: Dispatch<SetStateAction<T>>;
+  current: T;
+  options: T[];
 };
 
 const Menu = styled.div`
@@ -18,7 +18,11 @@ const Menu = styled.div`
   }
 `;
 
-const MenuButtons = ({ setCurrent, current, options }: MenuButtonsProps) => {
+const MenuButtons = <T extends string | number>({
+  setCurrent,
+  current,
+  options,
+}: MenuButtonsProps<T>) => {
   const yearStyle = {
     color: "gray",
   };

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import MenuButtons from "./MenuButtons";
 import FilterForm from "./FilterForm";
-import { Badge } from "reactstrap";
-import { GROUP_MAPPINGS } from "../data/groupMappings";
 import { YEARS } from "../dataUtils/years";
 import styled from "styled-components";
 import { TCandidate } from "../types/candidate";
+import { useGetData } from "../hooks/useGetData";
+import { GroupBadge } from "./GroupName";
 
 type TCandidateProps = {
   candidates: TCandidate[];
@@ -21,18 +21,6 @@ type TDisplayTopCandidateProps = {
   setting: "votes" | "average" | "year";
   setCurrentCandidate: (candidate: string) => void;
   selectedYear: number;
-};
-
-const StyledBadge = styled(Badge)`
-  background-color: ${(props) => props.color};
-`;
-
-const GroupBadge = ({ groupName }) => {
-  return (
-    <>
-      <StyledBadge color={GROUP_MAPPINGS[groupName]}>{groupName}</StyledBadge>
-    </>
-  );
 };
 
 const Candidate = styled.span`
@@ -51,7 +39,7 @@ const DisplayTopCandidate = ({
   setting,
   selectedYear,
 }: TDisplayTopCandidateProps) => {
-  var groups = Array.from(
+  let groups = Array.from(
     new Set(
       Object.values(candidate.years).map((year) => year.group.toLowerCase()),
     ),
@@ -103,7 +91,7 @@ const filterCandidate =
   (filter: string, year?: number) => (candidate: TCandidate) => {
     return (
       (
-        JSON.stringify(!!year ? candidate.years[year] : candidate) +
+        JSON.stringify(year ? candidate.years[year] : candidate) +
         candidate.name
       )
         .toLowerCase()
@@ -137,35 +125,40 @@ const DisplayTopCandidates = ({
   );
 };
 
+type TopCandidatesProps = {
+  setCurrentCandidate: (candidate: string) => void;
+  filter: string;
+  setFilter: (filter: string) => void;
+};
+
 const TopCandidates = ({
-  candidateData,
   setCurrentCandidate,
   filter,
   setFilter,
-}) => {
+}: TopCandidatesProps) => {
+  const { candidateList } = useGetData();
+
   const settings = ["votes", "average", "year"];
 
   const [setting, setSetting] = useState<"votes" | "average" | "year">("votes");
   const [selectedYear, setSelectedYear] = useState(2024);
 
-  const candidateList: TCandidate[] = Object.values(candidateData);
-
   if (candidateList.length === 0) return "";
 
-  function compare(a, b) {
+  function compare(a: TCandidate, b: TCandidate) {
     return b.totalVotes - a.totalVotes;
   }
 
   function compareByYear(year: number) {
-    return function compare(a, b) {
+    return function compare(a: TCandidate, b: TCandidate) {
       return getYear(b, year).votes - getYear(a, year).votes;
     };
   }
 
-  function compareAverage(a, b) {
+  function compareAverage(a: TCandidate, b: TCandidate) {
     return b.totalVotes / b.times - a.totalVotes / a.times;
   }
-  var sortedCandidateList = [...candidateList];
+  let sortedCandidateList = [...candidateList];
 
   if (setting === "votes") {
     sortedCandidateList = sortedCandidateList.sort(compare).slice(0, 600);
@@ -181,31 +174,24 @@ const TopCandidates = ({
     });
     sortedCandidateList = sortedCandidateList.sort(compareByYear(selectedYear));
   }
-  const yearSelectionButtons = (
-    <p>
-      <MenuButtons
-        current={selectedYear}
-        setCurrent={setSelectedYear}
-        options={YEARS}
-      />
-    </p>
-  );
-
-  const menuAndHeader = (
-    <>
-      <MenuButtons
-        current={setting}
-        setCurrent={setSetting}
-        options={settings}
-      />
-      <FilterForm filter={filter} setFilter={setFilter} />
-    </>
-  );
 
   return (
     <div>
-      {menuAndHeader}
-      {setting === "year" ? yearSelectionButtons : ""}
+      <>
+        <FilterForm filter={filter} setFilter={setFilter} />
+        <MenuButtons
+          current={setting}
+          setCurrent={setSetting}
+          options={settings}
+        />
+      </>
+      {setting === "year" && (
+        <MenuButtons
+          current={selectedYear}
+          setCurrent={setSelectedYear}
+          options={YEARS}
+        />
+      )}
       <DisplayTopCandidates
         candidates={sortedCandidateList}
         setting={setting}

@@ -1,24 +1,26 @@
 import React from "react";
-import { TCandidate } from "../types/candidate";
+import { useGetData } from "../hooks/useGetData";
 
 type ViewCancidateProps = {
   currentCandidate: string;
-  candidate: TCandidate;
   setCurrentCandidate: (candidate: string) => void;
 };
 
 const ViewSingleCandidate = ({
   currentCandidate,
-  candidate,
   setCurrentCandidate,
 }: ViewCancidateProps) => {
+  const { getCandidate } = useGetData();
+  const candidate = getCandidate(currentCandidate);
   if (candidate === undefined) return "";
   const nicknames = Array.from(
     new Set(Object.values(candidate.years).map((year) => year.nickname)),
   ).filter(Boolean);
+
   const formatNicknames = nicknames.map(
     (item, index) => (index ? ", " : "") + item,
   );
+
   return (
     <div>
       <h1>{currentCandidate}</h1>

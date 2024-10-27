@@ -1,20 +1,20 @@
 import React, { useState } from "react";
-import ElectionData from "./Components/ElectionData.js";
+import ElectionData from "./Views/Yearly";
 import MenuButtons from "./Components/MenuButtons";
 import ViewSingleCandidate from "./Components/ViewSingleCandidate";
 import TopCandidates from "./Components/TopCandidates";
 import FilterForm from "./Components/FilterForm";
-import yearlyData from "./data/yearlyData.json";
-import candidateData from "./data/byCandidate.json";
 import { YEARS } from "./dataUtils/years";
+import { useGetData } from "./hooks/useGetData";
 
 type TPage = "yearly" | "top candidates";
 
 function App() {
-  const [currentYear, setCurrentYear] = useState(2020);
   const [currentCandidate, setCurrentCandidate] = useState("");
   const [currentPage, setCurrentPage] = useState<TPage>("top candidates");
   const [filter, setFilter] = useState("");
+
+  const { candidateData } = useGetData();
 
   const menuOptions = ["yearly", "top candidates"];
 
@@ -23,7 +23,6 @@ function App() {
       <div>
         <ViewSingleCandidate
           currentCandidate={currentCandidate}
-          candidate={candidateData[currentCandidate]}
           setCurrentCandidate={setCurrentCandidate}
         />
       </div>
@@ -37,15 +36,8 @@ function App() {
           current={currentPage}
           options={menuOptions}
         />
-        <MenuButtons
-          setCurrent={setCurrentYear}
-          current={currentYear}
-          options={YEARS}
-        />
         <FilterForm filter={filter} setFilter={setFilter} />
-
         <ElectionData
-          candidateData={yearlyData[currentYear]}
           setCurrentCandidate={setCurrentCandidate}
           filter={filter}
         />
@@ -63,7 +55,6 @@ function App() {
         />
 
         <TopCandidates
-          candidateData={candidateData}
           setCurrentCandidate={setCurrentCandidate}
           filter={filter}
           setFilter={setFilter}

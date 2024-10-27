@@ -1,8 +1,23 @@
 import React, { useState } from "react";
-import { Collapse, Badge, CardBody, Card, CardHeader } from "reactstrap";
+import { Card, CardHeader, Collapse, CardBody } from "reactstrap";
+import {
+  Alliance,
+  Coalition,
+  TElectionDataCandidate,
+} from "../types/candidate";
+import { GroupBadge } from "./GroupName";
+import styled from "styled-components";
 
-const ViewCandidate = ({ candidate, setCurrentCandidate }) => {
-  var candidateName = candidate.name.replace(/\s/g, "");
+type ViewCandidateProps = {
+  candidate: TElectionDataCandidate;
+  setCurrentCandidate: (candidate: string) => void;
+};
+
+const ViewCandidate: React.FC<ViewCandidateProps> = ({
+  candidate,
+  setCurrentCandidate,
+}) => {
+  let candidateName = candidate.name.replace(/\s/g, "");
   //   var nickname = ''
   if (candidateName.includes("'")) {
     // nickname = candidateName.split("'")[1].split("'")[0]
@@ -23,25 +38,40 @@ const ViewCandidate = ({ candidate, setCurrentCandidate }) => {
   );
 };
 
-const InfoCard = ({ votes, candidates }) => {
+const Stats = styled.div`
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+`;
+
+type InfoCardProps = {
+  votes: number;
+  candidates?: number;
+  seats: number;
+};
+
+const InfoCard: React.FC<InfoCardProps> = ({ votes, candidates, seats }) => {
   return (
-    <div className="statBox">
-      <span>
-        🗳️:<Badge color="default">{votes}</Badge>
-        {candidates ? (
-          <span>
-            👤:<Badge color="default">{candidates}</Badge>
-          </span>
-        ) : (
-          ""
-        )}
-      </span>
-    </div>
+    <Stats className="statBox">
+      <b>{seats}</b>
+      <span>🗳️:{votes}</span>
+      {candidates ? <span>👤:{candidates}</span> : ""}
+    </Stats>
   );
 };
 
-const ViewGroup = ({ group, setCurrentCandidate, filter }) => {
-  const [isOpen, setIsOpen] = useState(true);
+type ViewGroupProps = {
+  group: Alliance;
+  setCurrentCandidate: (candidate: string) => void;
+  filter: string;
+};
+
+const ViewGroup: React.FC<ViewGroupProps> = ({
+  group,
+  setCurrentCandidate,
+  filter,
+}) => {
+  const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
   const divStyle = {
@@ -56,9 +86,13 @@ const ViewGroup = ({ group, setCurrentCandidate, filter }) => {
       <Card>
         <CardHeader onClick={() => toggle()}>
           <b>
-            {group.name} <Badge color="default">{group.seats}</Badge>
+            <GroupBadge groupName={group.name} />
           </b>
-          <InfoCard votes={group.value} candidates={candidateCount} />
+          <InfoCard
+            seats={group.seats}
+            votes={group.value}
+            candidates={candidateCount}
+          />
         </CardHeader>
         <Collapse isOpen={isOpen}>
           <CardBody>
@@ -80,12 +114,22 @@ const ViewGroup = ({ group, setCurrentCandidate, filter }) => {
   );
 };
 
-const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
+type ViewCoalitionProps = {
+  coalition: Coalition;
+  setCurrentCandidate: (candidate: string) => void;
+  filter: string;
+};
+
+export const ViewCoalition: React.FC<ViewCoalitionProps> = ({
+  coalition,
+  setCurrentCandidate,
+  filter,
+}) => {
   const [isOpen, setIsOpen] = useState(true);
 
   const toggle = () => setIsOpen(!isOpen);
 
-  var candidateCount = 0;
+  let candidateCount = 0;
   coalition.children.forEach(
     (child) => (candidateCount += child.children.length),
   );
@@ -98,10 +142,12 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
     <div style={divStyle}>
       <Card>
         <CardHeader onClick={() => toggle()}>
-          <b>
-            {coalition.name} <Badge color="default">{coalition.seats}</Badge>
-          </b>
-          <InfoCard votes={coalition.value} candidates={candidateCount} />
+          <b>{coalition.name}</b>
+          <InfoCard
+            seats={coalition.seats}
+            votes={coalition.value}
+            candidates={candidateCount}
+          />
         </CardHeader>
         <Collapse isOpen={isOpen}>
           <CardBody>
@@ -125,26 +171,3 @@ const ViewCoalition = ({ coalition, setCurrentCandidate, filter }) => {
     </div>
   );
 };
-
-const ElectionData = ({ candidateData, setCurrentCandidate, filter }) => {
-  if (candidateData === undefined) return "";
-
-  return (
-    <>
-      {candidateData.children.map((coalition) =>
-        JSON.stringify(coalition).toLowerCase().includes(filter) ? (
-          <ViewCoalition
-            coalition={coalition}
-            key={coalition.name}
-            setCurrentCandidate={setCurrentCandidate}
-            filter={coalition.name.toLowerCase().includes(filter) ? "" : filter}
-          />
-        ) : (
-          ""
-        ),
-      )}
-    </>
-  );
-};
-
-export default ElectionData;
