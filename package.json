@@ -6,6 +6,9 @@
   },
   "private": true,
   "dependencies": {
+    "@nivo/bar": "^0.87.0",
+    "@nivo/bump": "^0.87.0",
+    "@nivo/line": "^0.87.0",
     "@nivo/pie": "^0.87.0",
     "@testing-library/jest-dom": "^6.6.2",
     "@testing-library/react": "^16.0.1",
